@@ -38,7 +38,7 @@ public class LT8 {
 
     public static void main(String[] args) {
 
-        Main m = new Main();
+        LT8 m = new LT8();
 
         String str1 = "-91283472332";
         String str2 = "words and 987";
