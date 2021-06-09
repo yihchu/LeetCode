@@ -9,13 +9,17 @@ public class LT523 {
             return false;
         }
         Map<Integer, Integer> m = new HashMap<>();
-        m.put(0 % k, -1);
+        m.put(0, -1);
         m.putIfAbsent(nums[0] % k, 0);
         for (int i = 1; i < len; ++i) {
-            nums[i] = nums[i] + nums[i - 1];
+            nums[i] += nums[i - 1];
+        }
+        for (int i = 1; i < len; ++i) {
             int mod = nums[i] % k;
-            if (m.containsKey(mod) && (i - m.get(mod) > 1)) {
-                return true;
+            if (m.containsKey(mod)) {
+                if (i - m.get(mod) > 1) {
+                    return true;
+                }
             }
             m.putIfAbsent(mod, i);
         }
