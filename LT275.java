@@ -24,7 +24,7 @@ public class LT275 {
         LT275 lt275 = new LT275();
         System.out.println(lt275.hIndex(new int[]{0, 1, 3, 5, 6})); // 3
         System.out.println(lt275.hIndex(new int[]{0, 1, 3, 4, 5, 6})); // 3
-        System.out.println(lt275.hIndex(new int[]{100})); //
+        System.out.println(lt275.hIndex(new int[]{100})); // 1
     }
 
 }
