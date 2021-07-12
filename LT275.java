@@ -10,7 +10,7 @@ public class LT275 {
             if (citations[mid] > tmp) {
                 --end;
                 result = len - mid;
-            } else if (citations[mid] < tmp){
+            } else if (citations[mid] < tmp) {
                 ++start;
             } else {
                 result = len - mid;
