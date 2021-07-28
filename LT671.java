@@ -1,3 +1,5 @@
+import common.TreeNode;
+
 import java.util.Objects;
 
 public class LT671 {
@@ -60,19 +62,6 @@ public class LT671 {
         System.out.println(lt671.findSecondMinimumValue(root6));
     }
 
-}
-
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode() {}
-    TreeNode(int val) { this.val = val; }
-    TreeNode(int val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
-    }
 }
 
 /*
