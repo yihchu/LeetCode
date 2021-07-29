@@ -31,7 +31,7 @@ public class LT1104 {
         while (layer > 0) {
             int r = 0;
             if (layer % 2 == 0) {
-                r = counts.get(layer) + starts.get(layer) - 1 - tmp + 1;
+                r = counts.get(layer) + starts.get(layer) - tmp;
             } else {
                 r = starts.get(layer) + tmp - 1;
             }
