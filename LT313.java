@@ -1,6 +1,4 @@
 import java.util.Arrays;
-import java.util.Set;
-import java.util.stream.Collectors;
 
 public class LT313 {
 
@@ -57,6 +55,6 @@ public class LT313 {
 1 <= primes.length <= 100
 2 <= primes[i] <= 1000
 题目数据保证primes[i]是一个质数
-primes中的所有值都互不相同，且按 增顺序排列
+primes中的所有值都互不相同，且按增顺序排列
 
 */
