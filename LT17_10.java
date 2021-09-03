@@ -1,4 +1,4 @@
-public class LT17 {
+public class LT17_10 {
 
     // 这什么Boyer-Moore Algorithm，没听说过，第一次用，感觉挺靠谱~
     public int majorityElement(int[] nums) {
@@ -15,7 +15,7 @@ public class LT17 {
     }
 
     public static void main(String[] args) {
-        LT17 lt17 = new LT17();
+        LT17_10 lt17 = new LT17_10();
         System.out.println(lt17.majorityElement(new int[]{1, 2, 5, 9, 5, 9, 5, 5, 5})); // 5
         System.out.println(lt17.majorityElement(new int[]{3, 2})); // -1
         System.out.println(lt17.majorityElement(new int[]{2, 2, 1, 1, 1, 2, 2})); // 2
