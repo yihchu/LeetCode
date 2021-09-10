@@ -1,4 +1,7 @@
-
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.PriorityQueue;
+import java.util.Queue;
 
 public class LT502 {
 
@@ -54,8 +57,32 @@ public class LT502 {
 //    }
 
     public int findMaximizedCapital(int k, int w, int[] profits, int[] capital) {
-        // TODO
-        return -1;
+        int len = profits.length;
+        int[][] array = new int[len][2];
+        for (int i = 0; i < len; ++i) {
+            array[i][0] = capital[i];
+            array[i][1] = profits[i];
+        }
+        Arrays.sort(array, Comparator.comparingInt(a -> a[0]));
+        Queue<int[]> q = new PriorityQueue<>((a, b) -> b[1] - a[1]);
+        int cw = w, ck = 0;
+        for (int i = 0; i < len;) {
+            if (array[i][0] <= cw) {
+                q.add(array[i ++]);
+            } else if (!q.isEmpty()) {
+                cw += q.poll()[1];
+                if (++ck == k) {
+                    return cw;
+                }
+            } else {
+                break;
+            }
+        }
+        while (ck < k && !q.isEmpty()) {
+            cw += q.poll()[1];
+            ++ck;
+        }
+        return cw;
     }
 
     public static void main(String[] args) {
