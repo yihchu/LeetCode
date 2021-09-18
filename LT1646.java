@@ -31,7 +31,8 @@ public class LT1646 {
 }
 
 
-/*
+/**
+Link: https://leetcode-cn.com/problems/get-maximum-in-generated-array/
 
 给你一个整数n。按下述规则生成一个长度为n + 1的数组nums：
 nums[0] = 0
@@ -40,7 +41,7 @@ nums[1] = 1
 当 2 <= 2 * i + 1 <= n 时，nums[2 * i + 1] = nums[i] + nums[i + 1]
 返回生成数组nums中的最大值。
 
-示例 1：
+示例1：
 输入：n = 7
 输出：3
 解释：根据规则：
@@ -54,12 +55,12 @@ nums[1] = 1
   nums[(3 * 2) + 1 = 7] = nums[3] + nums[4] = 2 + 1 = 3
 因此，nums = [0, 1, 1, 2, 1, 3, 2, 3]，最大值3
 
-示例 2：
+示例2：
 输入：n = 2
 输出：1
 解释：根据规则，nums[0]、nums[1]和nums[2]之中的最大值是1
 
-示例 3：
+示例3：
 输入：n = 3
 输出：2
 解释：根据规则，nums[0]、nums[1]、nums[2]和nums[3]之中的最大值是2

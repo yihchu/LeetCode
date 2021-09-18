@@ -35,16 +35,17 @@ public class LT524 {
 
 }
 
-/*
+/**
+Link: https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/
 
 给你一个字符串s和一个字符串数组dictionary作为字典，找出并返回字典中最长的字符串，该字符串可以通过删除s中的某些字符得到。
 如果答案不止一个，返回长度最长且字典序最小的字符串。如果答案不存在，则返回空字符串。
 
-示例 1：
+示例1：
 输入：s = "abpcplea", dictionary = ["ale", "apple", "monkey", "plea"]
 输出："apple"
 
-示例 2：
+示例2：
 输入：s = "abpcplea", dictionary = ["a", "b", "c"]
 输出："a"
 

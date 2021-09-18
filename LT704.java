@@ -24,16 +24,17 @@ public class LT704 {
 
 }
 
-/*
+/**
+Link: https://leetcode-cn.com/problems/binary-search/
 
 给定一个n个元素有序的（升序）整型数组nums和一个目标值target，写一个函数搜索nums中的target，如果目标值存在返回下标，否则返回-1。
 
-示例 1:
+示例1:
 输入: nums = [-1, 0, 3, 5, 9, 12], target = 9
 输出: 4
 解释: 9出现在nums中并且下标为4
 
-示例 2:
+示例2:
 输入: nums = [-1, 0, 3, 5, 9, 12], target = 2
 输出: -1
 解释: 2不存在nums中因此返回-1

@@ -1,5 +1,3 @@
-import java.util.Arrays;
-import java.util.stream.Collectors;
 
 public class LT342 {
 
@@ -38,19 +36,21 @@ public class LT342 {
     }
 }
 
-/*
+/**
+Link: https://leetcode-cn.com/problems/power-of-four/
+
 给定一个整数，写一个函数来判断它是否是4的幂次方。如果是，返回 true;否则，返回false。
 整数n是4的幂次方需满足：存在整数x使得n == 4^x
 
-示例 1：
+示例1：
 输入：n = 16
 输出：true
 
-示例 2：
+示例2：
 输入：n = 5
 输出：false
 
-示例 3：
+示例3：
 输入：n = 1
 输出：true
 

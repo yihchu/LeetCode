@@ -120,12 +120,13 @@ public class LT787 {
     }
 }
 
-/*
+/**
+Link: https://leetcode-cn.com/problems/cheapest-flights-within-k-stops/
 
 有n个城市通过一些航班连接。给你一个数组flights，其中flights[i] = [from[i], to[i], price[i]]，表示该航班都从城市from[i]开始，以价格price[i]抵达to[i]。
 现在给定所有的城市和航班，以及出发城市src和目的地dst，你的任务是找到出一条最多经过k站中转的路线，使得从src到dst的价格最便宜，并返回该价格。如果不存在这样的路线，则输出-1。
 
-示例 1：
+示例1：
 输入:
 n = 3, edges = [[0, 1, 100], [1, 2, 100], [0, 2, 500]]
 src = 0, dst = 2, k = 1
@@ -135,7 +136,7 @@ src = 0, dst = 2, k = 1
 (图LT787_1.png)
 从城市0到城市2在1站中转以内的最便宜价格是200，如图中红色所示。
 
-示例 2：
+示例2：
 输入:
 n = 3, edges = [[0, 1, 100], [1, 2, 100], [0, 2, 500]]
 src = 0, dst = 2, k = 0

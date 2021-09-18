@@ -42,15 +42,16 @@ public class LT345 {
 
 }
 
-/*
+/**
+Link: https://leetcode-cn.com/problems/reverse-vowels-of-a-string/
 
 编写一个函数，以字符串作为输入，反转该字符串中的元音字母。
 
-示例 1：
+示例1：
 输入："hello"
 输出："holle"
 
-示例 2：
+示例2：
 输入："leetcode"
 输出："leotcede"
 

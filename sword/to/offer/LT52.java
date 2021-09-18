@@ -1,3 +1,5 @@
+package sword.to.offer;
+
 import common.ListNode;
 
 import java.util.Objects;
@@ -110,11 +112,12 @@ public class LT52 {
     }
 }
 
-/*
+/**
+Link: https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/
 
 输入两个链表，找出它们的第一个公共节点。
 如下面的两个链表(LT52_0.png)：
-在节点 c1 开始相交。
+在节点c1开始相交。
 
 示例1(LT52_1.png)：
 输入：intersectVal = 8, listA = [4, 1, 8, 4, 5], listB = [5, 0, 1, 8, 4, 5], skipA = 2, skipB = 3
@@ -122,7 +125,7 @@ public class LT52 {
 输入解释：相交节点的值为8（注意，如果两个列表相交则不能为0）。从各自的表头开始算起，链表A为[4, 1, 8, 4, 5]，链表B为[5, 0, 1, 8, 4, 5]。在A中，相交节点前有2个节点；在B中相交节点前有3个节点。
 
 示例2(LT52_2.png)：
-输入：intersectVal= 2, listA = [0, 9, 1, 2, 4], listB = [3, 2, 4], skipA = 3, skipB = 1
+输入：intersectVal = 2, listA = [0, 9, 1, 2, 4], listB = [3, 2, 4], skipA = 3, skipB = 1
 输出：Reference of the node with value = 2
 输入解释：相交节点的值为2（注意，如果两个列表相交则不能为0）。从各自的表头开始算起，链表A为[0, 9, 1, 2, 4]，链表B为[3, 2, 4]。在A中，相交节点前有3个节点；在B中，相交节点前有1个节点。
 

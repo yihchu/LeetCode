@@ -98,10 +98,10 @@ public class LT1116 {
 
 }
 
-/*
+/**
+Link: https://leetcode-cn.com/problems/print-zero-even-odd/
 
 假设有这么一个类：
-
 class ZeroEvenOdd {
     public ZeroEvenOdd(int n) { ... }     // 构造函数
     public void zero(printNumber) { ... }  // 仅打印出0
@@ -115,12 +115,12 @@ class ZeroEvenOdd {
 线程C将调用odd()，它只输出奇数。
 每个线程都有一个printNumber方法来输出一个整数。请修改给出的代码以输出整数序列010203040506...，其中序列的长度必须为2n。
 
-示例 1：
+示例1：
 输入：n = 2
 输出："0102"
 说明：三条线程异步执行，其中一个调用zero()，另一个线程调用even()，最后一个线程调用odd()。正确的输出为"0102"。
 
-示例 2：
+示例2：
 输入：n = 5
 输出："0102030405"
 

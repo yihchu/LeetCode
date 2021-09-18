@@ -87,7 +87,8 @@ public class LT1114 {
 
 }
 
-/*
+/**
+Link: https://leetcode-cn.com/problems/print-in-order/
 
 我们提供了一个类：
 public class Foo {
@@ -111,7 +112,7 @@ public class Foo {
 输入[1, 2, 3]表示线程A将会调用first()方法，线程B将会调用second()方法，线程C将会调用third()方法。
 正确的输出是 "firstsecondthird"。
 
-示例 2:
+示例2:
 输入: [1, 3, 2]
 输出: "firstsecondthird"
 解释:

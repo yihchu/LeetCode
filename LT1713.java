@@ -78,7 +78,8 @@ public class LT1713 {
 }
 
 
-/*
+/**
+Link: https://leetcode-cn.com/problems/minimum-operations-to-make-a-subsequence/
 
 给你一个数组target，包含若干互不相同的整数，以及另一个整数数组arr，arr可能包含重复元素。
 每一次操作中，你可以在arr的任意位置插入任一整数。比方说，如果arr = [1, 4, 1, 2]，那么你可以在中间添加3得到[1, 4, 3, 1, 2]。你可以在数组最开始或最后面添加整数。

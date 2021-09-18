@@ -81,7 +81,8 @@ public class LT68 {
 }
 
 
-/*
+/**
+Link: https://leetcode-cn.com/problems/text-justification/
 
 给定一个单词数组和一个长度maxWidth，重新排版单词，使其成为每行恰好有maxWidth个字符，且左右两端对齐的文本。
 你应该使用“贪心算法”来放置给定的单词；也就是说，尽可能多地往每行中放置单词。必要时可用空格' '填充，使得每行恰好有maxWidth个字符。
@@ -93,7 +94,7 @@ public class LT68 {
 每个单词的长度大于0，小于等于maxWidth。
 输入单词数组words至少包含一个单词。
 
-示例:
+示例1:
 输入:
 words = ["This", "is", "an", "example", "of", "text", "justification."]
 maxWidth = 16
@@ -104,7 +105,7 @@ maxWidth = 16
    "justification.  "
 ]
 
-示例 2:
+示例2:
 输入:
 words = ["What", "must", "be", "acknowledgment", "shall", "be"]
 maxWidth = 16
@@ -118,7 +119,7 @@ maxWidth = 16
      因为最后一行应为左对齐，而不是左右两端对齐。
      第二行同样为左对齐，这是因为这行只包含一个单词。
 
-示例 3:
+示例3:
 输入:
 words = ["Science", "is", "what", "we", "understand", "well", "enough", "to", "explain",
          "to", "a", "computer.", "Art", "is", "everything", "else", "we", "do"]

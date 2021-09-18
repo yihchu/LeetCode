@@ -4,7 +4,9 @@ select max(e2.Salary) as SecondHighestSalary from Employee e1 left join Employee
 
 # 官方答案用的limit offset
 
-/*
+/**
+Link: https://leetcode-cn.com/problems/second-highest-salary/
+
 编写一个SQL查询，获取Employee表中第二高的薪水（Salary）。
 
 +----+--------+

@@ -1,3 +1,5 @@
+package interview;
+
 import java.util.Arrays;
 import java.util.PriorityQueue;
 import java.util.Queue;
@@ -36,7 +38,9 @@ public class LT17_14 {
 }
 
 
-/*
+/**
+Link: https://leetcode-cn.com/problems/smallest-k-lcci/
+
 设计一个算法，找出数组中最小的k个数。以任意顺序返回这k个数均可。
 
 示例：

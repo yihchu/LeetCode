@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -90,21 +89,22 @@ public class LT847 {
 
 }
 
-/*
+/**
+Link: https://leetcode-cn.com/problems/shortest-path-visiting-all-nodes/
 
 存在一个由n个节点组成的无向连通图，图中的节点按从0到n - 1编号。
 给你一个数组graph表示这个图。其中，graph[i]是一个列表，由所有与节点i直接相连的节点组成。
 返回能够访问所有节点的最短路径的长度。你可以在任一节点开始和停止，也可以多次重访节点，并且可以重用边。
 
-示例 1：
+示例1：
 输入：graph = [[1, 2, 3], [0], [0], [0]]
 输出：4
-解释：一种可能的路径为 [1, 0, 2, 0, 3]
+解释：一种可能的路径为[1, 0, 2, 0, 3]
 
-示例 2：
+示例2：
 输入：graph = [[1], [0, 2, 4], [1, 3, 4], [2], [1, 2]]
 输出：4
-解释：一种可能的路径为 [0, 1, 4, 2, 3]
+解释：一种可能的路径为[0, 1, 4, 2, 3]
 
 提示：
 n == graph.length

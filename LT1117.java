@@ -233,7 +233,9 @@ public class LT1117 {
 
 
 
-/*
+/**
+Link: https://leetcode-cn.com/problems/building-h2o/
+
 现在有两种线程，氧oxygen和氢hydrogen，你的目标是组织这两种线程来产生水分子。
 存在一个屏障（barrier）使得每个线程必须等候直到一个完整水分子能够被产生出来。
 氢和氧线程会被分别给予releaseHydrogen和releaseOxygen方法来允许它们突破屏障。
@@ -245,12 +247,12 @@ public class LT1117 {
 如果一个氢线程到达屏障时没有其它线程到达，它必须等候直到一个氧线程和另一个氢线程到达。
 书写满足这些限制条件的氢、氧线程同步代码。
 
-示例 1:
+示例1:
 输入: "HOH"
 输出: "HHO"
 解释: "HOH"和"OHH"依然都是有效解。
 
-示例 2:
+示例2:
 输入: "OOHHHH"
 输出: "HHOHHO"
 解释: "HOHHHO", "OHHHHO", "HHOHOH", "HOHHOH", "OHHHOH", "HHOOHH", "HOHOHH"和"OHHOHH"依然都是有效解。
