@@ -1,3 +1,5 @@
+import common.Node;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
@@ -70,19 +72,6 @@ public class LT138 {
     }
 
 }
-
-class Node {
-    int val;
-    Node next;
-    Node random;
-
-    public Node(int val) {
-        this.val = val;
-        this.next = null;
-        this.random = null;
-    }
-}
-
 
 /**
 Link: https://leetcode-cn.com/problems/copy-list-with-random-pointer/
