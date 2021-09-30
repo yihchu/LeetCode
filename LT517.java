@@ -3,17 +3,17 @@ import java.util.Arrays;
 public class LT517 {
 
     public int findMinMoves(int[] machines) {
-        int total = Arrays.stream(machines).sum();
+        int sum = Arrays.stream(machines).sum();
         int len = machines.length;
-        if (total % len != 0) {
+        if (sum % len != 0) {
             return -1;
         }
-        int avg = total / len;
+        int avg = sum / len;
         machines[0] -= avg;
         int result = Math.abs(machines[0]);
         for (int i = 1; i < len; ++i) {
             machines[i] -= avg;
-            result = Math.max(result, machines[i]);
+            result = Math.max(result, machines[i] >= 0 ? machines[i] : -machines[i] / 2 + 1);
             machines[i] += machines[i - 1];
             result = Math.max(result, Math.abs(machines[i]));
         }
@@ -25,21 +25,28 @@ public class LT517 {
         System.out.println(lt517.findMinMoves(new int[] {1, 0, 5})); // 3
         System.out.println(lt517.findMinMoves(new int[] {0, 3, 0})); // 2
         System.out.println(lt517.findMinMoves(new int[] {0, 2, 0})); // -1
+        System.out.println(lt517.findMinMoves(new int[] {9, 1, 8, 8, 9})); // 4
     }
 
 }
-
 
 /**
  * 思路(Link: https://blog.csdn.net/qq_32805671/article/details/102610391)
  *
  * 数学题：有四个洗衣机，装的衣服数为[0, 0, 11, 5]，最终的状态会变为[4, 4, 4, 4]，那么我们将二者做差，得到[-4, -4, 7, 1]。
  * 这里负数表示当前洗衣机还需要的衣服数，正数表示当前洗衣机多余的衣服数。
- * 我们要做的是*要将这个差值数组每一项都变为0，对于第一个洗衣机来说，需要四件衣服可以从第二个洗衣机获得，那么就可以把-4移给二号洗衣机。
+ * 我们要做的是要将这个差值数组每一项都变为0，对于第一个洗衣机来说，需要四件衣服可以从第二个洗衣机获得，那么就可以把-4移给二号洗衣机。
  * 那么差值数组变为[0, -8, 7, 1]，此时二号洗衣机需要八件衣服，那么至少需要移动8次。
  * 然后二号洗衣机把这八件衣服从三号洗衣机处获得，那么差值数组变为[0, 0, -1, 1]。
  * 此时三号洗衣机还缺1件，就从四号洗衣机处获得，此时差值数组成功变为了[0, 0, 0, 0]，成功。
  * 那么移动的最大次数就是差值数组中出现的绝对值最大的数字，8次
+ *
+ * 理解：
+ * a. 对于减去avg得到的新数组，如果是正的，假设为k，那么他需要一个一个的向左/右移动，只能一个一个进行，所以至少需要k步；
+ * 而如果是负的，如-k,可以由两边的洗衣机同时把衣服送过来（我也不知道这么想对不对），所以可能只需要-k步就可以完成。
+ * 所以对于这个数组，不需要经过Math.abs()处理。
+ * b. 对于从左往右的转移过程得到的新数组，因为左侧已经达到了平衡状态，所以不论正负，都只能从右侧一个一个的进行移动。所以，正负的步骤是一样的，需要取绝对值。
+ *
  */
 
 /**
