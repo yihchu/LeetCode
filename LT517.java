@@ -2,20 +2,44 @@ import java.util.Arrays;
 
 public class LT517 {
 
+//    // 思路1
+//    public int findMinMoves(int[] machines) {
+//        int sum = Arrays.stream(machines).sum();
+//        int len = machines.length;
+//        if (sum % len != 0) {
+//            return -1;
+//        }
+//        int avg = sum / len;
+//        machines[0] -= avg;
+//        int result = Math.abs(machines[0]);
+//        for (int i = 1; i < len; ++i) {
+//            machines[i] -= avg;
+//            result = Math.max(result, machines[i] >= 0 ? machines[i] : -machines[i] / 2 + 1);
+//            machines[i] += machines[i - 1];
+//            result = Math.max(result, Math.abs(machines[i]));
+//        }
+//        return result;
+//    }
+
+    // 思路2
     public int findMinMoves(int[] machines) {
-        int sum = Arrays.stream(machines).sum();
         int len = machines.length;
-        if (sum % len != 0) {
+        int[] sums = new int[len + 1];
+        for (int i = 0; i < len; ++i) {
+            sums[i + 1] = sums[i] + machines[i];
+        }
+        if (sums[len] % len != 0) {
             return -1;
         }
-        int avg = sum / len;
-        machines[0] -= avg;
-        int result = Math.abs(machines[0]);
-        for (int i = 1; i < len; ++i) {
-            machines[i] -= avg;
-            result = Math.max(result, machines[i] >= 0 ? machines[i] : -machines[i] / 2 + 1);
-            machines[i] += machines[i - 1];
-            result = Math.max(result, Math.abs(machines[i]));
+        int avg = sums[len] / len;
+        int result = 0;
+        for (int i = 0; i < len; ++i) {
+            int l = i * avg - sums[i], r = (len - i - 1) * avg - (sums[len] - sums[i] - machines[i]);
+            if (l > 0 && r > 0) {
+                result = Math.max(result, l + r);
+            } else {
+                result = Math.max(result, Math.max(Math.abs(l), Math.abs(r)));
+            }
         }
         return result;
     }
@@ -31,7 +55,7 @@ public class LT517 {
 }
 
 /**
- * 思路(Link: https://blog.csdn.net/qq_32805671/article/details/102610391)
+ * 思路1 (Link: https://blog.csdn.net/qq_32805671/article/details/102610391)
  *
  * 数学题：有四个洗衣机，装的衣服数为[0, 0, 11, 5]，最终的状态会变为[4, 4, 4, 4]，那么我们将二者做差，得到[-4, -4, 7, 1]。
  * 这里负数表示当前洗衣机还需要的衣服数，正数表示当前洗衣机多余的衣服数。
@@ -47,6 +71,17 @@ public class LT517 {
  * 所以对于这个数组，不需要经过Math.abs()处理。
  * b. 对于从左往右的转移过程得到的新数组，因为左侧已经达到了平衡状态，所以不论正负，都只能从右侧一个一个的进行移动。所以，正负的步骤是一样的，需要取绝对值。
  *
+ */
+
+/**
+ * 思路2 (Link: https://www.136.la/nginx/show-23225.html)
+ *
+ * 由于每一步可以任选某些数字对它们进行转移，所以实际上是在求最优解中的最复杂转移数。
+ * 那么我们考虑，到底哪一个位置要经过的流量最大呢？
+ * 枚举每个位置，考虑它左边的整体需求和右边的整体需求，如果两边都需要流入，则流量相加；
+ * 如果一边需要流入，一边需要流出，则取绝对值的最大值。
+ *
+ * 这个思路似乎更容易理解点
  */
 
 /**
