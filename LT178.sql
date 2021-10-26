@@ -40,9 +40,13 @@ SQL架构
 | 3.50  | 4    |
 +-------+------+
 重要提示：对于MySQL解决方案，如果要转义用作列名的保留字，可以在关键字之前和之后使用撇号。例如 `Rank`
+
+Create table If Not Exists Scores (id int, score DECIMAL(3,2))
+Truncate table Scores
+insert into Scores (id, score) values ('1', '3.5')
+insert into Scores (id, score) values ('2', '3.65')
+insert into Scores (id, score) values ('3', '4.0')
+insert into Scores (id, score) values ('4', '3.85')
+insert into Scores (id, score) values ('5', '4.0')
+insert into Scores (id, score) values ('6', '3.65')
 */
-输入：
-{"headers": {"Scores": ["Id", "Score"]}, "rows": {"Scores": [[1, 3.50], [2, 3.65], [3, 4.00], [4, 3.85], [5, 4.00], [6, 3.65]]}}
-输出：
-{"headers": ["Score", "Rank"], "values": [[4.00, 1], [4.00, 2], [3.85, 3], [3.65, 4], [3.65, 5], [3.50, 6]]}
-{"headers": ["Score", "Rank"], "values": [[4.0,1],[4.0,1],[3.85,2],[3.65,3],[3.65,3],[3.5,4]]}
