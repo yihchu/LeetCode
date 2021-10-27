@@ -76,18 +76,18 @@ public class LT301 {
     public static void main(String[] args) {
         long start = System.currentTimeMillis();
         LT301 lt301 = new LT301(); // ["(())()","()()()"]
-//        System.out.print("()())() -> ");
-//        lt301.removeInvalidParentheses("()())()").forEach(s -> System.out.print(s + " "));
-//        System.out.println();
-//        System.out.print("(a)())() -> "); // ["(a())()", "(a)()()"]
-//        lt301.removeInvalidParentheses("(a)())()").forEach(s -> System.out.print(s + " "));
-//        System.out.println();
-//        System.out.print(")( -> "); // [""]
-//        lt301.removeInvalidParentheses(")(").forEach(s -> System.out.print(s + " "));
-//        System.out.println();
-//        System.out.print("x( -> "); // ["x"]
-//        lt301.removeInvalidParentheses("x(").forEach(s -> System.out.print(s + " "));
-//        System.out.println();
+        System.out.print("()())() -> ");
+        lt301.removeInvalidParentheses("()())()").forEach(s -> System.out.print(s + " "));
+        System.out.println();
+        System.out.print("(a)())() -> "); // ["(a())()", "(a)()()"]
+        lt301.removeInvalidParentheses("(a)())()").forEach(s -> System.out.print(s + " "));
+        System.out.println();
+        System.out.print(")( -> "); // [""]
+        lt301.removeInvalidParentheses(")(").forEach(s -> System.out.print(s + " "));
+        System.out.println();
+        System.out.print("x( -> "); // ["x"]
+        lt301.removeInvalidParentheses("x(").forEach(s -> System.out.print(s + " "));
+        System.out.println();
         System.out.print(")))())((p((())a(())( -> "); // [()((p(())a))", "()p((())a())", "()((p))a(())", "()p(())a(())", "()(p())a(())", "()(p(())a())", "()(p((())a))", "()((p())a())"]
         lt301.removeInvalidParentheses(")))())((p((())a(())(").forEach(s -> System.out.print(s + " "));
         System.out.println();
