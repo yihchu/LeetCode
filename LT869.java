@@ -35,7 +35,7 @@ public class LT869 {
         System.out.println(lt869.reorderedPowerOf2(2));
         System.out.println(lt869.reorderedPowerOf2(15));
         System.out.println(lt869.reorderedPowerOf2(16));
-        System.out.println(lt869.reorderedPowerOf2());
+        System.out.println(lt869.reorderedPowerOf2(125));
         System.out.println(lt869.reorderedPowerOf2(536780192));
     }
 
