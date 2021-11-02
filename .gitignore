@@ -2,3 +2,4 @@
 .gradle/
 out/
 LeetCode.iml
+.DS_Store
