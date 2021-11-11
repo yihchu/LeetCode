@@ -9,6 +9,18 @@ select s1.id from Stadium s1 join Stadium s2 on s1.id = s2.id + 1 join Stadium s
 union
 select s2.id from Stadium s1 join Stadium s2 on s1.id = s2.id + 1 join Stadium s3 on s2.id = s3.id + 1 where s1.people >= 100 and s2.people >= 100 and s3.people >= 100)
 
+
+# 更好的解法
+select t.id, t.visit_date, t.people
+from (
+         select tt.id, tt.visit_date, tt.people, count(*) over (partition by tt.r) c
+         from (
+                  select *, id - rank() over(order by id) r from Stadium where people >= 100
+              ) as tt
+     ) as t
+where t.c >= 3
+
+
 /**
 Link: https://leetcode-cn.com/problems/human-traffic-of-stadium/
 
