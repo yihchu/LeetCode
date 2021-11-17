@@ -23,6 +23,7 @@ public class Solution {
                     Map<Character, Boolean> m2 = map.get(words[j]);
                     if (m1.containsKey(c) && m2.containsKey(c)) {
                         flag = false;
+                        break;
                     }
                 }
                 if (flag) {
