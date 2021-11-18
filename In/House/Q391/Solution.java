@@ -4,9 +4,13 @@ import java.util.*;
 
 public class Solution {
 
-
 //    /**
 //     * 这种方法没办法处理部分重合的情况
+//     * 其实可以把key设置成两个点中间的值，如1，2 -> 1.5
+//     * 这样的话，如果有重合的情况发生
+//     * 那必要存在某key对应的上下边界相比其他key来说，有缺失
+//     *
+//     * 但是犯懒了，懒得去实现了
 //     */
 //    public boolean isRectangleCover(int[][] rectangles) {
 //        Map<Integer, List<int[]>> map = new HashMap<>();
