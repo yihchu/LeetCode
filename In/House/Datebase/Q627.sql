@@ -2,7 +2,7 @@
 
 update salary set sex = if(sex = 'f', 'm', 'f')
 
-/*
+/**
 Link: https://leetcode-cn.com/problems/swap-salary/
 
 Salary表：
@@ -21,6 +21,7 @@ sex这一列的值是ENUM类型，只能从('m', 'f')中取。
 请你编写一个SQL查询来交换所有的'f'和'm'（即，将所有'f'变为'm'，反之亦然），仅使用单个update语句，且不产生中间临时表。
 注意，你必须仅使用一条update语句，且不能使用select语句。
 查询结果如下例所示：
+
 Salary表：
 +----+------+-----+--------+
 | id | name | sex | salary |
