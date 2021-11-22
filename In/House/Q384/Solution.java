@@ -105,7 +105,7 @@ solution.shuffle();    // 随机返回数组[1, 2, 3]打乱后的结果。例如
 
 提示：
 1 <= nums.length <= 200
--106 <= nums[i] <= 10^6
+-10^6 <= nums[i] <= 10^6
 nums中的所有元素都是唯一的
-最多可以调用5 * 10^4 次reset和shuffle
+最多可以调用5 * 10^4次reset和shuffle
 */
