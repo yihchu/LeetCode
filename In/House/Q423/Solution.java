@@ -125,6 +125,7 @@ public class Solution {
 //        }
 //    }
 
+    // 算是上面的改良版，勉强可以提交
     public String originalDigits(String s) {
         List<Integer> result = new ArrayList<>();
         Map<Character, Integer> map = new HashMap<>();
