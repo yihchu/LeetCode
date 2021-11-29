@@ -7,30 +7,6 @@ import java.util.PriorityQueue;
 
 public class Solution {
 
-//    // 超时
-//    public int[] kthSmallestPrimeFraction(int[] arr, int k) {
-//        Map<Double, int[]> map = new HashMap<>();
-//        int len = arr.length;
-//        Double maxKey = Double.MIN_VALUE;
-//        for (int i = 0; i < len; ++i) {
-//            for (int j = i + 1; j < len; ++j) {
-//                Double key = (double)arr[i] / arr[j];
-//                if (map.keySet().size() < k) {
-//                    map.put(key, new int[] {arr[i], arr[j]});
-//                    maxKey = maxKey < key ? key : maxKey;
-//                    continue;
-//                }
-//                if (key >= maxKey) {
-//                    continue;
-//                }
-//                map.remove(maxKey);
-//                map.put(key, new int[] {arr[i], arr[j]});
-//                maxKey = map.keySet().stream().max(Double::compare).get();
-//            }
-//        }
-//        return map.get(maxKey);
-//    }
-
     public int[] kthSmallestPrimeFraction(int[] arr, int k) {
         Map<Double, int[]> map = new HashMap<>();
         PriorityQueue<Double> queue = new PriorityQueue<>((d1, d2) -> Double.compare(d2, d1));
