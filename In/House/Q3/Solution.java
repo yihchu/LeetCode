@@ -9,25 +9,25 @@ public class Solution {
         if (len <= 1) {
             return len;
         }
-        Map<Character, Integer> map = new HashMap<>();
-        int max = 0;
+        Set<Character> set = new HashSet<>();
+        int max = 0, start = 0;
         for (int i = 0; i < len; ++i) {
             char c = s.charAt(i);
-            if (!map.containsKey(c)) {
-                map.put(c, i);
+            if (!set.contains(c)) {
+                set.add(c);
                 continue;
             }
-            max = max < map.size() ? map.size(): max;
-            int cut = map.get(c);
-            Iterator<Map.Entry<Character, Integer>> it = map.entrySet().iterator();
-            while(it.hasNext()) {
-                Map.Entry<Character, Integer> entry = it.next();
-                if (entry.getValue() <= cut)
-                    it.remove();
+            max = max < set.size() ? set.size(): max;
+            while (true) {
+                char cc = s.charAt(start ++);
+                if (cc != c) {
+                    set.remove(cc);
+                    continue;
+                }
+                break;
             }
-            map.put(c, i);
         }
-        max = max < map.size() ? map.size(): max;
+        max = max < set.size() ? set.size(): max;
         return max;
     }
 
