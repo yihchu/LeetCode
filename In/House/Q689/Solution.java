@@ -98,7 +98,7 @@ Link: https://leetcode-cn.com/problems/maximum-sum-of-3-non-overlapping-subarray
 
 提示：
 1 <= nums.length <= 2 * 10^4
-1 <= nums[i] <2^16
+1 <= nums[i] < 2^16
 1 <= k <= floor(nums.length / 3)
 
 */
