@@ -7,20 +7,20 @@ public class Solution {
     public int findRadius(int[] houses, int[] heaters) {
         Arrays.sort(houses);
         Arrays.sort(heaters);
-        int hsLen = houses.length, htLen = heaters.length;
         int hsIdx = 0, htIdx = 0;
         int left = -1, right = heaters[htIdx];
         int radius = 0;
-        while (hsIdx < hsLen) {
+        while (hsIdx < houses.length) {
             if (houses[hsIdx] <= right) {
-                int tmp = left < 0 ? (right - houses[hsIdx]) : Math.min(houses[hsIdx] - left, right - houses[hsIdx]);
-                radius = Math.max(radius, tmp);
+                radius = Math.max(radius, left < 0
+                        ? (right - houses[hsIdx])
+                        : Math.min(houses[hsIdx] - left, right - houses[hsIdx]));
                 ++hsIdx;
-            } else {
-                ++htIdx;
-                left = right;
-                right = htIdx < htLen ? heaters[htIdx] : Integer.MAX_VALUE;
+                continue;
             }
+            ++htIdx;
+            left = right;
+            right = htIdx < heaters.length ? heaters[htIdx] : Integer.MAX_VALUE;
         }
         return radius;
     }
