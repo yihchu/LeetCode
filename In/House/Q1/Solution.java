@@ -1,35 +1,18 @@
 package In.House.Q1;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class Solution {
 
     public int[] twoSum(int[] nums, int target) {
-        Map<Integer, List<Integer>> map = new HashMap<>();
+        Map<Integer, Integer> map = new HashMap<>();
         int len = nums.length;
         for (int i = 0; i < len; ++i) {
-            if (map.containsKey(nums[i])) {
-                map.get(nums[i]).add(i);
-                continue;
+            if (map.containsKey(target - nums[i])) {
+                return new int[] {i, map.get(target - nums[i])};
             }
-            List l = new ArrayList();
-            l.add(i);
-            map.put(nums[i], l);
-        }
-        for (int i = 0; i < len; ++i) {
-            int tmp = target - nums[i];
-            if (!map.containsKey(tmp)) {
-                continue;
-            }
-            List<Integer> l = map.get(tmp);
-            for (int j: l) {
-                if (i != j) {
-                    return new int[] {i, j};
-                }
-            }
+            map.put(nums[i], i);
         }
         return null;
     }
