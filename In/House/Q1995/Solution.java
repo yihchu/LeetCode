@@ -1,7 +1,5 @@
 package In.House.Q1995;
 
-import java.util.Arrays;
-
 public class Solution {
 
     public int countQuadruplets(int[] nums) {
