@@ -54,6 +54,7 @@ public class Solution {
 }
 
 /**
+Ques: 递增的三元子序列
 Link: https://leetcode-cn.com/problems/increasing-triplet-subsequence/
 
 给你一个整数数组nums，判断这个数组中是否存在长度为3的递增子序列。

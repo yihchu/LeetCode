@@ -50,6 +50,7 @@ public class Solution {
 }
 
 /**
+Ques: 最短补全词
 Link: https://leetcode-cn.com/problems/shortest-completing-word/
 
 给你一个字符串licensePlate和一个字符串数组words，请你找出并返回words中的最短补全词。

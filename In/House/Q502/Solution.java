@@ -108,6 +108,7 @@ public class Solution {
 */
 
 /**
+Ques: IPO
 Link: https://leetcode-cn.com/problems/ipo/
 
 假设力扣（LeetCode）即将开始IPO。为了以更高的价格将股票卖给风险投资公司，力扣希望在IPO之前开展一些项目以增加其资本。由于资源有限，它只能在IPO之前完成最多k个不同的项目。帮助力扣设计完成最多k个不同项目后得到最大总资本的方式。

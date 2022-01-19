@@ -176,6 +176,7 @@ public class Solution {
 }
 
 /**
+Ques: 可见点的最大数目
 Link: https://leetcode-cn.com/problems/maximum-number-of-visible-points/
 
 给你一个点数组points和一个表示角度的整数angle，你的位置是location，其中location = [pos[x], pos[y]]且points[i] = [x[i], y[i]]都表示X-Y平面上的整数坐标。

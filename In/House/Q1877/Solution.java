@@ -24,6 +24,7 @@ public class Solution {
 }
 
 /**
+Ques: 数组中最大数对和的最小值
 Link: https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array/
 
 一个数对(a, b)的数对和等于a + b。最大数对和是一个数对数组中最大的数对和。

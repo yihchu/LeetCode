@@ -36,6 +36,7 @@ public class Solution {
 }
 
 /**
+Ques: 连续字符
 Link: https://leetcode-cn.com/problems/consecutive-characters/
 
 给你一个字符串s，字符串的「能量」定义为：只包含一种字符的最长非空子字符串的长度。

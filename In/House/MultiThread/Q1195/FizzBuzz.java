@@ -1,4 +1,4 @@
-package In.House.Q1195;
+package In.House.MultiThread.Q1195;
 
 import java.util.function.IntConsumer;
 
@@ -135,6 +135,7 @@ public class FizzBuzz {
 }
 
 /**
+Ques: 交替打印字符串
 Link: https://leetcode-cn.com/problems/fizz-buzz-multithreaded
 
 编写一个可以从1到n输出代表这个数字的字符串的程序，但是：

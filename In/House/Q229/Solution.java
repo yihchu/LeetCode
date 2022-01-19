@@ -7,13 +7,10 @@ import java.util.Map;
 
 public class Solution {
 
-
     /**
      * O(n)的解法，在官方题解中，使用的是摩尔投票法~
      * 我肯定是想不到哇~
      */
-
-
 
     public List<Integer> majorityElement(int[] nums) {
         int len = nums.length;
@@ -48,6 +45,7 @@ public class Solution {
 }
 
 /**
+Ques: 求众数II
 Link: https://leetcode-cn.com/problems/majority-element-ii/
 
 给定一个大小为n的整数数组，找出其中所有出现超过⌊n/3⌋次的元素。
@@ -68,6 +66,6 @@ Link: https://leetcode-cn.com/problems/majority-element-ii/
 1 <= nums.length <= 5 * 10^4
 -10^9 <= nums[i] <= 10^9
 
-进阶：尝试设计时间复杂度为 O(n)、空间复杂度为 O(1)的算法解决此问题。
+进阶：尝试设计时间复杂度为O(n)、空间复杂度为O(1)的算法解决此问题。
 
 */

@@ -131,6 +131,7 @@ public class Solution {
 }
 
 /**
+Ques: 最高频元素的频数
 Link: https://leetcode-cn.com/problems/frequency-of-the-most-frequent-element/
 
 元素的频数是该元素在一个数组中出现的次数。

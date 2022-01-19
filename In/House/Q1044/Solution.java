@@ -129,6 +129,7 @@ public class Solution {
 }
 
 /**
+Ques: 最长重复子串
 Link: https://leetcode-cn.com/problems/longest-duplicate-substring/
 
 给你一个字符串s，考虑其所有重复子串：即，s的连续子串，在s中出现2次或更多次。这些出现之间可能存在重叠。

@@ -24,6 +24,7 @@ public class Solution {
 
 
 /**
+Ques: 最小操作次数使数组元素相等
 Link: https://leetcode-cn.com/problems/minimum-moves-to-equal-array-elements/
 
 给你一个长度为n的整数数组，每次操作将会使n - 1个元素增加1。返回让数组所有元素相等的最小操作次数。

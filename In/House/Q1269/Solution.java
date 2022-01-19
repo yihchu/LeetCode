@@ -49,6 +49,7 @@ dp[i][j] = dp[i − 1][j − 1] + dp[i − 1][j] + dp[i − 1][j + 1]
 */
 
 /**
+Ques: 停在原地的方案数
 Link: https://leetcode-cn.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/submissions/
 
 有一个长度为arrLen的数组，开始有一个指针在索引0处。

@@ -31,6 +31,7 @@ public class Solution {
 }
 
 /**
+Ques: Fizz Buzz
 Link: https://leetcode-cn.com/problems/fizz-buzz/
 
 写一个程序，输出从1到n数字的字符串表示。

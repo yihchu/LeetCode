@@ -34,6 +34,7 @@ public class Solution {
 }
 
 /**
+Ques: 统计元音字母序列的数目
 Link: https://leetcode-cn.com/problems/count-vowels-permutation/
 
 给你一个整数n，请你帮忙统计一下我们可以按下述规则形成多少个长度为n的字符串：

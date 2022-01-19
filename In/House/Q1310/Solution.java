@@ -70,6 +70,7 @@ public class Solution {
 }
 
 /**
+Ques: 子数组异或查询
 Link: https://leetcode-cn.com/problems/xor-queries-of-a-subarray/submissions/
 
 有一个正整数数组arr，现给你一个对应的查询数组queries，其中queries[i] = [L[i], R[i]]。

@@ -42,6 +42,7 @@ public class Solution {
 
 
 /**
+Ques: 检查是否区域内所有整数都被覆盖
 Link: https://leetcode-cn.com/problems/check-if-all-the-integers-in-a-range-are-covered/
 
 给你一个二维整数数组ranges和两个整数left和right。每个ranges[i] = [start[i], end[i]]表示一个从start[i]到end[i]的闭区间。

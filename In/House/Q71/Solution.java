@@ -42,6 +42,7 @@ public class Solution {
 }
 
 /**
+Ques: 简化路径
 Link: https://leetcode-cn.com/problems/simplify-path/
 
 给你一个字符串path，表示指向某一文件或目录的Unix风格绝对路径（以'/'开头），请你将其转化为更加简洁的规范路径。

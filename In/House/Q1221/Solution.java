@@ -30,6 +30,7 @@ public class Solution {
 }
 
 /**
+Ques: 分割平衡字符串
 Link: https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/
 
 在一个平衡字符串中，'L'和'R'字符的数量是相同的。

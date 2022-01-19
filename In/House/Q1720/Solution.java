@@ -28,6 +28,7 @@ public class Solution {
 }
 
 /**
+Ques: 解码异或后的数组
 Link: https://leetcode-cn.com/problems/decode-xored-array/
 
 示例1：

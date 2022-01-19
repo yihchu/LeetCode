@@ -33,6 +33,7 @@ public class Solution {
 }
 
 /**
+Ques: 解码异或后的排列
 Link: https://leetcode-cn.com/problems/decode-xored-permutation/
 
 给你一个整数数组perm，它是前n个正整数的排列，且n是个奇数。

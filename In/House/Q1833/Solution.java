@@ -27,6 +27,7 @@ public class Solution {
 }
 
 /**
+Ques: 雪糕的最大数量
 Link: https://leetcode-cn.com/problems/maximum-ice-cream-bars/
 
 夏日炎炎，小男孩Tony想买一些雪糕消消暑。

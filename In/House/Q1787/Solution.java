@@ -59,6 +59,7 @@ public class Solution {
 
 
 /**
+Ques: 使所有区间的异或结果为零
 Link: https://leetcode-cn.com/problems/make-the-xor-of-all-segments-equal-to-zero/
 
 给你一个整数数组nums和一个整数k。区间[left, right]（left <= right）的异或结果是对下标位于left和right（包括left和right）之间所有元素进行XOR运算的结果：nums[left] XOR nums[left + 1] XOR ... XOR nums[right]。

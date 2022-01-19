@@ -159,6 +159,7 @@ public class Solution {
 }
 
 /**
+Ques: 大餐计数
 Link: https://leetcode-cn.com/problems/count-good-meals/
 
 大餐是指恰好包含两道不同餐品的一餐，其美味程度之和等于2的幂。

@@ -1,4 +1,4 @@
-package In.House.Q1115;
+package In.House.MultiThread.Q1115;
 
 public class FooBar {
 
@@ -72,6 +72,7 @@ public class FooBar {
 }
 
 /**
+Ques: 交替打印FooBar
 Link: https://leetcode-cn.com/problems/print-foobar-alternately/
 
 我们提供一个类：

@@ -36,6 +36,7 @@ public class Solution {
 
 
 /**
+Ques: 最后一块石头的重量II
 Link: https://leetcode-cn.com/problems/last-stone-weight-ii/
 
 有一堆石头，用整数数组stones表示。其中stones[i]表示第i块石头的重量。

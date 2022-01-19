@@ -89,6 +89,7 @@ public class Solution {
 }
 
 /**
+Ques: 适龄的朋友
 Link: https://leetcode-cn.com/problems/friends-of-appropriate-ages/
 
 在社交媒体网站上有n个用户。给你一个整数数组ages，其中ages[i]是第i个用户的年龄。

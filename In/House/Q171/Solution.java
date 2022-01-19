@@ -23,6 +23,7 @@ public class Solution {
 
 
 /**
+Ques: Excel 表列序号
 Link: https://leetcode-cn.com/problems/excel-sheet-column-number/
 
 给定一个Excel表格中的列名称，返回其相应的列序号。

@@ -28,6 +28,7 @@ public class Solution {
 }
 
 /**
+Ques: 石子游戏
 Link: https://leetcode-cn.com/problems/stone-game/
 
 亚历克斯和李用几堆石子在做游戏。偶数堆石子排成一行，每堆都有正整数颗石子piles[i]。

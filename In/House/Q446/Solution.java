@@ -33,6 +33,7 @@ public class Solution {
 
 
 /**
+Ques: 等差数列划分II-子序列
 Link: https://leetcode-cn.com/problems/arithmetic-slices-ii-subsequence/
 
 给你一个整数数组nums，返回nums中所有等差子序列的数目。

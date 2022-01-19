@@ -29,6 +29,7 @@ public class Solution {
 }
 
 /**
+Ques: K个逆序对数组
 Link: https://leetcode-cn.com/problems/k-inverse-pairs-array/
 
 给出两个整数n和k，找出所有包含从1到n的数字，且恰好拥有k个逆序对的不同的数组的个数。

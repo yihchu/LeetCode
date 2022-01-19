@@ -34,7 +34,8 @@ public class Solution {
 }
 
 /**
-Link: Link: https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/
+Ques: 最小的k个数
+Link: https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/
 
 输入整数数组arr，找出其中最小的k个数。例如，输入4、5、1、6、2、7、3、8这8个数字，则最小的4个数字是1、2、3、4。
 

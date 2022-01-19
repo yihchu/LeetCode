@@ -29,6 +29,7 @@ public class Solution {
 }
 
 /**
+Ques: 统计特殊四元组
 Link: https://leetcode-cn.com/problems/count-special-quadruplets/
 
 给你一个下标从0开始的整数数组nums，返回满足下述条件的不同四元组(a, b, c, d)的数目：

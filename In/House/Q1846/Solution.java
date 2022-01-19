@@ -50,6 +50,7 @@ public class Solution {
 
 
 /**
+Ques: 减小和重新排列数组后的最大元素
 Link: https://leetcode-cn.com/problems/maximum-element-after-decreasing-and-rearranging/
 
 给你一个正整数数组arr。请你对arr执行一些操作（也可以不进行任何操作），使得数组满足以下条件：

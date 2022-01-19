@@ -80,6 +80,7 @@ public class Solution {
 
 }
 /**
+Ques: 和相同的二元子数组
 Link: https://leetcode-cn.com/problems/binary-subarrays-with-sum/
 
 给你一个二元数组nums，和一个整数goal，请你统计并返回有多少个和为goal的非空子数组。

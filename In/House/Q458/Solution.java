@@ -25,6 +25,7 @@ public class Solution {
 }
 
 /**
+Ques: 可怜的小猪
 Link: https://leetcode-cn.com/problems/poor-pigs/
 
 有buckets桶液体，其中正好有一桶含有毒药，其余装的都是水。它们从外观看起来都一样。为了弄清楚哪只水桶含有毒药，你可以喂一些猪喝，通过观察猪是否会死进行判断。不幸的是，你只有minutesToTest分钟时间来确定哪桶液体是有毒的。

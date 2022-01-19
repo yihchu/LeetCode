@@ -39,6 +39,7 @@ public class Solution {
 }
 
 /**
+Ques: 相对名次
 Link: https://leetcode-cn.com/problems/relative-ranks/
 
 给你一个长度为n的整数数组score，其中score[i]是第i位运动员在比赛中的得分。所有得分都互不相同。

@@ -1,4 +1,4 @@
-package In.House.Q1116;
+package In.House.MultiThread.Q1116;
 
 import java.util.function.IntConsumer;
 
@@ -100,6 +100,7 @@ public class ZeroEvenOdd {
 }
 
 /**
+Ques: 打印零与奇偶数
 Link: https://leetcode-cn.com/problems/print-zero-even-odd/
 
 假设有这么一个类：

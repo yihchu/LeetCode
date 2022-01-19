@@ -64,6 +64,7 @@ public class Solution {
 }
 
 /**
+Ques: https://leetcode-cn.com/problems/course-schedule-iii/submissions/
 Link: https://leetcode-cn.com/problems/course-schedule-iii/
 
 这里有n门不同的在线课程，按从1到n编号。给你一个数组courses，其中courses[i] = [duration[i], lastDay[i]]表示第i门课将会持续上duration[i]天课，并且必须在不晚于lastDay[i]的时候完成。

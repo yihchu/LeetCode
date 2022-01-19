@@ -32,6 +32,7 @@ public class Solution {
 }
 
 /**
+Ques: 移除元素
 Link: https://leetcode-cn.com/problems/remove-element/
 
 给你一个数组nums和一个值val，你需要原地移除所有数值等于va的元素，并返回移除后数组的新长度。

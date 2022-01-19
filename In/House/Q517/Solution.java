@@ -85,6 +85,7 @@ public class Solution {
  */
 
 /**
+Ques: 超级洗衣机
 Link: https://leetcode-cn.com/problems/super-washing-machines/
 
 假设有n台超级洗衣机放在同一排上。开始的时候，每台洗衣机内可能有一定量的衣服，也可能是空的。

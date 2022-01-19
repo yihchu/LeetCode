@@ -23,6 +23,7 @@ public class Solution {
 
 
 /**
+Ques: 数组异或操作
 Link: https://leetcode-cn.com/problems/xor-operation-in-an-array/
 
 给你两个整数，n和start。

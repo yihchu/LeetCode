@@ -34,6 +34,7 @@ public class Solution {
 
 
 /**
+Ques: 获取生成数组中的最大值
 Link: https://leetcode-cn.com/problems/get-maximum-in-generated-array/
 
 给你一个整数n。按下述规则生成一个长度为n + 1的数组nums：

@@ -81,6 +81,7 @@ public class Solution {
 
 
 /**
+Ques: 得到子序列的最少操作次数
 Link: https://leetcode-cn.com/problems/minimum-operations-to-make-a-subsequence/
 
 给你一个数组target，包含若干互不相同的整数，以及另一个整数数组arr，arr可能包含重复元素。

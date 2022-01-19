@@ -71,6 +71,7 @@ public class Solution {
 }
 
 /**
+Ques: 点菜展示表
 Link: https://leetcode-cn.com/problems/display-table-of-food-orders-in-a-restaurant/
 
 给你一个数组orders，表示客户在餐厅中完成的订单，确切地说，orders[i]=[customerName[i], tableNumber[i], foodItem[i]]，其中customerName[i]是客户的姓名，tableNumber[i]是客户所在餐桌的桌号，而foodItem[i]是客户点的餐品名称。

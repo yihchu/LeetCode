@@ -43,6 +43,7 @@ public class Solution {
 
 
 /**
+Ques: 回旋镖的数量
 Link: https://leetcode-cn.com/problems/number-of-boomerangs/
 
 给定平面上n对互不相同的点points，其中points[i] = [x[i], y[i]]。回旋镖是由点(i, j, k)表示的元组，其中i和j之间的距离和i和k之间的距离相等（需要考虑元组的顺序）。

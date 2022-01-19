@@ -52,6 +52,7 @@ public class Solution {
 }
 
 /**
+Ques: 两数相除
 Link: https://leetcode-cn.com/problems/divide-two-integers
 
 给定两个整数，被除数dividend和除数divisor。将两数相除，要求不使用乘法、除法和mod运算符。

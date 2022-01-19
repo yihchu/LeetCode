@@ -76,6 +76,7 @@ public class Solution {
 }
 
 /**
+Ques: 有效的数独
 Link: https://leetcode-cn.com/problems/valid-sudoku/
 
 请你判断一个9x9的数独是否有效。只需要根据以下规则，验证已经填入的数字是否有效即可。

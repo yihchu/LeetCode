@@ -44,6 +44,7 @@ public class Solution {
 }
 
 /**
+Ques: 查找和最小的K对数字
 Link: https://leetcode-cn.com/problems/find-k-pairs-with-smallest-sums/
 
 给定两个以升序排列的整数数组nums1和nums2, 以及一个整数k。

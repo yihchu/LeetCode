@@ -37,6 +37,7 @@ public class Solution {
 }
 
 /**
+Ques: 超级丑数
 Link: https://leetcode-cn.com/problems/super-ugly-number/
 
 超级丑数是一个正整数，并满足其所有质因数都出现在质数数组primes中。

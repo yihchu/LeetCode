@@ -26,6 +26,7 @@ public class Solution {
 }
 
 /**
+Ques: 整数替换
 Link: https://leetcode-cn.com/problems/integer-replacement/
 
 给定一个正整数n ，你可以做如下操作：

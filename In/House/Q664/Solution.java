@@ -56,6 +56,7 @@ public class Solution {
 
 
 /**
+Ques: 奇怪的打印机
 Link: https://leetcode-cn.com/problems/strange-printer/
 
 有台奇怪的打印机有以下两个特殊要求：

@@ -1,4 +1,4 @@
-package In.House.Q219;
+package In.House.MultiThread.Q219;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -26,6 +26,8 @@ public class Solution {
 }
 
 /**
+Ques: 存在重复元素II
+Link: https://leetcode-cn.com/problems/contains-duplicate-ii/
 给你一个整数数组nums和一个整数k，判断数组中是否存在两个不同的索引i和j，满足nums[i] == nums[j]且abs(i - j) <= k。如果存在，返回true；否则，返回false。
 
 示例1：

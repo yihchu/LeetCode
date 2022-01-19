@@ -73,6 +73,7 @@ public class Solution {
 }
 
 /**
+Ques: 累加数
 Link: https://leetcode-cn.com/problems/additive-number/
 
 累加数是一个字符串，组成它的数字可以形成累加序列。

@@ -27,6 +27,7 @@ public class Solution {
 }
 
 /**
+Ques: 完美数
 Link: https://leetcode-cn.com/problems/perfect-number/
 
 对于一个正整数，如果它和除了它自身以外的所有正因子之和相等，我们称它为「完美数」。

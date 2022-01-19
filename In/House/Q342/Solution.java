@@ -38,6 +38,7 @@ public class Solution {
 }
 
 /**
+Ques: 4的幂
 Link: https://leetcode-cn.com/problems/power-of-four/
 
 给定一个整数，写一个函数来判断它是否是4的幂次方。如果是，返回 true;否则，返回false。

@@ -48,6 +48,7 @@ public class Solution {
 }
 
 /**
+Ques: 亲密字符串
 Link: https://leetcode-cn.com/problems/buddy-strings/
 
 给你两个字符串s和goal，只要我们可以通过交换s中的两个字母得到与goal相等的结果，就返回true；否则返回false。

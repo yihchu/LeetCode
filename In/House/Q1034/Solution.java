@@ -73,6 +73,7 @@ public class Solution {
 }
 
 /**
+Ques: 边界着色
 Link: https://leetcode-cn.com/problems/coloring-a-border/
 
 给你一个大小为m x n的整数矩阵grid，表示一个网格。另给你三个整数row、col和color。网格中的每个值表示该位置处的网格块的颜色。

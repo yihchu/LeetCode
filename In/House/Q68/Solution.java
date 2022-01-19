@@ -84,6 +84,7 @@ public class Solution {
 
 
 /**
+Ques: 文本左右对齐
 Link: https://leetcode-cn.com/problems/text-justification/
 
 给定一个单词数组和一个长度maxWidth，重新排版单词，使其成为每行恰好有maxWidth个字符，且左右两端对齐的文本。

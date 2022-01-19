@@ -1,4 +1,4 @@
-package In.House.Q1226;
+package In.House.MultiThread.Q1226;
 
 import java.util.Arrays;
 
@@ -141,6 +141,7 @@ public class DiningPhilosophers {
 }
 
 /**
+Ques: 哲学家进餐
 Link: https://leetcode-cn.com/problems/the-dining-philosophers
 
 5个沉默寡言的哲学家围坐在圆桌前，每人面前一盘意面。叉子放在哲学家之间的桌面上。（5个哲学家，5根叉子）

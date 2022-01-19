@@ -21,6 +21,7 @@ b 4 8
  */
 
 /**
+Ques: Nim游戏
 Link: https://leetcode-cn.com/problems/nim-game
 
 你和你的朋友，两个人一起玩Nim游戏：

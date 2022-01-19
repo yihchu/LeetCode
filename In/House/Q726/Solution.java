@@ -110,6 +110,7 @@ public class Solution {
 }
 
 /**
+Ques: 原子的数量
 Link: https://leetcode-cn.com/problems/number-of-atoms/
 
 给定一个化学式formula（作为字符串），返回每种原子的数量。

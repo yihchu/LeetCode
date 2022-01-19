@@ -89,6 +89,7 @@ public class Solution {
 
 
 /**
+Ques: 你能在你最喜欢的那天吃到你最喜欢的糖果吗？
 Link: https://leetcode-cn.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/
 
 给你一个下标从0开始的正整数数组candiesCount，其中candiesCount[i]表示你拥有的第i类糖果的数目。同时给你一个二维数组queries，其中queries[i] = [favoriteType[i], favoriteDay[i], dailyCap[i]] 。

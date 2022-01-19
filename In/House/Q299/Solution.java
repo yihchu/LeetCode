@@ -49,6 +49,7 @@ public class Solution {
 }
 
 /**
+Ques: 猜数字游戏
 Link: https://leetcode-cn.com/problems/bulls-and-cows/
 
 你在和朋友一起玩猜数字（Bulls and Cows）游戏，该游戏规则如下：

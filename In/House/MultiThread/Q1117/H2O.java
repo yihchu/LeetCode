@@ -1,4 +1,4 @@
-package In.House.Q1117;
+package In.House.MultiThread.Q1117;
 
 import java.util.concurrent.Semaphore;
 
@@ -230,6 +230,7 @@ public class H2O {
 
 
 /**
+Ques: H2O生成
 Link: https://leetcode-cn.com/problems/building-h2o/
 
 现在有两种线程，氧oxygen和氢hydrogen，你的目标是组织这两种线程来产生水分子。

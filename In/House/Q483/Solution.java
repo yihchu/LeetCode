@@ -30,6 +30,7 @@ public class Solution {
 
 
 /**
+Ques: 最小好进制
 Link: https://leetcode-cn.com/problems/smallest-good-base/
 
 对于给定的整数n, 如果n的k（k >= 2）进制数的所有数位全为1，则称k（k >= 2）是n的一个好进制。

@@ -37,6 +37,7 @@ public class Solution {
 }
 
 /**
+Ques: 外观数列
 Link: https://leetcode-cn.com/problems/count-and-say/
 
 给定一个正整数n，输出外观数列的第n项。

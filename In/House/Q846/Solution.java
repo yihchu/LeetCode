@@ -49,6 +49,7 @@ public class Solution {
 
 
 /**
+Ques: 一手顺子
 Link: https://leetcode-cn.com/problems/hand-of-straights/
 
 Alice手中有一把牌，她想要重新排列这些牌，分成若干组，使每一组的牌数都是groupSize，并且由groupSize张连续的牌组成。

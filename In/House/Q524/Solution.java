@@ -38,6 +38,7 @@ public class Solution {
 }
 
 /**
+Ques: 通过删除字母匹配到字典里最长单词
 Link: https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/
 
 给你一个字符串s和一个字符串数组dictionary作为字典，找出并返回字典中最长的字符串，该字符串可以通过删除s中的某些字符得到。

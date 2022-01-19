@@ -53,6 +53,7 @@ public class Solution {
 }
 
 /**
+Ques: 第K个最小的素数分数
 Link: https://leetcode-cn.com/problems/k-th-smallest-prime-fraction/
 
 给你一个按递增顺序排序的数组arr和一个整数k。数组arr由1和若干素数组成，且其中所有整数互不相同。

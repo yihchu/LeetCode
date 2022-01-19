@@ -88,6 +88,7 @@ public class Solution {
 }
 
 /**
+Ques: 找到最终的安全状态
 Link: https://leetcode-cn.com/problems/find-eventual-safe-states/
 
 在有向图中，以某个节点为起始节点，从该点出发，每一步沿着图中的一条有向边行走。如果到达的节点是终点（即它没有连出的有向边），则停止。

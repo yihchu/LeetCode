@@ -26,6 +26,7 @@ public class Solution {
 }
 
 /**
+Ques: 主要元素
 Link: https://leetcode-cn.com/problems/find-majority-element-lcci/
 
 数组中占比超过一半的元素称之为主要元素。给你一个整数数组，找出其中的主要元素。若没有，返回-1。请设计时间复杂度为O(N)、空间复杂度为O(1)的解决方案。

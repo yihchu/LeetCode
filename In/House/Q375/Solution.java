@@ -34,6 +34,7 @@ public class Solution {
 }
 
 /**
+Ques: 猜数字大小II
 Link: https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii/
 
 我们正在玩一个猜数游戏，游戏规则如下：

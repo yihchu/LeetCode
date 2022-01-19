@@ -73,6 +73,7 @@ public class Solution {
 }
 
 /**
+Ques: 祖玛游戏
 Link: https://leetcode-cn.com/problems/zuma-game/
 
 你正在参与祖玛游戏的一个变种。

@@ -45,6 +45,7 @@ public class Solution {
 
 
 /**
+Ques: 重新排序得到2的幂
 Link: https://leetcode-cn.com/problems/reordered-power-of-2/
 
 给定正整数N，我们按任何顺序（包括原始顺序）将数字重新排序，注意其前导数字不能为零。

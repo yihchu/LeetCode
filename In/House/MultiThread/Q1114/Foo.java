@@ -1,4 +1,4 @@
-package In.House.Q1114;
+package In.House.MultiThread.Q1114;
 
 public class Foo {
 
@@ -90,6 +90,7 @@ public class Foo {
 }
 
 /**
+Ques: 按序打印
 Link: https://leetcode-cn.com/problems/print-in-order/
 
 我们提供了一个类：

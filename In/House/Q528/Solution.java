@@ -89,6 +89,7 @@ public class Solution {
 //}
 
 /**
+Ques: 按权重随机选择
 Link: https://leetcode-cn.com/problems/random-pick-with-weight/
 
 给定一个正整数数组w，其中w[i]代表下标i的权重（下标从0开始），请写一个函数pickIndex，它可以随机地获取下标i，选取下标i的概率与w[i]成正比。

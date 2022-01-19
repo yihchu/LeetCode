@@ -42,6 +42,7 @@ public class Solution {
 }
 
 /**
+Ques: 连续的子数组和
 Link: https://leetcode-cn.com/problems/continuous-subarray-sum/
 
 给你一个整数数组nums和一个整数k，编写一个函数来判断该数组是否含有同时满足下述条件的连续子数组：

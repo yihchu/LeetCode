@@ -50,6 +50,7 @@ public class Solution {
 }
 
 /**
+Ques: 吃苹果的最大数目
 Link: https://leetcode-cn.com/problems/maximum-number-of-eaten-apples/
 
 有一棵特殊的苹果树，一连n天，每天都可以长出若干个苹果。在第i天，树上会长出apples[i]个苹果，这些苹果将会在days[i]天后（也就是说，第i + days[i]天时）腐烂，变得无法食用。也可能有那么几天，树上不会长出新的苹果，此时用apples[i] == 0且days[i] == 0表示。

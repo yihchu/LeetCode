@@ -30,6 +30,7 @@ public class Solution {
 }
 
 /**
+Ques: 救生艇
 Link: https://leetcode-cn.com/problems/boats-to-save-people/
 
 第i个人的体重为people[i]，每艘船可以承载的最大重量为limit。

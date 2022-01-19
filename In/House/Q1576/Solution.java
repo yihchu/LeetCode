@@ -35,6 +35,7 @@ public class Solution {
 }
 
 /**
+Ques: 替换所有的问号
 Link: https://leetcode-cn.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/
 
 给你一个仅包含小写英文字母和'?'字符的字符串s，请你将所有的'?'转换为若干小写字母，使最终的字符串不包含任何连续重复的字符。

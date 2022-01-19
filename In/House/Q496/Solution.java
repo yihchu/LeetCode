@@ -55,6 +55,7 @@ public class Solution {
 }
 
 /**
+Ques: 下一个更大元素I
 Link: https://leetcode-cn.com/problems/next-greater-element-i/
 
 给你两个没有重复元素的数组nums1和nums2，其中nums1是nums2的子集。

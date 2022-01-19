@@ -33,6 +33,7 @@ public class Solution {
 }
 
 /**
+Ques: 3的幂
 Link: https://leetcode-cn.com/problems/power-of-three/
 
 给定一个整数，写一个函数来判断它是否是3的幂次方。如果是，返回true；否则，返回false。

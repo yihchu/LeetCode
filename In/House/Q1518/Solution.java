@@ -22,6 +22,7 @@ public class Solution {
 }
 
 /**
+Ques: 换酒问题
 Link: https://leetcode-cn.com/problems/water-bottles/
 
 小区便利店正在促销，用numExchange个空酒瓶可以兑换一瓶新酒。你购入了numBottles瓶酒。

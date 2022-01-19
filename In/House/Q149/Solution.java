@@ -71,6 +71,7 @@ public class Solution {
 }
 
 /**
+Ques: 直线上最多的点数
 Link: https://leetcode-cn.com/problems/max-points-on-a-line/
 
 给你一个数组points，其中points[i] = [x[i], y[i]]表示X-Y平面上的一个点。求最多有多少个点在同一条直线上。

@@ -50,6 +50,7 @@ public class Solution {
 
 
 /**
+Ques: 网络延迟时间
 Link: https://leetcode-cn.com/problems/network-delay-time/
 
 有n个网络节点，标记为1到n。
