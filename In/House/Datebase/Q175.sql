@@ -3,7 +3,8 @@
 Select P.FirstName, P.LastName, A.City, A.State
 from Person P left join Address A on P.PersonId = A.PersonId
 
-/*
+/**
+Title: 组合两个表
 Link: https://leetcode-cn.com/problems/combine-two-tables/
 
 SQL架构:

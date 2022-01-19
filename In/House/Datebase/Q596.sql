@@ -3,6 +3,9 @@
 SELECT class FROM Courses group by class having count(distinct(student)) >= 5;
 
 /**
+Title: 超过5名学生的课
+Link: https://leetcode-cn.com/problems/classes-more-than-5-students/
+
 有一个courses表，有: student(学生)和class(课程)。
 请列出所有超过或等于5名学生的课。
 

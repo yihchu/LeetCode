@@ -7,6 +7,7 @@ from leetcode.Employee3 emp join
 where emp.Salary = sub.SALR;
 
 /**
+Title: 部门工资最高的员工
 Link: https://leetcode-cn.com/problems/department-highest-salary/
 
 Employee表包含所有员工信息，每个员工有其对应的Id, salary和department Id。

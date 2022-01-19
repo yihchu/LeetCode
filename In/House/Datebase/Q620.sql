@@ -3,6 +3,7 @@
 SELECT * FROM leetcode.cinema where id % 2 = 1 and description != 'boring' order by rating desc;
 
 /**
+Title: 有趣的电影
 Link: https://leetcode-cn.com/problems/not-boring-movies/
 
 某城市开了一家新的电影院，吸引了很多人过来看电影。该电影院特别注意用户体验，专门有个LED显示板做电影推荐，上面公布着影评和相关电影描述。
