@@ -16,7 +16,7 @@ where c.banned = 'no' and d.banned = 'no' and t.request_at between '2013-10-01' 
 group by t.request_at;
 
 /**
-Title: 行程和用户
+Ques: 行程和用户
 Link: https://leetcode-cn.com/problems/trips-and-users/
 
 表：Trips

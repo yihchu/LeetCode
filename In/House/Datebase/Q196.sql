@@ -11,7 +11,7 @@
 delete p from Person p left join (select min(Id) NID from Person group by Email) as s on p.Id = s.NID where s.NID is null;
 
 /**
-Title: 删除重复的电子邮箱
+Ques: 删除重复的电子邮箱
 Link: https://leetcode-cn.com/problems/delete-duplicate-emails/
 
 编写一个SQL查询，来删除Person表中所有重复的电子邮箱，重复的邮箱里只保留Id最小的那个。

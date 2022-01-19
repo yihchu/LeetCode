@@ -3,7 +3,7 @@
 SELECT e1.Name as Employee FROM Employee e1 join Employee e2 on e1.ManagerId = e2.Id where e1.Salary > e2.Salary;
 
 /**
-Title: 超过经理收入的员工
+Ques: 超过经理收入的员工
 Link: https://leetcode-cn.com/problems/employees-earning-more-than-their-managers/
 
 SQL架构

@@ -3,7 +3,7 @@
 update salary set sex = if(sex = 'f', 'm', 'f')
 
 /**
-Title: 变更性别
+Ques: 变更性别
 Link: https://leetcode-cn.com/problems/swap-salary/
 
 Salary表：

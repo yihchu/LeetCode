@@ -30,6 +30,7 @@ public class Solution {
 }
 
 /**
+Ques: Z字形变换
 Link: https://leetcode-cn.com/problems/zigzag-conversion/
 
 将一个给定字符串s根据给定的行数numRows，以从上往下、从左到右进行Z字形排列。

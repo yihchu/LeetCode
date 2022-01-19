@@ -36,6 +36,7 @@ public class Solution {
 }
 
 /**
+Ques:
 Link: https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
 
 给你一个有序数组nums，请你原地删除重复出现的元素，使每个元素只出现一次，返回删除后数组的新长度。

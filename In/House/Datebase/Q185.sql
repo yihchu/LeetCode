@@ -4,7 +4,7 @@ select d.Name Department, e1.Name Employee, e1.Salary from Employee e1 join Depa
 where 3 > (select count(distinct(e2.Salary)) from Employee e2 where e1.departmentId = e2.departmentId and e2.Salary > e1.Salary);
 
 /**
-Title: 部门工资前三高的所有员工
+Ques: 部门工资前三高的所有员工
 Link: https://leetcode-cn.com/problems/department-top-three-salaries/
 
 Employee表包含所有员工信息，每个员工有其对应的工号Id，姓名Name，工资Salary和部门编号DepartmentId。

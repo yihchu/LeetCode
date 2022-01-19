@@ -14,7 +14,7 @@ BEGIN
 END
 
 /**
-Title: 第N高的薪水
+Ques: 第N高的薪水
 Link: https://leetcode-cn.com/problems/nth-highest-salary/
 
 编写一个SQL查询，获取Employee表中第n高的薪水(Salary）。

@@ -22,7 +22,7 @@ where t.c >= 3
 
 
 /**
-Title: 体育馆的人流量
+Ques: 体育馆的人流量
 Link: https://leetcode-cn.com/problems/human-traffic-of-stadium/
 
 表：Stadium

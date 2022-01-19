@@ -13,7 +13,7 @@ from Scores;
 # round 四舍五入
 
 /**
-Title: 分数排名
+Ques: 分数排名
 Link: https://leetcode-cn.com/problems/rank-scores/
 
 SQL架构

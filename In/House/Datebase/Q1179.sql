@@ -32,7 +32,7 @@ select id
 from Department group by id;
 
 /**
-Title: 重新格式化部门表
+Ques: 重新格式化部门表
 Link: https://leetcode-cn.com/problems/reformat-department-table/
 
 部门表Department：

@@ -4,7 +4,7 @@
 select c.Name as Customers from Orders o right join Customers c on o.CustomerId = c.Id where o.CustomerId is null;
 
 /**
-Title: 从不订购的客户
+Ques: 从不订购的客户
 Link: https://leetcode-cn.com/problems/customers-who-never-order/
 
 某网站包含两个表，Customers表和Orders表。编写一个SQL查询，找出所有从不订购任何东西的客户。

@@ -35,7 +35,7 @@ public class Solution {
 }
 
 /**
-Title: 整数转罗马数字
+Ques: 整数转罗马数字
 Link: https://leetcode-cn.com/problems/integer-to-roman/
 
 罗马数字包含以下七种字符：I，V，X，L，C，D和M。

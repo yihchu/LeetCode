@@ -24,6 +24,7 @@ public class Solution {
 }
 
 /**
+Ques: 回文数
 Link: https://leetcode-cn.com/problems/palindrome-number/
 
 给你一个整数x，如果x是一个回文整数，返回true；否则，返回false。

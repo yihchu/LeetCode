@@ -3,7 +3,7 @@
 select Email from Person p1 group by p1.Email having count(*) > 1
 
 /**
-Title: 查找重复的电子邮箱
+Ques: 查找重复的电子邮箱
 Link: https://leetcode-cn.com/problems/duplicate-emails/
 
 编写一个SQL查询，查找Person表中所有重复的电子邮箱。

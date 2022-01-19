@@ -28,6 +28,7 @@ public class Solution {
 }
 
 /**
+Ques: 盛最多水的容器
 Link: https://leetcode-cn.com/problems/container-with-most-water/
 
 给你n个非负整数a[1]，a[2]，...，a[n]，每个数代表坐标中的一个点(i, a[i])。在坐标内画n条垂直线，垂直线i的两个端点分别为(i, a[i])和(i, 0)。找出其中的两条线，使得它们与x轴共同构成的容器可以容纳最多的水。

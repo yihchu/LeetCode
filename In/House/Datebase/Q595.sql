@@ -3,7 +3,7 @@
 SELECT name, population, area FROM World where area > 3000000 or population > 25000000;
 
 /**
-Title: 大的国家
+Ques: 大的国家
 Link: https://leetcode-cn.com/problems/big-countries/
 
 这里有张World表

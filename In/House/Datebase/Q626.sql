@@ -5,7 +5,7 @@ from Seat s1 left join Seat s2 on s1.id + 1 = s2.id
              left join Seat s3 on s1.id = s3.id + 1
 
 /**
-Title: 换座位
+Ques: 换座位
 Link: https://leetcode-cn.com/problems/exchange-seats/
 
 小美是一所中学的信息科技老师，她有一张seat座位表，平时用来储存学生名字和与他们相对应的座位id。

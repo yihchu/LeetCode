@@ -57,6 +57,7 @@ public class Solution {
 
 
 /**
+QUes: 字符串转换整数(atoi)
 Link: https://leetcode-cn.com/problems/string-to-integer-atoi/submissions/
 
 请你来实现一个myAtoi(string s)函数，使其能将字符串转换成一个32位有符号整数（类似C/C++中的atoi函数）。
