@@ -71,7 +71,7 @@ public class Solution {
 
 /**
 Ques: 子数组异或查询
-Link: https://leetcode-cn.com/problems/xor-queries-of-a-subarray/submissions/
+Link: https://leetcode-cn.com/problems/xor-queries-of-a-subarray/
 
 有一个正整数数组arr，现给你一个对应的查询数组queries，其中queries[i] = [L[i], R[i]]。
 对于每个查询i，请你计算从L[i]到R[i]的XOR值（即arr[L[i]] xor arr[L[i]+1] xor ... xor arr[R[i]]）作为本次查询的结果。

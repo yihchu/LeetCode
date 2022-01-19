@@ -28,7 +28,7 @@ public class Solution {
 
 /**
 Ques: 目标和
-Link: https://leetcode-cn.com/problems/target-sum/submissions/
+Link: https://leetcode-cn.com/problems/target-sum/
 
 给你一个整数数组nums和一个整数target。
 向数组中的每个整数前添加'+'或'-'，然后串联起所有整数，可以构造一个表达式 ：

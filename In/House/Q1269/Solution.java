@@ -50,7 +50,7 @@ dp[i][j] = dp[i − 1][j − 1] + dp[i − 1][j] + dp[i − 1][j + 1]
 
 /**
 Ques: 停在原地的方案数
-Link: https://leetcode-cn.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/submissions/
+Link: https://leetcode-cn.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/
 
 有一个长度为arrLen的数组，开始有一个指针在索引0处。
 每一步操作中，你可以将指针向左或向右移动1步，或者停在原地（指针不能被移动到数组范围外）。
