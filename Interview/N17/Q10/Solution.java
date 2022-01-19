@@ -36,7 +36,7 @@ Link: https://leetcode-cn.com/problems/find-majority-element-lcci/
 输出：5
 
 示例2：
-输入：[3,2]
+输入：[3, 2]
 输出：-1
 
 示例3：

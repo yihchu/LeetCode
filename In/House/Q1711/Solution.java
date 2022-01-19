@@ -176,7 +176,7 @@ Link: https://leetcode-cn.com/problems/count-good-meals/
 示例2：
 输入：deliciousness = [1, 1, 1, 3, 3, 3, 7]
 输出：15
-解释：大餐的美味程度组合为3种(1, 1)，9种(1, 3)，和3种 (1, 7)。
+解释：大餐的美味程度组合为3种(1, 1)，9种(1, 3)，和3种(1, 7)。
 
 提示：
 1 <= deliciousness.length <= 10^5

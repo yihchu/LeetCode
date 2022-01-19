@@ -37,7 +37,7 @@ Link: https://leetcode-cn.com/problems/fizz-buzz/
 写一个程序，输出从1到n数字的字符串表示。
 1. 如果n是3的倍数，输出“Fizz”；
 2. 如果n是5的倍数，输出“Buzz”；
-3. 如果n同时是3和5的倍数，输出 “FizzBuzz”。
+3. 如果n同时是3和5的倍数，输出“FizzBuzz”。
 
 示例：
 n = 15, 返回:

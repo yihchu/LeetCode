@@ -108,7 +108,7 @@ Link: https://leetcode-cn.com/problems/open-the-lock/
 deadends[i].length == 4
 target.length == 4
 target不在deadends之中
-target和deadends[i] 仅由若干位数字组成
+target和deadends[i]仅由若干位数字组成
 */
 
 /*

@@ -113,14 +113,14 @@ public class Foo {
 解释:
 有三个线程会被异步启动。
 输入[1, 2, 3]表示线程A将会调用first()方法，线程B将会调用second()方法，线程C将会调用third()方法。
-正确的输出是 "firstsecondthird"。
+正确的输出是"firstsecondthird"。
 
 示例2:
 输入: [1, 3, 2]
 输出: "firstsecondthird"
 解释:
 输入[1, 3, 2]表示线程A将会调用first()方法，线程B将会调用third()方法，线程C将会调用second()方法。
-正确的输出是 "firstsecondthird"。
+正确的输出是"firstsecondthird"。
 
 提示：
 尽管输入中的数字似乎暗示了顺序，但是我们并不保证线程在操作系统中的调度顺序。

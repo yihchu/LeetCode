@@ -142,7 +142,7 @@ public class Solution {
 
 /**
 Ques: 前K个高频单词
-Link: https://leetcode-cn.com/problems/top-k-frequent-words/submissions/
+Link: https://leetcode-cn.com/problems/top-k-frequent-words/
 
 给一非空的单词列表，返回前k个出现次数最多的单词。
 返回的答案应该按单词出现频率由高到低排序。如果不同的单词有相同出现频率，按字母顺序排序。
@@ -150,7 +150,7 @@ Link: https://leetcode-cn.com/problems/top-k-frequent-words/submissions/
 示例1：
 输入: ["i", "love", "leetcode", "i", "love", "coding"], k = 2
 输出: ["i", "love"]
-解析: "i"和"love"为出现次数最多的两个单词，均为2次。注意，按字母顺序 "i" 在 "love" 之前。
+解析: "i"和"love"为出现次数最多的两个单词，均为2次。注意，按字母顺序"i" 在 "love"之前。
 
 示例2：
 输入: ["the", "day", "is", "sunny", "the", "the", "the", "sunny", "is", "is"], k = 4

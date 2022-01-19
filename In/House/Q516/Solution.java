@@ -77,7 +77,7 @@ Link: https://leetcode-cn.com/problems/longest-palindromic-subsequence
 示例1：
 输入：s = "bbbab"
 输出：4
-解释：一个可能的最长回文子序列为"bbbb" 。
+解释：一个可能的最长回文子序列为"bbbb"。
 
 示例2：
 输入：s = "cbbd"

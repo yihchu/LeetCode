@@ -83,26 +83,4 @@ Link: https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii/
 提示：
 1 <= n <= 200
 
-
-
-1   0
-2   1
-3   2
-4   4
-5   6
-6   8
-7   10
-8   12
-9   14
-10  16
-11  18
-12  21
-13  24
-14  27
-15  30
-16  34
-17  38
-18  42
-19  46
-20  49
 */

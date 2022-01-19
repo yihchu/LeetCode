@@ -26,7 +26,7 @@ public class Solution {
 }
 
 /**
-QUes: 数字的补数
+Ques: 数字的补数
 Link: https://leetcode-cn.com/problems/number-complement/
 
 给你一个正整数num，输出它的补数。补数是对该数的二进制表示取反。

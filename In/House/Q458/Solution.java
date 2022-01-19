@@ -39,8 +39,8 @@ Link: https://leetcode-cn.com/problems/poor-pigs/
 给你桶的数目buckets，minutesToDie和minutesToTest，返回在规定时间内判断哪个桶有毒所需的最小猪数。
 
 示例1：
-输入：buckets = 1000, minutesToDie = 15, minutesToTest = 60         1 500 500 2
-输出：5                                                             2 250 250 2
+输入：buckets = 1000, minutesToDie = 15, minutesToTest = 60
+输出：5
 
 示例2：
 输入：buckets = 4, minutesToDie = 15, minutesToTest = 15

@@ -27,7 +27,7 @@ Ques: 数组异或操作
 Link: https://leetcode-cn.com/problems/xor-operation-in-an-array/
 
 给你两个整数，n和start。
-数组nums定义为：nums[i] = start + 2 * i（下标从0开始）且 n == nums.length。
+数组nums定义为：nums[i] = start + 2 * i（下标从0开始）且n == nums.length。
 请返回nums中所有元素按位异或（XOR）后得到的结果。
 
 示例1：

@@ -49,7 +49,7 @@ Link: https://leetcode-cn.com/problems/maximum-ice-cream-bars/
 示例3：
 输入：costs = [1, 6, 3, 1, 2, 5], coins = 20
 输出：6
-解释：Tony可以买下所有的雪糕，总价为1 + 6 + 3 + 1 + 2 + 5 = 18 。
+解释：Tony可以买下所有的雪糕，总价为1 + 6 + 3 + 1 + 2 + 5 = 18。
 
 提示：
 costs.length == n

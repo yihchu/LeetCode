@@ -41,7 +41,7 @@ Link: https://leetcode-cn.com/problems/arithmetic-slices/
 示例1：
 输入：nums = [1, 2, 3, 4]
 输出：3
-解释：nums 中有三个子等差数组：[1, 2, 3]、[2, 3, 4]和[1,2,3,4]自身。
+解释：nums 中有三个子等差数组：[1, 2, 3]、[2, 3, 4]和[1, 2, 3, 4]自身。
 
 示例2：
 输入：nums = [1]
