@@ -11,11 +11,12 @@ public class Solution {
             map.put(num, map.getOrDefault(num, 0) + 1);
         }
         int sum = 0;
-        for (int key: map.keySet()) {
-            if (!map.containsKey(key + k)) {
+        for (Map.Entry<Integer, Integer> entry: map.entrySet()) {
+            int key = entry.getKey() + k;
+            if (!map.containsKey(key)) {
                 continue;
             }
-            sum += map.get(key) * map.get(key + k);
+            sum += entry.getValue() * map.get(key);
         }
         return sum;
     }
@@ -30,7 +31,7 @@ public class Solution {
 }
 
 /**
-Ques: 差的绝对值为 K 的数对数目
+Ques: 差的绝对值为K的数对数目
 Link: https://leetcode-cn.com/problems/count-number-of-pairs-with-absolute-difference-k/
 
 给你一个整数数组nums和一个整数k，请你返回数对(i, j)的数目，满足i < j且|nums[i] - nums[j]| == k。
