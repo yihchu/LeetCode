@@ -15,22 +15,28 @@ public class Solution {
         int[] scores = new int[len];
         Arrays.fill(scores, -1);
         for (int i = 0; i < len; ++i) {
-            scores[i] = count(i, scores, map);
+            scores[i] = calcScore(i, scores, map);
         }
-        Map<Long, Integer> counts = new HashMap<>();
         long max = Long.MIN_VALUE;
+        int count = 0;
         for (int i = 0; i < len; ++i) {
             long tmp = parents[i] < 0 ? 1L : len - scores[i];
             for (Integer child: map.getOrDefault(i, new ArrayList<>())) {
                 tmp *= scores[child];
             }
-            counts.put(tmp, counts.getOrDefault(tmp, 0) + 1);
-            max = Math.max(max, tmp);
+            if (max < tmp) {
+                max = tmp;
+                count = 1;
+                continue;
+            }
+            if (max == tmp) {
+                ++ count;
+            }
         }
-        return counts.get(max);
+        return count;
     }
 
-    private int count(int root, int[] scores, Map<Integer, List<Integer>> map) {
+    private int calcScore(int root, int[] scores, Map<Integer, List<Integer>> map) {
         if (scores[root] > 0) {
             return scores[root];
         }
@@ -40,7 +46,7 @@ public class Solution {
         List<Integer> children = map.get(root);
         int sum = 1;
         for (Integer child: children) {
-            scores[child] = count(child, scores, map);
+            scores[child] = calcScore(child, scores, map);
             sum += scores[child];
         }
         return sum;
