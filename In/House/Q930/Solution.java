@@ -79,30 +79,3 @@ public class Solution {
     }
 
 }
-/**
-Ques: 和相同的二元子数组
-Link: https://leetcode-cn.com/problems/binary-subarrays-with-sum/
-
-给你一个二元数组nums，和一个整数goal，请你统计并返回有多少个和为goal的非空子数组。
-子数组是数组的一段连续部分。
-
-示例1：
-输入：nums = [1, 0, 1, 0, 1], goal = 2
-输出：4
-解释：
-如下面黑体所示，有4个满足题目要求的子数组：
-[1, 0, 1, 0, 1]
-[1, 0, 1, 0, 1]
-[1, 0, 1, 0, 1]
-[1, 0, 1, 0, 1]
-
-示例2：
-输入：nums = [0, 0, 0, 0, 0], goal = 0
-输出：15
-
-提示：
-1 <= nums.length <= 3 * 10^4
-nums[i]不是0就是1
-0 <= goal <= nums.length
-
-*/

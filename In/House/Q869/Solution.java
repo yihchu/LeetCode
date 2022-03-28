@@ -42,35 +42,3 @@ public class Solution {
     }
 
 }
-
-
-/**
-Ques: 重新排序得到2的幂
-Link: https://leetcode-cn.com/problems/reordered-power-of-2/
-
-给定正整数N，我们按任何顺序（包括原始顺序）将数字重新排序，注意其前导数字不能为零。
-如果我们可以通过上述方式得到2的幂，返回true；否则，返回false。
-
-示例1：
-输入：1
-输出：true
-
-示例2：
-输入：10
-输出：false
-
-示例3：
-输入：16
-输出：true
-
-示例4：
-输入：24
-输出：false
-
-示例5：
-输入：46
-输出：true
-
-提示：
-1 <= N <= 10^9
-*/

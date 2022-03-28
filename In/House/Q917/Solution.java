@@ -1,7 +1,5 @@
 package In.House.Q917;
 
-import java.util.Stack;
-
 public class Solution {
 
 //    // 遍历两遍
@@ -55,31 +53,3 @@ public class Solution {
     }
 
 }
-
-/**
-Ques: 仅仅反转字母
-Link: https://leetcode-cn.com/problems/reverse-only-letters/
-
-给你一个字符串s，根据下述规则反转字符串：
-所有非英文字母保留在原有位置。
-所有英文字母（小写或大写）位置反转。
-返回反转后的s。
-
-示例1：
-输入：s = "ab-cd"
-输出："dc-ba"
-
-示例2：
-输入：s = "a-bC-dEf-ghIj"
-输出："j-Ih-gfE-dCba"
-
-示例3：
-输入：s = "Test1ng-Leet=code-Q!"
-输出："Qedo1ct-eeLg=ntse-T!"
-
-提示
-1 <= s.length <= 100
-s仅由ASCII值在范围[33, 122]的字符组成
-s不含'\"'或'\\'
-
-*/
