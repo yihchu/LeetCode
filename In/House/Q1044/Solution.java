@@ -127,23 +127,3 @@ public class Solution {
     }
 
 }
-
-/**
-Ques: 最长重复子串
-Link: https://leetcode-cn.com/problems/longest-duplicate-substring/
-
-给你一个字符串s，考虑其所有重复子串：即，s的连续子串，在s中出现2次或更多次。这些出现之间可能存在重叠。
-返回任意一个可能具有最长长度的重复子串。如果s不含重复子串，那么答案为""。
-
-示例1：
-输入：s = "banana"
-输出："ana"
-
-示例2：
-输入：s = "abcd"
-输出：""
-
-提示：
-2 <= s.length <= 3 * 10^4
-s由小写英文字母组成
-*/
