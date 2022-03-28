@@ -11,7 +11,7 @@ void add(int[] point)向数据结构添加一个新的点point = [x, y]</br>
 int count(int[] point)统计按上述方式与点point = [x, y]共同构造轴对齐正方形的方案数。</br>
 
 示例：</br>
-![](./image/1.png)
+</br>![](./image/1.png)</br></br>
 输入：</br>
 ["DetectSquares", "add", "add", "add", "count", "count", "add", "count"]</br>
 [[], [[3, 10]], [[11, 2]], [[3, 2]], [[11, 10]], [[14, 8]], [[11, 2]], [[11, 10]]]</br>

@@ -5,7 +5,7 @@
 假设面的数量没有限制，哲学家也能随便吃，不需要考虑吃不吃得下。</br>
 设计一个进餐规则（并行算法）使得每个哲学家都不会挨饿；也就是说，在没有人知道别人什么时候想吃东西或思考的情况下，每个哲学家都可以在吃饭和思考之间一直交替下去。</br>
 
-![](./image/1.png)
+</br>![](./image/1.png)</br></br>
 问题描述和图片来自维基百科wikipedia.org</br>
 
 哲学家从0到4按顺时针编号。请实现函数void wantsToEat(philosopher, pickLeftFork, pickRightFork, eat, putLeftFork, putRightFork)：</br>

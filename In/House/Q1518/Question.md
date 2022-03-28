@@ -5,14 +5,14 @@
 请你计算最多能喝到多少瓶酒。</br>
 
 示例1：</br>
-![](./image/1.png)</br>
+</br>![](./image/1.png)</br></br>
 输入：numBottles = 9, numExchange = 3</br>
 输出：13</br>
 解释：你可以用3个空酒瓶兑换1瓶酒。</br>
 所以最多能喝到9 + 3 + 1 = 13瓶酒。</br>
 
 示例2：</br>
-![](./image/2.png)</br>
+</br>![](./image/2.png)</br></br>
 输入：numBottles = 15, numExchange = 4</br>
 输出：19</br>
 解释：你可以用4个空酒瓶兑换1瓶酒。</br>
