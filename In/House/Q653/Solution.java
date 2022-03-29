@@ -86,24 +86,3 @@ class TreeNode {
         this.right = right;
     }
 }
-
-/**
-Ques: 两数之和 IV - 输入 BST
-Link: https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/
-
-给定一个二叉搜索树root和一个目标结果k，如果BST中存在两个元素且它们的和等于给定的目标结果，则返回true。
-
-示例1(图1.jpeg)：
-输入: root = [5, 3, 6, 2, 4, null, 7], k = 9
-输出: true
-
-示例2：
-输入: root = [5, 3, 6, 2, 4, null, 7], k = 28
-输出: false
-
-提示:
-二叉树的节点个数的范围是[1, 10^4].
--10^4 <= Node.val <= 10^4
-root为二叉搜索树
--10^5 <= k <= 10^5
-*/
