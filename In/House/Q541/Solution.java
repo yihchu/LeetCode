@@ -37,26 +37,3 @@ public class Solution {
     }
 
 }
-
-/**
-Ques: 反转字符串II
-Link: https://leetcode-cn.com/problems/reverse-string-ii/
-
-给定一个字符串s和一个整数k，从字符串开头算起，每2k个字符反转前k个字符。
-如果剩余字符少于k个，则将剩余字符全部反转。
-如果剩余字符小于2k但大于或等于k个，则反转前k个字符，其余字符保持原样。
-
-示例1：
-输入：s = "abcdefg", k = 2
-输出："bacdfeg"
-
-示例2：
-输入：s = "abcd", k = 2
-输出："bacd"
-
-提示：
-1 <= s.length <= 10^4
-s仅由小写英文组成
-1 <= k <= 10^4
-
-*/
