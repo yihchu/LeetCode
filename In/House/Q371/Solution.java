@@ -22,20 +22,3 @@ public class Solution {
 
 }
 
-/**
-Ques: 两整数之和
-Link: https://leetcode-cn.com/problems/sum-of-two-integers/
-
-给你两个整数a和b，不使用运算符+和-，计算并返回两整数之和。
-
-示例1：
-输入：a = 1, b = 2
-输出：3
-
-示例2：
-输入：a = 2, b = 3
-输出：5
-
-提示：
--1000 <= a, b <= 1000
-*/

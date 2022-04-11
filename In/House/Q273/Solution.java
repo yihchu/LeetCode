@@ -75,30 +75,3 @@ public class Solution {
     }
 
 }
-
-
-/**
-Ques: 整数转换英文表示
-Link: https://leetcode-cn.com/problems/integer-to-english-words/
-
-将非负整数 num 转换为其对应的英文表示。
-
-示例1：
-输入：num = 123
-输出："One Hundred Twenty Three"
-
-示例2：
-输入：num = 12345
-输出："Twelve Thousand Three Hundred Forty Five"
-
-示例3：
-输入：num = 1234567
-输出："One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven"
-
-示例4：
-输入：num = 1234567891
-输出："One Billion Two Hundred Thirty Four Million Five Hundred Sixty Seven Thousand Eight Hundred Ninety One"
-
-提示：
-0 <= num <= 2^31 - 1
-*/
