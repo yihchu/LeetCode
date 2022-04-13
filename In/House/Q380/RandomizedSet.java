@@ -2,100 +2,84 @@ package In.House.Q380;
 
 import java.util.*;
 
-//// 随机过不去，我有什么办法呢？
-//class RandomizedSet {
-//
-//    private int size;
-//    private Map<Integer, Integer> idx;
-//    private List<Integer> list;
-//
-//    public RandomizedSet() {
-//        this.size = 0;
-//        this.idx = new HashMap<>();
-//        this.list = new ArrayList<>();
-//    }
-//
-//    public boolean insert(int val) {
-//        if (idx.containsKey(val)) {
-//            return false;
-//        }
-//        this.list.add(val);
-//        this.idx.put(val, this.size ++);
-//        return true;
-//    }
-//
-//    public boolean remove(int val) {
-//        int i = this.idx.getOrDefault(val, -1);
-//        if (i < 0) {
-//            return false;
-//        }
-//        this.idx.remove(val);
-//        this.list.remove(i);
-//        --this.size;
-//        return true;
-//    }
-//
-//    public int getRandom() {
-//        int i = new Random().nextInt(this.size);
-//        return this.list.get(i);
-//    }
-//
-//    public static void main(String[] args) {
-//        RandomizedSet set = new RandomizedSet();
-//        set.insert(1);
-//        set.remove(2);
-//        set.insert(2);
-//        System.out.println(set.getRandom());
-//        set.remove(1);
-//        set.insert(2);
-//        System.out.println(set.getRandom());
-//
-//    }
-//}
-
-
-// CV大法
 class RandomizedSet {
 
-    private List<Integer> nums;
-    private Map<Integer, Integer> indices;
+    private int size;
+    private Map<Integer, Integer> idx;
+    private List<Integer> list;
     private Random random;
 
     public RandomizedSet() {
-        nums = new ArrayList<Integer>();
-        indices = new HashMap<Integer, Integer>();
-        random = new Random();
+        this.size = 0;
+        this.idx = new HashMap<>();
+        this.list = new ArrayList<>();
+        this.random = new Random();
     }
 
     public boolean insert(int val) {
-        if (indices.containsKey(val)) {
+        if (idx.containsKey(val)) {
             return false;
         }
-        int index = nums.size();
-        nums.add(val);
-        indices.put(val, index);
+        this.list.add(val);
+        this.idx.put(val, this.size ++);
         return true;
     }
 
     public boolean remove(int val) {
-        if (!indices.containsKey(val)) {
+        int i = this.idx.getOrDefault(val, -1);
+        if (i < 0) {
             return false;
         }
-        int index = indices.get(val);
-        int last = nums.get(nums.size() - 1);
-        nums.set(index, last);
-        indices.put(last, index);
-        nums.remove(nums.size() - 1);
-        indices.remove(val);
+        this.idx.remove(val);
+        this.list.remove(i);
+        -- this.size;
+        if (this.list.isEmpty() || i == this.list.size()) {
+            return true;
+        }
+        int last = this.list.get(this.size - 1);
+        this.list.remove(this.size - 1);
+        this.list.add(i, last);
+        this.idx.put(last, i);
         return true;
     }
 
     public int getRandom() {
-        int randomIndex = random.nextInt(nums.size());
-        return nums.get(randomIndex);
+        int i = this.random.nextInt(this.size);
+        return this.list.get(i);
+    }
+
+    public static void main(String[] args) {
+        RandomizedSet set1 = new RandomizedSet();
+        set1.insert(1);
+        set1.remove(2);
+        set1.insert(2);
+        System.out.println(set1.getRandom()); // 2
+        set1.remove(1);
+        set1.insert(2);
+        System.out.println(set1.getRandom()); // 2
+
+        RandomizedSet set2 = new RandomizedSet();
+        set2.insert(0);
+        set2.insert(1);
+        set2.remove(0);
+        set2.insert(2);
+        set2.remove(1);
+        System.out.println(set2.getRandom()); // 2
+
+        RandomizedSet set3 = new RandomizedSet();
+        set3.insert(3);
+        set3.insert(3);
+        System.out.println(set3.getRandom());
+        System.out.println(set3.getRandom());
+        set3.insert(1);
+        set3.remove(3);
+        System.out.println(set3.getRandom());
+        System.out.println(set3.getRandom());
+        set3.insert(0);
+        set3.remove(0);
+
     }
 }
-
 
 /**
  * Your RandomizedSet object will be instantiated and called as such:
