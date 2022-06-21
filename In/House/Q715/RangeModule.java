@@ -148,7 +148,7 @@ class RangeModule {
 
 /**
  * Your RangeModule object will be instantiated and called as such:
- * RangeModule obj = new RangeModule();t2[1]
+ * RangeModule obj = new RangeModule();
  * obj.addRange(left,right);
  * boolean param_2 = obj.queryRange(left,right);
  * obj.removeRange(left,right);
