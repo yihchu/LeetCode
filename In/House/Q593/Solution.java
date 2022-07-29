@@ -8,9 +8,8 @@ public class Solution {
     public boolean validSquare(int[] p1, int[] p2, int[] p3, int[] p4) {
         Map<Long, Integer> map = new HashMap<>();
         calc(p1, new int[][] {p2, p3, p4}, map);
-        calc(p2, new int[][] {p1, p3, p4}, map);
-        calc(p3, new int[][] {p1, p2, p4}, map);
-        calc(p4, new int[][] {p1, p2, p3}, map);
+        calc(p2, new int[][] {p3, p4}, map);
+        calc(p3, new int[][] {p4}, map);
         if (map.size() != 2) {
             return false;
         }
