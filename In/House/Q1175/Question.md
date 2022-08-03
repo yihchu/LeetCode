@@ -14,6 +14,6 @@
 输出：682289015</br>
 
 提示：
-1 <= n <= 100
+- 1 <= n <= 100
 
 [Link](https://leetcode.cn/problems/prime-arrangements/)

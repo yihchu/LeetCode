@@ -21,6 +21,6 @@
 输出：[]</br>
 
 提示：
-1 <= n <= 100
+- 1 <= n <= 100
 
 [Link](https://leetcode-cn.com/problems/simplified-fractions/)

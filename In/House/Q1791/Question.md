@@ -14,11 +14,11 @@
 输出：1</br>
 
 提示：
-3 <= n <= 10^5
-edges.length == n - 1
-edges[i].length == 2
-1 <= u[i], v[i] <= n
-u[i] != v[i]
-题目数据给出的edges表示一个有效的星型图
+- 3 <= n <= 10^5
+- edges.length == n - 1
+- edges[i].length == 2
+- 1 <= u[i], v[i] <= n
+- u[i] != v[i]
+- 题目数据给出的edges表示一个有效的星型图
 
 [Link](https://leetcode-cn.com/problems/find-center-of-star-graph/)

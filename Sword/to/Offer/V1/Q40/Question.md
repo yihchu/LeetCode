@@ -10,8 +10,8 @@
 输入：arr = [0, 1, 2, 1], k = 1</br>
 输出：[0]</br>
 
-限制：</br>
-0 <= k <= arr.length <= 10000</br>
-0 <= arr[i]<= 10000</br>
+限制：
+- 0 <= k <= arr.length <= 10000
+- 0 <= arr[i]<= 10000
 
 [Link](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof)

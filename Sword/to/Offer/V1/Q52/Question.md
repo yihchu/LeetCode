@@ -25,10 +25,10 @@
 解释：这两个链表不相交，因此返回null。</br>
 
 注意：
-如果两个链表没有交点，返回null.
-在返回结果后，两个链表仍须保持原有的结构。
-可假定整个链表结构中没有循环。
-程序尽量满足O(n)时间复杂度，且仅用O(1)内存。
-本题与主站160题相同：https://leetcode-cn.com/problems/intersection-of-two-linked-lists/
+- 如果两个链表没有交点，返回null.
+- 在返回结果后，两个链表仍须保持原有的结构。
+- 可假定整个链表结构中没有循环。
+- 程序尽量满足O(n)时间复杂度，且仅用O(1)内存。
+- 本题与主站160题相同：https://leetcode-cn.com/problems/intersection-of-two-linked-lists/
 
 [Link](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof)
