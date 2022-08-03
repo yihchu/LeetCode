@@ -43,7 +43,7 @@
     - 如果我的数字更大，那么这个数字一定是2。你猜测数字为2并赢得游戏，总费用为$1。</br>
       最糟糕的情况下，你需要支付$1。</br>
 
-提示：</br>
-1 <= n <= 200</br>
+提示：
+- 1 <= n <= 200
 
 [Link](https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii/)

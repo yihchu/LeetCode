@@ -20,9 +20,9 @@
 输入：a = "abc", b = "wxyz"</br>
 输出：-1</br>
 
-提示：</br>
-1 <= a.length <= 10^4</br>
-1 <= b.length <= 10^4</br>
-a和b由小写英文字母组成</br>
+提示：
+- 1 <= a.length <= 10^4
+- 1 <= b.length <= 10^4
+- a和b由小写英文字母组成
 
 [Link](https://leetcode-cn.com/problems/repeated-string-match/)

@@ -26,9 +26,9 @@
 输出：5, nums = [0, 1, 2, 3, 4]</br>
 解释：函数应该返回新的长度5，并且原数组nums的前五个元素被修改为0, 1, 2, 3, 4。不需要考虑数组中超出新长度后面的元素。</br>
 
-提示：</br>
-0 <= nums.length <= 3 * 10^4</br>
--10^4 <= nums[i] <= 10^4</br>
-nums已按升序排列</br>
+提示：
+- 0 <= nums.length <= 3 * 10^4
+- -10^4 <= nums[i] <= 10^4
+- nums已按升序排列
 
 [Link](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)

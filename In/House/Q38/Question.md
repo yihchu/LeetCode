@@ -35,7 +35,7 @@ countAndSay(2) = 读"1" = 一个1 = "11"</br>
 countAndSay(3) = 读"11" = 二个1 = "21"</br>
 countAndSay(4) = 读"21" = 一个2 + 一个1 = "12" + "11" = "1211"</br>
 
-提示：</br>
-1 <= n <= 30</br>
+提示：
+- 1 <= n <= 30
 
 [Link](https://leetcode-cn.com/problems/count-and-say/)

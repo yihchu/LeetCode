@@ -36,11 +36,11 @@
 输入：licensePlate = "iMSlpe4", words = ["claim", "consumer", "student", "camera", "public", "never", "wonder", "simple", "thought", "use"]</br>
 输出："simple"</br>
 
-提示：</br>
-1 <= licensePlate.length <= 7</br>
-licensePlate由数字、大小写字母或空格' '组成</br>
-1 <= words.length <= 1000</br>
-1 <= words[i].length <= 15</br>
-words[i]由小写英文字母组成</br>
+提示：
+- 1 <= licensePlate.length <= 7
+- licensePlate由数字、大小写字母或空格' '组成
+- 1 <= words.length <= 1000
+- 1 <= words[i].length <= 15
+- words[i]由小写英文字母组成
 
 [Link](https://leetcode-cn.com/problems/shortest-completing-word/)

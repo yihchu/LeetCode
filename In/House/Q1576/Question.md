@@ -23,8 +23,8 @@
 输入：s = "??yw?ipkj?"</br>
 输出："acywaipkja"</br>
 
-提示：</br>
-1 <= s.length <= 100</br>
-s仅包含小写英文字母和'?'字符</br>
+提示：
+- 1 <= s.length <= 100
+- s仅包含小写英文字母和'?'字符
 
 [Link](https://leetcode-cn.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)

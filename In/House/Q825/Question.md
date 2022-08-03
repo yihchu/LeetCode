@@ -24,9 +24,9 @@ age[y] > 100 && age[x] < 100</br>
 输出：3</br>
 解释：产生的好友请求为110 -> 100，120 -> 110，120 -> 100。</br>
 
-提示：</br>
-n == ages.length</br>
-1 <= n <= 2 * 10^4</br>
-1 <= ages[i] <= 120</br>
+提示：
+- n == ages.length
+- 1 <= n <= 2 * 10^4
+- 1 <= ages[i] <= 120
 
 [Link](https://leetcode-cn.com/problems/friends-of-appropriate-ages/)

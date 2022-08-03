@@ -11,8 +11,8 @@
 输入：s = "abcd"</br>
 输出：""</br>
 
-提示：</br>
-2 <= s.length <= 3 * 10^4</br>
-s由小写英文字母组成</br>
+提示：
+- 2 <= s.length <= 3 * 10^4
+- s由小写英文字母组成
 
 [Link](https://leetcode-cn.com/problems/longest-duplicate-substring/)

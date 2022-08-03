@@ -13,10 +13,10 @@
 输入：nums = [1, 1, 1]</br>
 输出：0</br>
 
-提示：</br>
-n == nums.length</br>
-1 <= nums.length <= 10^5</br>
--10^9 <= nums[i] <= 10^9</br>
-答案保证符合32-bit整数</br>
+提示：
+- n == nums.length
+- 1 <= nums.length <= 10^5
+- -10^9 <= nums[i] <= 10^9
+- 答案保证符合32-bit整数
 
 [Link](https://leetcode-cn.com/problems/minimum-moves-to-equal-array-elements/)

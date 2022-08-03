@@ -32,8 +32,8 @@ Alice和Bob轮流进行自己的回合，Alice先手。每一回合，玩家需�
 - 回合5：Alice可以移除值为5的第1个石子。已移除石子值总和为 = 1 + 3 + 4 + 2 + 5 = 15。</br>
   Alice输掉游戏，因为已移除石子值总和（15）可以被3整除，Bob获胜。</br>
 
-提示：</br>
-1 <= stones.length <= 10^5</br>
-1 <= stones[i] <= 10^4</br>
+提示：
+- 1 <= stones.length <= 10^5
+- 1 <= stones[i] <= 10^4
 
 [Link](https://leetcode-cn.com/problems/stone-game-ix/)

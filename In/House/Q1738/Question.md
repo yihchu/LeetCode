@@ -24,11 +24,11 @@
 输出：0</br>
 解释：坐标(1, 1)的值是5 XOR 2 XOR 1 XOR 6 = 0，为第4大的值。</br>
 
-提示：</br>
-m == matrix.length</br>
-n == matrix[i].length</br>
-1 <= m, n <= 1000</br>
-0 <= matrix[i][j] <= 10^6</br>
-1 <= k <= m * n</br>
+提示：
+- m == matrix.length
+- n == matrix[i].length
+- 1 <= m, n <= 1000
+- 0 <= matrix[i][j] <= 10^6
+- 1 <= k <= m * n
 
 [Link](https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value/)

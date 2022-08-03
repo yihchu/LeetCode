@@ -19,8 +19,8 @@
 输出：false</br>
 解释：学生最后三天连续迟到，所以不满足出勤奖励的条件。</br>
 
-提示：</br>
-1 <= s.length <= 1000</br>
-s[i]为'A'、'L'或'P'</br>
+提示：
+- 1 <= s.length <= 1000
+- s[i]为'A'、'L'或'P'
 
 [Link](https://leetcode-cn.com/problems/student-attendance-record-i/)

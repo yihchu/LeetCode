@@ -25,11 +25,11 @@
 总座位数：      10  25</br>
 因此，answer = [10, 25]</br>
 
-提示：</br>
-1 <= n <= 2 * 10^4</br>
-1 <= bookings.length <= 2 * 10^4</br>
-bookings[i].length == 3</br>
-1 <= first[i] <= last[i] <= n</br>
-1 <= seats[i] <= 10^4</br>
+提示：
+- 1 <= n <= 2 * 10^4
+- 1 <= bookings.length <= 2 * 10^4
+- bookings[i].length == 3
+- 1 <= first[i] <= last[i] <= n
+- 1 <= seats[i] <= 10^4
 
 [Link](https://leetcode-cn.com/problems/corporate-flight-bookings/)

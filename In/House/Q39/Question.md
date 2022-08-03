@@ -20,10 +20,10 @@ candidates中的同一个数字可以无限制重复被选取。如果至少一�
 输入: candidates = [2], target = 1</br>
 输出: []</br>
 
-提示：</br>
-1 <= candidates.length <= 30</br>
-1 <= candidates[i] <= 200</br>
-candidate中的每个元素都互不相同</br>
-1 <= target <= 500</br>
+提示：
+- 1 <= candidates.length <= 30
+- 1 <= candidates[i] <= 200
+- candidate中的每个元素都互不相同
+- 1 <= target <= 500
 
 [Link](https://leetcode-cn.com/problems/combination-sum/)

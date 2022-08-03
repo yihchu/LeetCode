@@ -18,8 +18,8 @@
 输出：[3, 2, 1, 0]
 
 提示：
-1 <= s.length <= 10^4
-s[i]和c均为小写英文字母
-题目数据保证c在s中至少出现一次
+- 1 <= s.length <= 10^4
+- s[i]和c均为小写英文字母
+- 题目数据保证c在s中至少出现一次
 
 [Link](https://leetcode-cn.com/problems/shortest-distance-to-a-character/)

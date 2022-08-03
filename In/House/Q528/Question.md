@@ -37,9 +37,9 @@ solution.pickIndex(); // 返回0，返回下标0，返回该下标概率为1/4�
 ......</br>
 诸若此类。</br>
 
-提示：</br>
-1 <= w.length <= 10000</br>
-1 <= w[i] <= 10^5</br>
-pickIndex将被调用不超过10000次</br>
+提示：
+- 1 <= w.length <= 10000
+- 1 <= w[i] <= 10^5
+- pickIndex将被调用不超过10000次
 
 [Link](https://leetcode-cn.com/problems/random-pick-with-weight/)

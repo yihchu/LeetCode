@@ -13,9 +13,9 @@
 输出："apple"</br>
 解释："apply"和"apple"都能由词典中的单词组成。但是"apple"的字典序小于"apply"</br>
 
-提示：</br>
-1 <= words.length <= 1000</br>
-1 <= words[i].length <= 30</br>
-所有输入的字符串words[i]都只包含小写字母。</br>
+提示：
+- 1 <= words.length <= 1000
+- 1 <= words[i].length <= 30
+- 所有输入的字符串words[i]都只包含小写字母。
 
 [Link](https://leetcode-cn.com/problems/longest-word-in-dictionary/)

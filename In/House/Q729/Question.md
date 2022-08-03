@@ -21,7 +21,8 @@ myCalendar.book(10, 20); // return True</br>
 myCalendar.book(15, 25); // return False，这个日程安排不能添加到日历中，因为时间15已经被另一个日程安排预订了。</br>
 myCalendar.book(20, 30); // return True，这个日程安排可以添加到日历中，因为第一个日程安排预订的每个时间都小于20，且不包含时间20。</br>
 
+提示：
+- 0 <= start < end <= 10^9
+- 每个测试用例，调用book方法的次数最多不超过1000次。
 
-提示：</br>
-0 <= start < end <= 10^9</br>
-每个测试用例，调用book方法的次数最多不超过1000次。</br>
+[Link](https://leetcode.cn/problems/my-calendar-i/)

@@ -13,14 +13,14 @@
 输入：board = [["a", "b"], ["c", "d"]], words = ["abcb"]</br>
 输出：[]</br>
 
-提示：</br>
-m == board.length</br>
-n == board[i].length</br>
-1 <= m, n <= 12</br>
-board[i][j]是一个小写英文字母</br>
-1 <= words.length <= 3 * 10^4</br>
-1 <= words[i].length <= 10</br>
-words[i]由小写英文字母组成</br>
-words中的所有字符串互不相同</br>
+提示：
+- m == board.length
+- n == board[i].length
+- 1 <= m, n <= 12
+- board[i][j]是一个小写英文字母
+- 1 <= words.length <= 3 * 10^4
+- 1 <= words[i].length <= 10
+- words[i]由小写英文字母组成
+- words中的所有字符串互不相同
 
 [Link](https://leetcode-cn.com/problems/word-search-ii/)

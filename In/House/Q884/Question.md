@@ -12,10 +12,10 @@
 输入：s1 = "apple apple", s2 = "banana"</br>
 输出：["banana"]</br>
 
-提示：</br>
-1 <= s1.length, s2.length <= 200</br>
-s1和s2由小写英文字母和空格组成</br>
-s1和s2都不含前导或尾随空格</br>
-s1和s2中的所有单词间均由单个空格分隔</br>
+提示：
+- 1 <= s1.length, s2.length <= 200
+- s1和s2由小写英文字母和空格组成
+- s1和s2都不含前导或尾随空格
+- s1和s2中的所有单词间均由单个空格分隔
 
 [Link](https://leetcode-cn.com/problems/uncommon-words-from-two-sentences/)

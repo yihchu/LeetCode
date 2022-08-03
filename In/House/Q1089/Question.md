@@ -14,8 +14,8 @@
 输出：null</br>
 解释：调用函数后，输入的数组将被修改为：[1, 2, 3]</br>
 
-提示：</br>
-1 <= arr.length <= 10000</br>
-0 <= arr[i] <= 9</br>
+提示：
+- 1 <= arr.length <= 10000
+- 0 <= arr[i] <= 9
 
 [Link](https://leetcode.cn/problems/duplicate-zeros/)

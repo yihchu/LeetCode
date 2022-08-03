@@ -21,10 +21,10 @@ S = "bbbcccdddaaa"</br>
 最后一个字母'a'将会被写到第二行，因为第一行只剩下2个单位了。</br>
 所以，这个答案是2行，第二行有4个单位宽度。</br>
 
-注:</br>
-字符串S的长度在[1, 1000]的范围。</br>
-S只包含小写字母。</br>
-widths是长度为26的数组。</br>
-widths[i]值的范围在[2, 10]。</br>
+注:
+- 字符串S的长度在[1, 1000]的范围。
+- S只包含小写字母。
+- widths是长度为26的数组。
+- widths[i]值的范围在[2, 10]。
 
 [Link](https://leetcode-cn.com/problems/number-of-lines-to-write-string/)

@@ -20,9 +20,9 @@ nums中每个元素恰好在一个数对中，且最大数对和的值最小。<
 解释：数组中的元素可以分为数对(3, 5)，(4, 4)和(6, 2)。</br>
 最大数对和为max(3 + 5, 4 + 4, 6 + 2) = max(8, 8, 8) = 8。</br>
 
-提示：</br>
-n == nums.length</br>
-2 <= n <= 10^5 n是偶数。</br>
-1 <= nums[i] <= 10^5</br>
+提示：
+- n == nums.length
+- 2 <= n <= 10^5 n是偶数。
+- 1 <= nums[i] <= 10^5
 
 [Link](https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array/)

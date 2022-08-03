@@ -10,10 +10,10 @@
 输入：points = [[1, 1], [3, 2], [5, 3], [4, 1], [2, 3], [1, 4]]</br>
 输出：4</br>
 
-提示：</br>
-1 <= points.length <= 300</br>
-points[i].length == 2</br>
--10^4 <= x[i], y[i] <= 10^4</br>
-points中的所有点互不相同</br>
+提示：
+- 1 <= points.length <= 300
+- points[i].length == 2
+- -10^4 <= x[i], y[i] <= 10^4
+- points中的所有点互不相同
 
 [Link](https://leetcode-cn.com/problems/max-points-on-a-line/)

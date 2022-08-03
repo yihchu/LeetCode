@@ -12,8 +12,8 @@ h指数的定义: “h代表“高引用次数”（high citations），一名�
 说明:</br>
 如果h有多有种可能的值，h指数是其中最大的那个。</br>
 
-进阶：</br>
-这是H指数的延伸题目，本题中的citations数组是保证有序的。</br>
-你可以优化你的算法到对数时间复杂度吗？</br>
+进阶：
+- 这是H指数的延伸题目，本题中的citations数组是保证有序的。
+- 你可以优化你的算法到对数时间复杂度吗？
 
 [Link](https://leetcode-cn.com/problems/h-index-ii/)

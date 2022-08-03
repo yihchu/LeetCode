@@ -19,9 +19,9 @@
 输入：date = "2004-03-01"</br>
 输出：61</br>
 
-提示：</br>
-date.length == 10</br>
-date[4] == date[7] == '-'，其他的date[i]都是数字</br>
-date表示的范围从1900年1月1日至2019年12月31日</br>
+提示：
+- date.length == 10
+- date[4] == date[7] == '-'，其他的date[i]都是数字
+- date表示的范围从1900年1月1日至2019年12月31日
 
 [Link](https://leetcode-cn.com/problems/day-of-the-year/)

@@ -21,7 +21,7 @@
 输入：n = 2</br>
 输出：true</br>
 
-提示：</br>
-1 <= n <= 2^31 - 1</br>
+提示：
+- 1 <= n <= 2^31 - 1
 
 [Link](https://leetcode-cn.com/problems/nim-game)

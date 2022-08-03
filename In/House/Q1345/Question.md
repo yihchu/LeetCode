@@ -32,8 +32,8 @@ j满足：arr[i] == arr[j]且i != j</br>
 输入：arr = [11, 22, 7, 7, 7, 7, 7, 7, 7, 22, 13]</br>
 输出：3</br>
 
-提示：</br>
-1 <= arr.length <= 5 * 10^4</br>
--10^8 <= arr[i] <= 10^8</br>
+提示：
+- 1 <= arr.length <= 5 * 10^4
+- -10^8 <= arr[i] <= 10^8
 
 [Link](https://leetcode-cn.com/problems/jump-game-iv/)

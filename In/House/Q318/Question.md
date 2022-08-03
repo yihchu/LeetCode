@@ -17,9 +17,9 @@
 输出: 0</br>
 解释: 不存在这样的两个单词。</br>
 
-提示：</br>
-2 <= words.length <= 1000</br>
-1 <= words[i].length <= 1000</br>
-words[i]仅包含小写字母</br>
+提示：
+- 2 <= words.length <= 1000
+- 1 <= words[i].length <= 1000
+- words[i]仅包含小写字母
 
 [Link](https://leetcode-cn.com/problems/maximum-product-of-word-lengths/)

@@ -20,9 +20,9 @@ dominoes[i] = '.'，表示没有推动第i张多米诺骨牌。</br>
 输入：dominoes = ".L.R...LR..L.."</br>
 输出："LL.RR.LLRRLL.."</br>
 
-提示：</br>
-n == dominoes.length</br>
-1 <= n <= 10^5</br>
-dominoes[i]为'L'、'R'或'.'</br>
+提示：
+- n == dominoes.length
+- 1 <= n <= 10^5
+- dominoes[i]为'L'、'R'或'.'
 
 [Link](https://leetcode-cn.com/problems/push-dominoes/)

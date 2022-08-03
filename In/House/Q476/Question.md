@@ -12,10 +12,11 @@
 输出：0</br>
 解释：1的二进制表示为1（没有前导零位），其补数为0。所以你需要输出0。</br>
 
-提示：</br>
-给定的整数num保证在32位带符号整数的范围内。</br>
-num >= 1</br>
-你可以假定二进制数不包含前导零位。</br>
-本题与 [1009](https://leetcode-cn.com/problems/complement-of-base-10-integer/) 相同 </br>
+提示：
+- 给定的整数num保证在32位带符号整数的范围内。
+- num >= 1
+- 你可以假定二进制数不包含前导零位。
+
+注意：本题与[1009](https://leetcode-cn.com/problems/complement-of-base-10-integer/)相同</br>
 
 [Link](https://leetcode-cn.com/problems/number-complement/)

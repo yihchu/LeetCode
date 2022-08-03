@@ -20,7 +20,7 @@ n变为1所需的最小替换次数是多少？</br>
 输入：n = 4</br>
 输出：2</br>
 
-提示：</br>
-1 <= n <= 2^31 - 1</br>
+提示：
+- 1 <= n <= 2^31 - 1
 
 [Link](https://leetcode-cn.com/problems/integer-replacement/)

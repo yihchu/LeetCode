@@ -31,9 +31,9 @@ detectSquares.count([11, 10]); // 返回 2 。你可以选择：</br>
 //   - 第一个，第二个，和第三个点</br>
 //   - 第一个，第三个，和第四个点</br>
 
-提示：</br>
-point.length == 2</br>
-0 <= x, y <= 1000</br>
-调用add和count的总次数最多为5000</br>
+提示：
+- point.length == 2
+- 0 <= x, y <= 1000
+- 调用add和count的总次数最多为5000
 
 [Link](https://leetcode-cn.com/problems/detect-squares/)

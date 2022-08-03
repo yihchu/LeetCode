@@ -17,7 +17,7 @@
 输出：false</br>
 解释：11的二进制表示是：1011.</br>
 
-提示：</br>
-1 <= n <= 2^31 - 1</br>
+提示：
+- 1 <= n <= 2^31 - 1
 
 [Link](https://leetcode-cn.com/problems/binary-number-with-alternating-bits/)

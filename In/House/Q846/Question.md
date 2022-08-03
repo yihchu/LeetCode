@@ -13,9 +13,9 @@ Alice手中有一把牌，她想要重新排列这些牌，分成若干组，使
 输出：false</br>
 解释：Alice手中的牌无法被重新排列成几个大小为4的组。</br>
 
-提示：</br>
-1 <= hand.length <= 10^4</br>
-0 <= hand[i] <= 10^9</br>
-1 <= groupSize <= hand.length</br>
+提示：
+- 1 <= hand.length <= 10^4
+- 0 <= hand[i] <= 10^9
+- 1 <= groupSize <= hand.length
 
 [Link](https://leetcode-cn.com/problems/hand-of-straights/)

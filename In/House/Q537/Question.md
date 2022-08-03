@@ -16,7 +16,7 @@ i^2 == -1</br>
 输出："0+-2i"</br>
 解释：(1 - i) * (1 - i) = 1 + i2 - 2 * i = -2i，你需要将它转换为0+-2i的形式。</br>
 
-提示：</br>
-num1和num2都是有效的复数表示。</br>
+提示：
+- num1和num2都是有效的复数表示。
 
 [Link](https://leetcode-cn.com/problems/complex-number-multiplication/)

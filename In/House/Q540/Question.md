@@ -12,8 +12,8 @@
 输入: nums =  [3, 3, 7, 7, 10, 11, 11]</br>
 输出: 10</br>
 
-提示:</br>
-1 <= nums.length <= 10^5</br>
-0 <= nums[i] <= 10^5</br>
+提示:
+- 1 <= nums.length <= 10^5
+- 0 <= nums[i] <= 10^5
 
 [Link](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/)

@@ -18,10 +18,10 @@
 输入：nums = [], target = 0</br>
 输出：[-1, -1]</br>
 
-提示：</br>
-0 <= nums.length <= 10^5</br>
--10^9 <= nums[i] <= 10^9</br>
-nums是一个非递减数组</br>
--10^9 <= target <= 10^9</br>
+提示：
+- 0 <= nums.length <= 10^5
+- -10^9 <= nums[i] <= 10^9
+- nums是一个非递减数组
+- -10^9 <= target <= 10^9
 
 [Link](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)

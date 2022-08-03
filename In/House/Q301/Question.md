@@ -15,9 +15,9 @@
 输入：s = ")("</br>
 输出：[""]</br>
 
-提示：</br>
-1 <= s.length <= 25</br>
-s由小写英文字母以及括号'('和')'组成</br>
-s中至多含20个括号</br>
+提示：
+- 1 <= s.length <= 25
+- s由小写英文字母以及括号'('和')'组成
+- s中至多含20个括号
 
 [Link](https://leetcode-cn.com/problems/remove-invalid-parentheses/)

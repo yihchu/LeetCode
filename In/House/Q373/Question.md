@@ -21,10 +21,10 @@
 输出: [1, 3], [2, 3]</br>
 解释: 也可能序列中所有的数对都被返回: [1, 3], [2, 3]</br>
 
-提示:</br>
-1 <= nums1.length, nums2.length <= 10^4</br>
--10^9 <= nums1[i], nums2[i] <= 10^9</br>
-nums1, nums2均为升序排列</br>
-1 <= k <= 1000</br>
+提示:
+- 1 <= nums1.length, nums2.length <= 10^4
+- -10^9 <= nums1[i], nums2[i] <= 10^9
+- nums1, nums2均为升序排列
+- 1 <= k <= 1000
 
 [Link](https://leetcode-cn.com/problems/find-k-pairs-with-smallest-sums/)

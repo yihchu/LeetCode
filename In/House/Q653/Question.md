@@ -11,10 +11,10 @@
 输入: root = [5, 3, 6, 2, 4, null, 7], k = 28</br>
 输出: false</br>
 
-提示:</br>
-二叉树的节点个数的范围是[1, 10^4].</br>
--10^4 <= Node.val <= 10^4</br>
-root为二叉搜索树</br>
--10^5 <= k <= 10^5</br>
+提示:
+- 二叉树的节点个数的范围是[1, 10^4].
+- -10^4 <= Node.val <= 10^4
+- root为二叉搜索树
+- -10^5 <= k <= 10^5
 
 [Link](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/)

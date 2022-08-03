@@ -25,8 +25,8 @@
 输出：16</br>
 解释：数组中的任意子序列都是等差子序列。</br>
 
-提示：</br>
-1 <= nums.length <= 1000</br>
--2^31 <= nums[i] <= 2^31 - 1</br>
+提示：
+- 1 <= nums.length <= 1000
+- -2^31 <= nums[i] <= 2^31 - 1
 
 [Link](https://leetcode-cn.com/problems/arithmetic-slices-ii-subsequence/)

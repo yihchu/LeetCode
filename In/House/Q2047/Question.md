@@ -31,9 +31,9 @@
 输出：6</br>
 解释：句子中的有效单词是"he"、"bought"、"pencils,"、"erasers,"、"and" 和 "pencil-sharpener."</br>
 
-提示：</br>
-1 <= sentence.length <= 1000</br>
-sentence由小写英文字母、数字（0-9）、以及字符（' '、'-'、'!'、'.' 和 ','）组成</br>
-句子中至少有1个token</br>
+提示：
+- 1 <= sentence.length <= 1000
+- sentence由小写英文字母、数字（0-9）、以及字符（' '、'-'、'!'、'.' 和 ','）组成
+- 句子中至少有1个token
 
 [Link](https://leetcode-cn.com/problems/number-of-valid-words-in-a-sentence/)

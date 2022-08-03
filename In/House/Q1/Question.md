@@ -17,11 +17,12 @@
 输入：nums = [3, 3], target = 6</br>
 输出：[0, 1]</br>
 
-提示：</br>
-2 <= nums.length <= 10^4</br>
--10^9 <= nums[i] <= 10^9</br>
--10^9 <= target <= 10^9</br>
-只会存在一个有效答案</br>
+提示：
+- 2 <= nums.length <= 10^4
+- -10^9 <= nums[i] <= 10^9
+- -10^9 <= target <= 10^9
+- 只会存在一个有效答案
+
 进阶：你可以想出一个时间复杂度小于O(n^2)的算法吗？</br>
 
 [Link](https://leetcode-cn.com/problems/two-sum/)

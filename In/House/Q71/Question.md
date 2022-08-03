@@ -30,9 +30,9 @@
 输入：path = "/a/./b/../../c/"</br>
 输出："/c"</br>
 
-提示：</br>
-1 <= path.length <= 3000</br>
-path由英文字母，数字，'.'，'/'或'_'组成。</br>
-path是一个有效的Unix风格绝对路径。</br>
+提示：
+- 1 <= path.length <= 3000
+- path由英文字母，数字，'.'，'/'或'_'组成。
+- path是一个有效的Unix风格绝对路径。
 
 [Link](https://leetcode-cn.com/problems/simplify-path/)

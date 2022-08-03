@@ -16,9 +16,10 @@
 输入：ranges = [[1, 10], [10, 20]], left = 21, right = 21</br>
 输出：false</br>
 解释：21没有被任何一个区间覆盖。</br>
-提示：</br>
-1 <= ranges.length <= 50</br>
-1 <= start[i] <= end[i] <= 50</br>
-1 <= left <= right <= 50</br>
+
+提示：
+- 1 <= ranges.length <= 50
+- 1 <= start[i] <= end[i] <= 50
+- 1 <= left <= right <= 50
 
 [Link](https://leetcode-cn.com/problems/check-if-all-the-integers-in-a-range-are-covered/)

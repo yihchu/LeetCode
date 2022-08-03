@@ -17,9 +17,9 @@
 输入: n = 1, k = 0, row = 0, column = 0</br>
 输出: 1.00000</br>
 
-提示:</br>
-1 <= n <= 25</br>
-0 <= k <= 100</br>
-0 <= row, column <= n</br>
+提示:
+- 1 <= n <= 25
+- 0 <= k <= 100
+- 0 <= row, column <= n
 
 [Link](https://leetcode-cn.com/problems/knight-probability-in-chessboard/)

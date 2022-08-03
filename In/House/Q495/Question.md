@@ -22,9 +22,9 @@
 - 第2秒，提莫再次攻击艾希，并重置中毒计时器，艾希中毒状态需要持续2秒，即第2秒和第3秒。</br>
   艾希在第1、2、3秒处于中毒状态，所以总中毒秒数是3。</br>
 
-提示：</br>
-1 <= timeSeries.length <= 10^4</br>
-0 <= timeSeries[i], duration <= 10^7</br>
-timeSeries按非递减顺序排列</br>
+提示：
+- 1 <= timeSeries.length <= 10^4
+- 0 <= timeSeries[i], duration <= 10^7
+- timeSeries按非递减顺序排列
 
 [Link](https://leetcode-cn.com/problems/teemo-attacking/)

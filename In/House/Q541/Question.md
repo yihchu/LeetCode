@@ -12,9 +12,9 @@
 输入：s = "abcd", k = 2</br>
 输出："bacd"</br>
 
-提示：</br>
-1 <= s.length <= 10^4</br>
-s仅由小写英文组成</br>
-1 <= k <= 10^4</br>
+提示：
+- 1 <= s.length <= 10^4
+- s仅由小写英文组成
+- 1 <= k <= 10^4
 
 [Link](https://leetcode-cn.com/problems/reverse-string-ii/)

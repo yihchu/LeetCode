@@ -15,9 +15,9 @@
 输入：l1 = [], l2 = [0]<br>
 输出：[0]<br>
 
-提示：<br>
-两个链表的节点数目范围是[0, 50]<br>
--100 <= Node.val <= 100<br>
-l1和l2均按非递减顺序排列<br>
+提示：
+- 两个链表的节点数目范围是[0, 50]
+- -100 <= Node.val <= 100
+- l1和l2均按非递减顺序排列
 
 [Link](https://leetcode-cn.com/problems/merge-two-sorted-lists/)

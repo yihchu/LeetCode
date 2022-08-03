@@ -22,8 +22,8 @@
 输入: s = ""</br>
 输出: 0</br>
 
-提示：</br>
-0 <= s.length <= 5 * 10^4</br>
-s由英文字母、数字、符号和空格组成</br>
+提示：
+- 0 <= s.length <= 5 * 10^4
+- s由英文字母、数字、符号和空格组成
 
 [Link](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)

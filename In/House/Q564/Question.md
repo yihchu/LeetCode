@@ -12,10 +12,10 @@
 输出: "0"</br>
 解释: 0和2是最近的回文，但我们返回最小的，也就是0。</br>
 
-提示:</br>
-1 <= n.length <= 18</br>
-n只由数字组成</br>
-n不含前导0</br>
-n代表在[1, 10^18 - 1]范围内的整数</br>
+提示:
+- 1 <= n.length <= 18
+- n只由数字组成
+- n不含前导0
+- n代表在[1, 10^18 - 1]范围内的整数
 
 [Link](https://leetcode-cn.com/problems/find-the-closest-palindrome/)

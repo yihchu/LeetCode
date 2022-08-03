@@ -16,7 +16,7 @@
 输入：turnedOn = 9</br>
 输出：[]</br>
 
-解释：</br>
-0 <= turnedOn <= 10</br>
+提示：
+- 0 <= turnedOn <= 10
 
 [Link](https://leetcode-cn.com/problems/binary-watch/)

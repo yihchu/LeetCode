@@ -14,11 +14,11 @@
 输出：1<br>
 解释：1不含质因数，因此它的所有质因数都在质数数组primes = [2, 3, 5]中。<br>
 
-提示：<br>
-1 <= n <= 10^6<br>
-1 <= primes.length <= 100<br>
-2 <= primes[i] <= 1000<br>
-题目数据保证primes[i]是一个质数<br>
-primes中的所有值都互不相同，且按增顺序排列<br>
+提示：
+- 1 <= n <= 10^6
+- 1 <= primes.length <= 100
+- 2 <= primes[i] <= 1000
+- 题目数据保证primes[i]是一个质数
+- primes中的所有值都互不相同，且按增顺序排列
 
 [Link](https://leetcode-cn.com/problems/super-ugly-number/)

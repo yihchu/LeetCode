@@ -15,10 +15,10 @@
 输出：true<br>
 解释：累加序列为: 1, 99, 100, 199。1 + 99 = 100, 99 + 100 = 199<br>
 
-提示：<br>
-1 <= num.length <= 35<br>
-num仅由数字（0 - 9）组成<br>
-<br>
+提示：
+- 1 <= num.length <= 35
+- num仅由数字（0 - 9）组成
+
 进阶：你计划如何处理由过大的整数输入导致的溢出?<br>
 
 [Link](https://leetcode-cn.com/problems/additive-number/)

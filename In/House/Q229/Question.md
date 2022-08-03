@@ -14,10 +14,10 @@
 输入：[1, 1, 1, 3, 3, 2, 2, 2]</br>
 输出：[1, 2]</br>
 
-提示：</br>
-1 <= nums.length <= 5 * 10^4</br>
--10^9 <= nums[i] <= 10^9</br>
-</br>
+提示：
+- 1 <= nums.length <= 5 * 10^4
+- -10^9 <= nums[i] <= 10^9
+
 进阶：尝试设计时间复杂度为O(n)、空间复杂度为O(1)的算法解决此问题。</br>
 
 [Link](https://leetcode-cn.com/problems/majority-element-ii/)

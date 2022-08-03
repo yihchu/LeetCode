@@ -36,9 +36,9 @@ tsr</br>
 
 
 提示：
-n == strs.length</br>
-1 <= n <= 100</br>
-1 <= strs[i].length <= 1000</br>
-strs[i] 由小写英文字母组成</br>
+- n == strs.length
+- 1 <= n <= 100
+- 1 <= strs[i].length <= 1000
+- strs[i] 由小写英文字母组成
 
 [Link](https://leetcode.cn/problems/delete-columns-to-make-sorted/)

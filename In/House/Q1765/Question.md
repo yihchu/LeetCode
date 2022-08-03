@@ -24,11 +24,11 @@
 解释：所有安排方案中，最高可行高度为2。<br/>
 任意安排方案中，只要最高高度为2且符合上述规则的，都为可行方案。<br/>
 
-提示：<br/>
-m == isWater.length<br/>
-n == isWater[i].length<br/>
-1 <= m, n <= 1000<br/>
-isWater[i][j]要么是0，要么是1。<br/>
-至少有1个水域格子。<br/>
+提示：
+- m == isWater.length
+- n == isWater[i].length
+- 1 <= m, n <= 1000
+- isWater[i][j]要么是0，要么是1。
+- 至少有1个水域格子。
 
 [Link](https://leetcode-cn.com/problems/map-of-highest-peak/)

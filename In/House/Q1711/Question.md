@@ -16,8 +16,8 @@
 输出：15</br>
 解释：大餐的美味程度组合为3种(1, 1)，9种(1, 3)，和3种(1, 7)。</br>
 
-提示：</br>
-1 <= deliciousness.length <= 10^5</br>
-0 <= deliciousness[i] <= 2^20</br>
+提示：
+- 1 <= deliciousness.length <= 10^5
+- 0 <= deliciousness[i] <= 2^20
 
 [Link](https://leetcode-cn.com/problems/count-good-meals/)

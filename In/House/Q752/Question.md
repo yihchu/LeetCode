@@ -29,11 +29,11 @@
 输入: deadends = ["0000"], target = "8888"</br>
 输出：-1</br>
 
-提示：</br>
-1 <= deadends.length <= 500</br>
-deadends[i].length == 4</br>
-target.length == 4</br>
-target不在deadends之中</br>
-target和deadends[i]仅由若干位数字组成</br>
+提示：
+- 1 <= deadends.length <= 500
+- deadends[i].length == 4
+- target.length == 4
+- target不在deadends之中
+- target和deadends[i]仅由若干位数字组成
 
 [Link](https://leetcode-cn.com/problems/open-the-lock/)

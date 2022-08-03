@@ -11,8 +11,8 @@
 2, 3, 4(使用第二个2)</br>
 2, 2, 3</br>
 
-注意:</br>
-数组长度不超过1000。</br>
-数组里整数的范围为[0, 1000]。</br>
+注意:
+- 数组长度不超过1000。
+- 数组里整数的范围为[0, 1000]。
 
 [Link](https://leetcode-cn.com/problems/valid-triangle-number/)

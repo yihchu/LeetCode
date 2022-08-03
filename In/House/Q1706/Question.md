@@ -27,10 +27,10 @@ b4球开始放在第4列上，会卡在第2、3列和第1行之间的"V"形里�
 输入：grid = [[1, 1, 1, 1, 1, 1], [-1, -1, -1, -1, -1, -1], [1, 1, 1, 1, 1, 1], [-1, -1, -1, -1, -1, -1]]</br>
 输出：[0, 1, 2, 3, 4, -1]</br>
 
-提示：</br>
-m == grid.length</br>
-n == grid[i].length</br>
-1 <= m, n <= 100</br>
-grid[i][j]为1或-1</br>
+提示：
+- m == grid.length
+- n == grid[i].length
+- 1 <= m, n <= 100
+- grid[i][j]为1或-1
 
 [Link](https://leetcode-cn.com/problems/where-will-the-ball-fall/)

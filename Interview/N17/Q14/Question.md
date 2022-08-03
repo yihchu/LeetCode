@@ -6,8 +6,8 @@
 输入： arr = [1, 3, 5, 7, 2, 4, 6, 8], k = 4</br>
 输出： [1, 2, 3, 4]</>
 
-提示：</br>
-0 <= len(arr) <= 100000</br>
-0 <= k <= min(100000, len(arr))</br>
+提示：
+- 0 <= len(arr) <= 100000
+- 0 <= k <= min(100000, len(arr))
 
 [Link](https://leetcode-cn.com/problems/smallest-k-lcci/)

@@ -14,8 +14,8 @@
 输入：nums = [1]</br>
 输出：0</br>
 
-提示：</br>
-1 <= nums.length <= 5000</br>
--1000 <= nums[i] <= 1000</br>
+提示：
+- 1 <= nums.length <= 5000
+- -1000 <= nums[i] <= 1000
 
 [Link](https://leetcode-cn.com/problems/arithmetic-slices/)

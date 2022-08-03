@@ -26,8 +26,8 @@
 输入：numBottles = 2, numExchange = 3</br>
 输出：2</br>
 
-提示：</br>
-1 <=numBottles <= 100</br>
-2 <=numExchange <= 100</br>
+提示：
+- 1 <=numBottles <= 100
+- 2 <=numExchange <= 100
 
 [Link](https://leetcode-cn.com/problems/water-bottles/)

@@ -11,9 +11,9 @@
 输入: num1 = "123", num2 = "456"</br>
 输出: "56088"</br>
 
-提示：</br>
-1 <= num1.length, num2.length <= 200</br>
-num1和num2只能由数字组成。</br>
-num1和num2都不包含任何前导零，除了数字0本身。</br>
+提示：
+- 1 <= num1.length, num2.length <= 200
+- num1和num2只能由数字组成。
+- num1和num2都不包含任何前导零，除了数字0本身。
 
 [Link](https://leetcode-cn.com/problems/multiply-strings/)

@@ -33,10 +33,10 @@
 输入：n = 4, requests = [[0, 3], [3, 1], [1, 2], [2, 0]]</br>
 输出：4</br>
 
-提示：</br>
-1 <= n <= 20</br>
-1 <= requests.length <= 16</br>
-requests[i].length == 2</br>
-0 <= from[i], to[i] < n</br>
+提示：
+- 1 <= n <= 20
+- 1 <= requests.length <= 16
+- requests[i].length == 2
+- 0 <= from[i], to[i] < n
 
 [Link](https://leetcode-cn.com/problems/maximum-number-of-achievable-transfer-requests/)

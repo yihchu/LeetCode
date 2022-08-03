@@ -23,7 +23,7 @@
 输出：2</br>
 解释：5的二进制是"101"。</br>
 
-提示：</br>
-1 <= n <= 10^9</br>
+提示：
+- 1 <= n <= 10^9
 
 [Link](https://leetcode-cn.com/problems/binary-gap/)

@@ -29,11 +29,11 @@ Table, Beef Burrito, Ceviche, Fried Chicken, Water</br>
 输入：orders = [["Laura", "2", "Bean Burrito"], ["Jhon", "2", "Beef Burrito"], ["Melissa", "2", "Soda"]]</br>
 输出：[["Table", "Bean Burrito", "Beef Burrito", "Soda"], ["2", "1", "1", "1"]]</br>
 
-提示：</br>
-1 <= orders.length <= 5 * 10^4</br>
-orders[i].length == 3</br>
-1 <= customerName[i].length, foodItem[i].length <= 20</br>
-customerName[i]和foodItem[i]由大小写英文字母及空格字符' '组成。</br>
-tableNumber[i]是1到500范围内的整数。</br>
+提示：
+- 1 <= orders.length <= 5 * 10^4
+- orders[i].length == 3
+- 1 <= customerName[i].length, foodItem[i].length <= 20
+- customerName[i]和foodItem[i]由大小写英文字母及空格字符' '组成。
+- tableNumber[i]是1到500范围内的整数。
 
 [Link](https://leetcode-cn.com/problems/display-table-of-food-orders-in-a-restaurant/)

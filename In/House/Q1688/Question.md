@@ -24,7 +24,7 @@
 - 第4轮：队伍数 = 2，配对次数 = 1，决出1支获胜队伍。</br>
   总配对次数 = 7 + 3 + 2 + 1 = 13</br>
 
-提示：</br>
-1 <= n <= 200</br>
+提示：
+- 1 <= n <= 200
 
 [Link](https://leetcode-cn.com/problems/count-of-matches-in-tournament/)

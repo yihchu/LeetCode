@@ -10,7 +10,7 @@
 输入：a = 2, b = 3</br>
 输出：5</br>
 
-提示：</br>
--1000 <= a, b <= 1000</br>
+提示：
+- -1000 <= a, b <= 1000
 
 [Link](https://leetcode-cn.com/problems/sum-of-two-integers/)

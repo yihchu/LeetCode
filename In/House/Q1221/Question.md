@@ -25,9 +25,9 @@
 输出：2</br>
 解释：s可以分割为"RL"、"RRRLLRLL"，每个子字符串中都包含相同数量的'L'和'R'。</br>
 
-提示：</br>
-1 <= s.length <= 1000</br>
-s[i] = 'L' 或 'R'</br>
-s是一个平衡字符串</br>
+提示：
+- 1 <= s.length <= 1000
+- s[i] = 'L' 或 'R'
+- s是一个平衡字符串
 
 [Link](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/)

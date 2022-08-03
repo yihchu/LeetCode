@@ -22,8 +22,8 @@
 输入：nums = [1, 1, 5]</br>
 输出：[1, 5, 1]</br>
 
-提示：</br>
-1 <= nums.length <= 100</br>
-0 <= nums[i] <= 100</br>
+提示：
+- 1 <= nums.length <= 100
+- 0 <= nums[i] <= 100
 
 [Link](https://leetcode-cn.com/problems/next-permutation/)

@@ -22,8 +22,8 @@ myCalendarThree.book(5, 15); // 返回3，剩下的日程安排的最大k次预�
 myCalendarThree.book(5, 10); // 返回3</br>
 myCalendarThree.book(25, 55); // 返回3</br>
 
-提示：</br>
-0 <= start < end <= 10^9</br>
-每个测试用例，调用book函数最多不超过400次</br>
+提示：
+- 0 <= start < end <= 10^9
+- 每个测试用例，调用book函数最多不超过400次
 
 [Link](https://leetcode.cn/problems/my-calendar-iii/)

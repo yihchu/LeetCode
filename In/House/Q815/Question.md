@@ -14,12 +14,12 @@
 输入：routes = [[7, 12], [4, 5, 15], [6], [15, 19], [9, 12, 13]], source = 15, target = 12</br>
 输出：-1</br>
 
-提示：</br>
-1 <= routes.length <= 500.</br>
-1 <= routes[i].length <= 10^5</br>
-routes[i]中的所有值互不相同</br>
-sum(routes[i].length) <= 10^5</br>
-0 <= routes[i][j] < 10^6</br>
-0 <= source, target < 10^6</br>
+提示：
+- 1 <= routes.length <= 500.
+- 1 <= routes[i].length <= 10^5
+- routes[i]中的所有值互不相同
+- sum(routes[i].length) <= 10^5
+- 0 <= routes[i][j] < 10^6
+- 0 <= source, target < 10^6
 
 [Link](https://leetcode-cn.com/problems/bus-routes/)

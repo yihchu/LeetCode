@@ -15,8 +15,8 @@
 输入：head = [1]<br>
 输出：[1]<br>
 
-提示：<br>
-链表中节点的数目在范围[0, 100]内<br>
-0 <= Node.val <= 100<br>
+提示：
+- 链表中节点的数目在范围[0, 100]内
+- 0 <= Node.val <= 100
 
 [Link](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)

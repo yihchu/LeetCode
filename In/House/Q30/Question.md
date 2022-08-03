@@ -18,11 +18,11 @@
 输入：s = "barfoofoobarthefoobarman", words = ["bar", "foo", "the"]</br>
 输出：[6, 9, 12]</br>
 
-提示：</br>
-1 <= s.length <= 10^4</br>
-s由小写英文字母组成</br>
-1 <= words.length <= 5000</br>
-1 <= words[i].length <= 30</br>
-words[i]由小写英文字母组成</br>
+提示：
+- 1 <= s.length <= 10^4
+- s由小写英文字母组成
+- 1 <= words.length <= 5000
+- 1 <= words[i].length <= 30
+- words[i]由小写英文字母组成
 
 [Link](https://leetcode.cn/problems/substring-with-concatenation-of-all-words/)

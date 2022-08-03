@@ -15,12 +15,12 @@
 输入：arr = [1, 7], k = 1</br>
 输出：[1, 7]</br>
 
-提示：</br>
-2 <= arr.length <= 1000</br>
-1 <= arr[i] <= 3 * 10^4</br>
-arr[0] == 1</br>
-arr[i]是一个素数，i > 0</br>
-arr中的所有数字互不相同，且按严格递增排序</br>
-1 <= k <= arr.length * (arr.length - 1) / 2</br>
+提示：
+- 2 <= arr.length <= 1000
+- 1 <= arr[i] <= 3 * 10^4
+- arr[0] == 1
+- arr[i]是一个素数，i > 0
+- arr中的所有数字互不相同，且按严格递增排序
+- 1 <= k <= arr.length * (arr.length - 1) / 2
 
 [Link](https://leetcode-cn.com/problems/k-th-smallest-prime-fraction/)

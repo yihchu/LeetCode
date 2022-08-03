@@ -14,10 +14,10 @@
 输入：words = ["cat", "dog", "catdog"]</br>
 输出：["catdog"]</br>
 
-提示：</br>
-1 <= words.length <= 10^4</br>
-0 <= words[i].length <= 1000</br>
-words[i]仅由小写字母组成</br>
-0 <= sum(words[i].length) <= 10^5</br>
+提示：
+- 1 <= words.length <= 10^4
+- 0 <= words[i].length <= 1000
+- words[i]仅由小写字母组成
+- 0 <= sum(words[i].length) <= 10^5
 
 [Link](https://leetcode-cn.com/problems/concatenated-words/)

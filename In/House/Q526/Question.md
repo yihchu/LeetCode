@@ -20,7 +20,7 @@ i能被第i位上的数字整除</br>
 第1个位置（i = 1）上的数字是2，2能被i（i = 1）整除</br>
 第2个位置（i = 2）上的数字是1，i（i = 2）能被1整除</br>
 
-说明:</br>
-N是一个正整数，并且不会超过15。</br>
+提示:
+- N是一个正整数，并且不会超过15。
 
 [Link](https://leetcode-cn.com/problems/beautiful-arrangement/)

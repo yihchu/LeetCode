@@ -16,9 +16,9 @@
 输出：-1</br>
 解释：最小的值是2, 但是不存在第二小的值。</br>
 
-提示：</br>
-树中节点数目在范围[1, 25]内</br>
-1 <= Node.val <= 2^31 - 1</br>
-对于树中每个节点 root.val == min(root.left.val, root.right.val)</br>
+提示：
+- 树中节点数目在范围[1, 25]内
+- 1 <= Node.val <= 2^31 - 1
+- 对于树中每个节点 root.val == min(root.left.val, root.right.val)
 
 [Link](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree/)

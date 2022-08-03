@@ -22,8 +22,8 @@ nums[a] + nums[b] + nums[c] == nums[d]，且a < b < c < d</br>
 - (0, 2, 3, 4): 1 + 1 + 3 == 5</br>
 - (1, 2, 3, 4): 1 + 1 + 3 == 5</br>
 
-提示：</br>
-4 <= nums.length <= 50</br>
-1 <= nums[i] <= 100</br>
+提示：
+- 4 <= nums.length <= 50
+- 1 <= nums[i] <= 100
 
 [Link](https://leetcode-cn.com/problems/count-special-quadruplets/)

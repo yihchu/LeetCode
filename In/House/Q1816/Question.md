@@ -24,11 +24,11 @@ s中的单词为["What", "is" "the", "solution", "to", "this", "problem"]</br>
 输入：s = "chopper is not a tanuki", k = 5</br>
 输出："chopper is not a tanuki"</br>
 
-提示：</br>
-1 <= s.length <= 500</br>
-k的取值范围是[1, s中单词的数目]</br>
-s仅由大小写英文字母和空格组成</br>
-s中的单词之间由单个空格隔开</br>
-不存在前导或尾随空格</br>
+提示：
+- 1 <= s.length <= 500
+- k的取值范围是[1, s中单词的数目]
+- s仅由大小写英文字母和空格组成
+- s中的单词之间由单个空格隔开
+- 不存在前导或尾随空格
 
 [Link](https://leetcode-cn.com/problems/truncate-sentence/)

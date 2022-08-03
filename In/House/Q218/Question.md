@@ -20,10 +20,10 @@ height[i]是第i座建筑物的高度。</br>
 输入：buildings = [[0, 2, 3], [2, 5, 3]]</br>
 输出：[[0, 3], [5, 0]]</br>
 
-提示：</br>
-1 <= buildings.length <= 10^4</br>
-0 <= left[i] < right[i] <= 2^31 - 1</br>
-1 <= height[i] <= 2^31 - 1</br>
-buildings按left[i]非递减排序</br>
+提示：
+- 1 <= buildings.length <= 10^4
+- 0 <= left[i] < right[i] <= 2^31 - 1
+- 1 <= height[i] <= 2^31 - 1
+- buildings按left[i]非递减排序
 
 [Link](https://leetcode-cn.com/problems/the-skyline-problem/)

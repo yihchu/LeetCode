@@ -20,9 +20,9 @@
 输入：[[1, 0], [0, 2]]</br>
 输出：8</br>
 
-提示：</br>
-n == grid.length == grid[i].length</br>
-1 <= n <= 50</br>
-0 <= grid[i][j] <= 50</br>
+提示：
+- n == grid.length == grid[i].length
+- 1 <= n <= 50
+- 0 <= grid[i][j] <= 50
 
 [Link](https://leetcode-cn.com/problems/projection-area-of-3d-shapes/)

@@ -23,9 +23,9 @@
 输出：1</br>
 解释：数组中只有一个0-diff数对，(1, 1)。</br>
 
-提示：</br>
-1 <= nums.length <= 10^4</br>
--10^7 <= nums[i] <= 10^7</br>
-0 <= k <= 10^7</br>
+提示：
+- 1 <= nums.length <= 10^4
+- -10^7 <= nums[i] <= 10^7
+- 0 <= k <= 10^7
 
 [Link](https://leetcode.cn/problems/k-diff-pairs-in-an-array/)

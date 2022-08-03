@@ -11,25 +11,11 @@
 输入：mat = [[1, 2], [3, 4]]</br>
 输出：[1, 2, 3, 4]</br>
 
-提示：</br>
-m == mat.length</br>
-n == mat[i].length</br>
-1 <= m, n <= 10^4</br>
-1 <= m * n <= 10^4</br>
--10^5 <= mat[i][j] <= 10^5</br>
+提示：
+- m == mat.length
+- n == mat[i].length
+- 1 <= m, n <= 10^4
+- 1 <= m * n <= 10^4
+- -10^5 <= mat[i][j] <= 10^5
 
 [Link](https://leetcode.cn/problems/diagonal-traverse/)
-
-2 3 -> 4
-1 2 3
-4 5 6
-
-2 4 -> 5
-1 2 3 4
-5 6 7 8
-
-1 2 34
-
-1 2
-3 4
-5 6

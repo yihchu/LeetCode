@@ -28,8 +28,8 @@ nums中的子集是通过删除nums中一些（可能一个都不删除，也可
 - [3]：乘积为3，可以表示为质数3的乘积。</br>
 - [15]：乘积为15，可以表示为互不相同质数3和5的乘积。</br>
 
-提示：</br>
-1 <= nums.length <= 10^5</br>
-1 <= nums[i] <= 30</br>
+提示：
+- 1 <= nums.length <= 10^5
+- 1 <= nums[i] <= 30
 
 [Link](https://leetcode-cn.com/problems/the-number-of-good-subsets/)

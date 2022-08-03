@@ -20,10 +20,10 @@ int[] shuffle()返回数组随机打乱后的结果</br>
     solution.reset();      // 重设数组到它的初始状态[1, 2, 3]。返回[1, 2, 3]</br>
     solution.shuffle();    // 随机返回数组[1, 2, 3]打乱后的结果。例如，返回[1, 3, 2]</br>
 
-提示：</br>
-1 <= nums.length <= 200</br>
--10^6 <= nums[i] <= 10^6</br>
-nums中的所有元素都是唯一的</br>
-最多可以调用5 * 10^4次reset和shuffle</br>
+提示：
+- 1 <= nums.length <= 200
+- -10^6 <= nums[i] <= 10^6
+- nums中的所有元素都是唯一的
+- 最多可以调用5 * 10^4次reset和shuffle
 
 [Link](https://leetcode-cn.com/problems/shuffle-an-array/)

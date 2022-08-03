@@ -25,9 +25,9 @@
 解释：</br>
 不可能让所有三个洗衣机同时剩下相同数量的衣物。</br>
 
-提示：</br>
-n == machines.length</br>
-1 <= n <= 10^4</br>
-0 <= machines[i] <= 10^5</br>
+提示：
+- n == machines.length
+- 1 <= n <= 10^4
+- 0 <= machines[i] <= 10^5
 
 [Link](https://leetcode-cn.com/problems/super-washing-machines/)

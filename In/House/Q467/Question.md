@@ -19,8 +19,8 @@
 输出: 6</br>
 解释: 在字符串s中有六个子串“z”、“a”、“b”、“za”、“ab”、“zab”。</br>
 
-提示:</br>
-1 <= p.length <= 10^5</br>
-p由小写英文字母构成</br>
+提示:
+- 1 <= p.length <= 10^5
+- p由小写英文字母构成
 
 [Link](https://leetcode.cn/problems/unique-substrings-in-wraparound-string/)

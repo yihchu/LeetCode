@@ -14,8 +14,8 @@
 输出: false</br>
 解释: 不能用所有火柴拼成一个正方形。</br>
 
-提示:</br>
-1 <= matchsticks.length <= 15</br>
-1 <= matchsticks[i] <= 10^8</br>
+提示:
+- 1 <= matchsticks.length <= 15
+- 1 <= matchsticks[i] <= 10^8
 
 [Link](https://leetcode.cn/problems/matchsticks-to-square/)

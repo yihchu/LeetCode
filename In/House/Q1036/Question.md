@@ -19,13 +19,13 @@
 解释：</br>
 因为没有方格被封锁，所以一定可以到达目标方格。</br>
 
-提示：</br>
-0 <= blocked.length <= 200</br>
-blocked[i].length == 2</br>
-0 <= x[i], y[i] < 10^6</br>
-source.length == target.length == 2</br>
-0 <= s[x], s[y], t[x], t[y] < 10^6</br>
-source != target</br>
-题目数据保证source和target不在封锁列表内</br>
+提示：
+- 0 <= blocked.length <= 200
+- blocked[i].length == 2
+- 0 <= x[i], y[i] < 10^6
+- source.length == target.length == 2
+- 0 <= s[x], s[y], t[x], t[y] < 10^6
+- source != target
+- 题目数据保证source和target不在封锁列表内
 
 [Link](https://leetcode-cn.com/problems/escape-a-large-maze/)

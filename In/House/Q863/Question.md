@@ -12,10 +12,10 @@
 注意，输入的 "root" 和 "target" 实际上是树上的结点。</br>
 上面的输入仅仅是对这些对象进行了序列化描述。</br>
 
-提示：</br>
-给定的树是非空的。</br>
-树上的每个结点都具有唯一的值0 <= node.val <= 500。</br>
-目标结点target是树上的结点。</br>
-0 <= K <= 1000.</br>
+提示：
+- 给定的树是非空的。
+- 树上的每个结点都具有唯一的值0 <= node.val <= 500。
+- 目标结点target是树上的结点。
+- 0 <= K <= 1000.
 
 [Link](https://leetcode-cn.com/problems/all-nodes-distance-k-in-binary-tree/)

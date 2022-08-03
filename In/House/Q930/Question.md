@@ -17,9 +17,9 @@
 输入：nums = [0, 0, 0, 0, 0], goal = 0</br>
 输出：15</br>
 
-提示：</br>
-1 <= nums.length <= 3 * 10^4</br>
-nums[i]不是0就是1</br>
-0 <= goal <= nums.length</br>
+提示：
+- 1 <= nums.length <= 3 * 10^4
+- nums[i]不是0就是1
+- 0 <= goal <= nums.length
 
 [Link](https://leetcode-cn.com/problems/binary-subarrays-with-sum/)

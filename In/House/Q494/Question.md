@@ -19,10 +19,10 @@
 输入：nums = [1], target = 1</br>
 输出：1</br>
 
-提示：</br>
-1 <= nums.length <= 20</br>
-0 <= nums[i] <= 1000</br>
-0 <= sum(nums[i]) <= 1000</br>
--1000 <= target <= 100</br>
+提示：
+- 1 <= nums.length <= 20
+- 0 <= nums[i] <= 1000
+- 0 <= sum(nums[i]) <= 1000
+- -1000 <= target <= 100
 
 [Link](https://leetcode-cn.com/problems/target-sum/)

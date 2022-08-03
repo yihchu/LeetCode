@@ -16,12 +16,12 @@
 输出：4</br>
 解释：一种可能的路径为[0, 1, 4, 2, 3]</br>
 
-提示：</br>
-n == graph.length</br>
-1 <= n <= 12</br>
-0 <= graph[i].length < n</br>
-graph[i]不包含i</br>
-如果graph[a]包含b，那么graph[b]也包含a</br>
-输入的图总是连通图</br>
+提示：
+- n == graph.length
+- 1 <= n <= 12
+- 0 <= graph[i].length < n
+- graph[i]不包含i
+- 如果graph[a]包含b，那么graph[b]也包含a
+- 输入的图总是连通图
 
 [Link](https://leetcode-cn.com/problems/shortest-path-visiting-all-nodes/)

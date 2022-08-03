@@ -12,10 +12,10 @@
 输入: heightMap = [[3, 3, 3, 3, 3], [3, 2, 2, 2, 3], [3, 2, 1, 2, 3], [3, 2, 2, 2, 3], [3, 3, 3, 3, 3]]</br>
 输出: 10</br>
 
-提示:</br>
-m == heightMap.length</br>
-n == heightMap[i].length</br>
-1 <= m, n <= 200</br>
-0 <= heightMap[i][j] <= 2 * 10^4</br>
+提示:
+- m == heightMap.length
+- n == heightMap[i].length
+- 1 <= m, n <= 200
+- 0 <= heightMap[i][j] <= 2 * 10^4
 
 [Link](https://leetcode-cn.com/problems/trapping-rain-water-ii/)

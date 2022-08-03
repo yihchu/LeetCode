@@ -14,12 +14,12 @@
 输入：graph = [[1, 2, 3, 4], [1, 2], [3, 4], [0, 4], []]</br>
 输出：[4]</br>
 
-提示：</br>
-n == graph.length</br>
-1 <= n <= 10^4</br>
-0 <= graph[i].length <= n</br>
-graph[i]按严格递增顺序排列。</br>
-图中可能包含自环。</br>
-图中边的数目在范围[1, 4 * 10^4]内。</br>
+提示：
+- n == graph.length
+- 1 <= n <= 10^4
+- 0 <= graph[i].length <= n
+- graph[i]按严格递增顺序排列。
+- 图中可能包含自环。
+- 图中边的数目在范围[1, 4 * 10^4]内。
 
 [Link](https://leetcode-cn.com/problems/find-eventual-safe-states/)

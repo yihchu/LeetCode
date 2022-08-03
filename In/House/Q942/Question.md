@@ -17,8 +17,8 @@
 输入：s = "DDI"</br>
 输出：[3, 2, 0, 1]</br>
 
-提示：</br>
-1 <= s.length <= 10^5</br>
-s只包含字符"I"或"D"</br>
+提示：
+- 1 <= s.length <= 10^5
+- s只包含字符"I"或"D"
 
 [Link](https://leetcode.cn/problems/di-string-match/)

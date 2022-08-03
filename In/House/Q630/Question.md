@@ -22,8 +22,8 @@
 输入：courses = [[3, 2], [4, 3]]</br>
 输出：0</br>
 
-提示:</br>
-1 <= courses.length <= 10^4</br>
-1 <= duration[i], lastDay[i] <= 10^4</br>
+提示:
+- 1 <= courses.length <= 10^4
+- 1 <= duration[i], lastDay[i] <= 10^4
 
 [Link](https://leetcode-cn.com/problems/course-schedule-iii/)

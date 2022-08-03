@@ -18,11 +18,10 @@
    ii. 一个包含一个元素的嵌套列表</br>
    &nbsp;&nbsp;a. 一个integer包含值789
 
-
-提示：</br>
-1 <= s.length <= 5 * 10^4</br>
-s由数字、方括号"[]"、负号'-'、逗号','组成</br>
-用例保证s是可解析的NestedInteger</br>
-输入中的所有值的范围是 [-10^6, 10^6]</br>
+提示：
+- 1 <= s.length <= 5 * 10^4
+- s由数字、方括号"[]"、负号'-'、逗号','组成
+- 用例保证s是可解析的NestedInteger
+- 输入中的所有值的范围是 [-10^6, 10^6]
 
 [Link](https://leetcode-cn.com/problems/mini-parser/)

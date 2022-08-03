@@ -10,7 +10,7 @@
 输入："leetcode"</br>
 输出："leotcede"</br>
 
-提示：</br>
-元音字母不包含字母"y"。</br>
+提示：
+- 元音字母不包含字母"y"。
 
 [Link](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)

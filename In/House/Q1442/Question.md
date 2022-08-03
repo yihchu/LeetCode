@@ -31,8 +31,8 @@ b = arr[k] ^ arr[k + 1] ^ ... ^ arr[j]</br>
 输入：arr = [7, 11, 12, 9, 5, 2, 7, 17, 22]</br>
 输出：8</br>
 
-提示：</br>
-1 <= arr.length <= 300</br>
-1 <= arr[i] <= 10^8</br>
+提示：
+- 1 <= arr.length <= 300
+- 1 <= arr[i] <= 10^8
 
 [Link](https://leetcode-cn.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/)

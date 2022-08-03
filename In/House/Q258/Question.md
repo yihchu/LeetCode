@@ -14,9 +14,9 @@
 输入: num = 0</br>
 输出: 0</br>
 
-提示：</br>
-0 <= num <= 2^31 - 1</br>
-</br>
+提示：
+- 0 <= num <= 2^31 - 1
+
 进阶：你可以不使用循环或者递归，在O(1)时间复杂度内解决这个问题吗？</br>
 
 [Link](https://leetcode-cn.com/problems/add-digits/)

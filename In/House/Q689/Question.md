@@ -13,9 +13,9 @@
 输入：nums = [1, 2, 1, 2, 1, 2, 1, 2, 1], k = 2</br>
 输出：[0, 2, 4]</br>
 
-提示：</br>
-1 <= nums.length <= 2 * 10^4</br>
-1 <= nums[i] < 2^16</br>
-1 <= k <= floor(nums.length / 3)</br>
+提示：
+- 1 <= nums.length <= 2 * 10^4
+- 1 <= nums[i] < 2^16
+- 1 <= k <= floor(nums.length / 3)
 
 [Link](https://leetcode-cn.com/problems/maximum-sum-of-3-non-overlapping-subarrays/)

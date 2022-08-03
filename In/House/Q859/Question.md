@@ -23,8 +23,8 @@
 输入：s = "aaaaaaabc", goal = "aaaaaaacb"</br>
 输出：true</br>
 
-提示：</br>
-1 <= s.length, goal.length <= 2 * 10^4</br>
-s和goal由小写英文字母组成</br>
+提示：
+- 1 <= s.length, goal.length <= 2 * 10^4
+- s和goal由小写英文字母组成
 
 [Link](https://leetcode-cn.com/problems/buddy-strings/)

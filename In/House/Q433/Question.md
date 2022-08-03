@@ -19,11 +19,11 @@
 输入：start = "AAAAACCC", end = "AACCCCCC", bank = ["AAAACCCC","AAACCCCC","AACCCCCC"]</br>
 输出：3</br>
 
-提示：</br>
-start.length == 8</br>
-end.length == 8</br>
-0 <= bank.length <= 10</br>
-bank[i].length == 8</br>
-start、end和bank[i]仅由字符['A', 'C', 'G', 'T']组成</br>
+提示：
+- start.length == 8
+- end.length == 8
+- 0 <= bank.length <= 10
+- bank[i].length == 8
+- start、end和bank[i]仅由字符['A', 'C', 'G', 'T']组成
 
 [Link](https://leetcode-cn.com/problems/minimum-genetic-mutation/)

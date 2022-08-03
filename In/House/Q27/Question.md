@@ -27,9 +27,9 @@
 输出：5, nums = [0, 1, 4, 0, 3]</br>
 解释：函数应该返回新的长度5, 并且nums中的前五个元素为0, 1, 3, 0, 4。注意这五个元素可为任意顺序。你不需要考虑数组中超出新长度后面的元素。</br>
 
-提示：</br>
-0 <= nums.length <= 100</br>
-0 <= nums[i] <= 50</br>
-0 <= val <= 100</br>
+提示：
+- 0 <= nums.length <= 100
+- 0 <= nums[i] <= 50
+- 0 <= val <= 100
 
 [Link](https://leetcode-cn.com/problems/remove-element/)

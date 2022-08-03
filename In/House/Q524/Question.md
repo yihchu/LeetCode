@@ -11,10 +11,10 @@
 输入：s = "abpcplea", dictionary = ["a", "b", "c"]</br>
 输出："a"</br>
 
-提示：</br>
-1 <= s.length <= 1000</br>
-1 <= dictionary.length <= 1000</br>
-1 <= dictionary[i].length <= 1000</br>
-s和dictionary[i]仅由小写英文字母组成</br>
+提示：
+- 1 <= s.length <= 1000
+- 1 <= dictionary.length <= 1000
+- 1 <= dictionary[i].length <= 1000
+- s和dictionary[i]仅由小写英文字母组成
 
 [Link](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/)

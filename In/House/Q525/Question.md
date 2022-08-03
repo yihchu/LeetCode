@@ -12,8 +12,8 @@
 输出: 2</br>
 说明: [0, 1](或[1, 0])是具有相同数量0和1的最长连续子数组。</br>
 
-提示：</br>
-1 <= nums.length <= 10^5</br>
-nums[i]不是0就是1</br>
+提示：
+- 1 <= nums.length <= 10^5
+- nums[i]不是0就是1
 
 [Link](https://leetcode-cn.com/problems/contiguous-array/)

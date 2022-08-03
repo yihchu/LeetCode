@@ -13,9 +13,9 @@
 输入：nums = [0, 0, 0], target = 1</br>
 输出：0</br>
 
-提示：</br>
-3 <= nums.length <= 1000</br>
--1000 <= nums[i] <= 1000</br>
--10^4 <= target <= 10^4</br>
+提示：
+- 3 <= nums.length <= 1000
+- -1000 <= nums[i] <= 1000
+- -10^4 <= target <= 10^4
 
 [Link](https://leetcode-cn.com/problems/3sum-closest/)

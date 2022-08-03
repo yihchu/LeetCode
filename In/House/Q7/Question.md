@@ -20,7 +20,7 @@
 输入：x = 0</br>
 输出：0</br>
 
-提示：</br>
--2^31 <= x <= 2^31 - 1</br>
+提示：
+- -2^31 <= x <= 2^31 - 1
 
 [Link](https://leetcode-cn.com/problems/reverse-integer/)

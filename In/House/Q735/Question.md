@@ -19,9 +19,9 @@
 输出：[10]</br>
 解释：2和-5发生碰撞后剩下-5。10和-5发生碰撞后剩下10。</br>
 
-提示：</br>
-2 <= asteroids.length <= 10^4</br>
--1000 <= asteroids[i] <= 1000</br>
-asteroids[i] != 0</br>
+提示：
+- 2 <= asteroids.length <= 10^4
+- -1000 <= asteroids[i] <= 1000
+- asteroids[i] != 0
 
 [Link](https://leetcode.cn/problems/asteroid-collision/)

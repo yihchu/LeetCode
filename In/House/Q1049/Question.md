@@ -23,8 +23,8 @@
 输入：stones = [1 ,2]</br>
 输出：1</br>
 
-提示：</br>
-1 <= stones.length <= 30</br>
-1 <= stones[i] <= 100</br>
+提示：
+- 1 <= stones.length <= 30
+- 1 <= stones[i] <= 100
 
 [Link](https://leetcode-cn.com/problems/last-stone-weight-ii/)

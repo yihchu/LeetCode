@@ -24,12 +24,12 @@
 输入：graph = [[1, 3], [0], [3], [0, 2]]</br>
 输出：1</br>
 
-提示：</br>
-3 <= graph.length <= 50</br>
-1<= graph[i].length < graph.length</br>
-0 <= graph[i][j] < graph.length</br>
-graph[i][j] != i</br>
-graph[i]互不相同</br>
-猫和老鼠在游戏中总是移动</br>
+提示：
+- 3 <= graph.length <= 50
+- 1<= graph[i].length < graph.length
+- 0 <= graph[i][j] < graph.length
+- graph[i][j] != i
+- graph[i]互不相同
+- 猫和老鼠在游戏中总是移动
 
 [Link](https://leetcode-cn.com/problems/cat-and-mouse/)

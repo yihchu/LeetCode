@@ -13,12 +13,12 @@
 输入：edges = [[1, 2], [5, 1], [1, 3], [1, 4]]</br>
 输出：1</br>
 
-提示：</br>
-3 <= n <= 10^5</br>
-edges.length == n - 1</br>
-edges[i].length == 2</br>
-1 <= u[i], v[i] <= n</br>
-u[i] != v[i]</br>
-题目数据给出的edges表示一个有效的星型图</br>
+提示：
+3 <= n <= 10^5
+edges.length == n - 1
+edges[i].length == 2
+1 <= u[i], v[i] <= n
+u[i] != v[i]
+题目数据给出的edges表示一个有效的星型图
 
 [Link](https://leetcode-cn.com/problems/find-center-of-star-graph/)

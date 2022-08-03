@@ -25,7 +25,7 @@
 输入：n = 10101</br>
 输出：183236316</br>
 
-提示：</br>
-1 <= n <= 10^5</br>
+提示：
+- 1 <= n <= 10^5
 
 [Link](https://leetcode-cn.com/problems/student-attendance-record-ii/)

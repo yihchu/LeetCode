@@ -24,8 +24,8 @@ position[i] + 1或position[i] - 1，此时cost = 1</br>
 输入：position = [1, 1000000000]</br>
 输出：1</br>
 
-提示：</br>
-1 <= chips.length <= 100</br>
-1 <= chips[i] <= 10^9</br>
+提示：
+- 1 <= chips.length <= 100
+- 1 <= chips[i] <= 10^9
 
 [Link](https://leetcode.cn/problems/minimum-cost-to-move-chips-to-the-same-position/)

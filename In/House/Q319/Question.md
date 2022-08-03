@@ -23,7 +23,7 @@
 输入：n = 1</br>
 输出：1</br>
 
-提示：</br>
-0 <= n <= 10^9</br>
+提示：
+- 0 <= n <= 10^9
 
 [Link](https://leetcode-cn.com/problems/bulb-switcher/)

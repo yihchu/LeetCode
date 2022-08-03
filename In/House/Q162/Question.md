@@ -15,9 +15,9 @@
 输出：1或5</br>
 解释：你的函数可以返回索引1，其峰值元素为2；或者返回索引5，其峰值元素为6。</br>
 
-提示：</br>
-1 <= nums.length <= 1000</br>
--2^31 <= nums[i] <= 2^31 - 1</br>
-对于所有有效的i都有nums[i] != nums[i + 1]</br>
+提示：
+- 1 <= nums.length <= 1000
+- -2^31 <= nums[i] <= 2^31 - 1
+- 对于所有有效的i都有nums[i] != nums[i + 1]
 
 [Link](https://leetcode-cn.com/problems/find-peak-element/)

@@ -20,7 +20,7 @@
 输入：n = 1</br>
 输出：[]</br>
 
-提示：</br>
-1 <= n <= 100</br>
+提示：
+1 <= n <= 100
 
 [Link](https://leetcode-cn.com/problems/simplified-fractions/)

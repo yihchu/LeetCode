@@ -15,8 +15,8 @@ findMedian() -> 1.5</br>
 addNum(3)</br>
 findMedian() -> 2</br>
 
-进阶:</br>
-如果数据流中所有整数都在0到100范围内，你将如何优化你的算法？</br>
-如果数据流中99%的整数都在0到100范围内，你将如何优化你的算法？</br>
+进阶:
+- 如果数据流中所有整数都在0到100范围内，你将如何优化你的算法？
+- 如果数据流中99%的整数都在0到100范围内，你将如何优化你的算法？
 
 [Link](https://leetcode-cn.com/problems/find-median-from-data-stream/)

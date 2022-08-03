@@ -21,8 +21,8 @@ s中只含有'a'、'b' 、'c'三种字母。</br>
 输出："aabaa"</br>
 解释：这是该测试用例的唯一正确答案。</br>
 
-提示：</br>
-0 <= a, b, c <= 100</br>
-a + b + c > 0</br>
+提示：
+- 0 <= a, b, c <= 100
+- a + b + c > 0
 
 [Link](https://leetcode-cn.com/problems/longest-happy-string/)

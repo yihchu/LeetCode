@@ -11,7 +11,7 @@
 输入：address = "255.100.50.0"</br>
 输出："255[.]100[.]50[.]0"</br>
 
-提示：</br>
-给出的address是一个有效的IPv4地址</br>
+提示：
+- 给出的address是一个有效的IPv4地址
 
 [Link](https://leetcode.cn/problems/defanging-an-ip-address/)

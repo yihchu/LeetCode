@@ -16,8 +16,8 @@ Solution obj = new Solution();</br>
 string tiny = obj.encode(url); // 返回加密后得到的TinyURL。</br>
 string ans = obj.decode(tiny); // 返回解密后得到的原本的URL。</br>
 
-提示：</br>
-1 <= url.length <= 10^4</br>
-题目数据保证url是一个有效的URL</br>
+提示：
+- 1 <= url.length <= 10^4
+- 题目数据保证url是一个有效的URL
 
 [Link](https://leetcode.cn/problems/encode-and-decode-tinyurl/)

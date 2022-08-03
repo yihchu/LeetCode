@@ -23,7 +23,7 @@
 输入：46</br>
 输出：true</br>
 
-提示：</br>
-1 <= N <= 10^9</br>
+提示：
+- 1 <= N <= 10^9
 
 [Link](https://leetcode-cn.com/problems/reordered-power-of-2/)

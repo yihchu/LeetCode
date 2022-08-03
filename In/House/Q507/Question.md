@@ -25,7 +25,7 @@
 输入：num = 2</br>
 输出：false</br>
 
-提示：</br>
-1 <= num <= 10^8</br>
+提示：
+- 1 <= num <= 10^8
 
 [Link](https://leetcode-cn.com/problems/perfect-number/)

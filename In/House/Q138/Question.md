@@ -26,9 +26,9 @@ random_index：随机指针指向的节点索引（范围从0到n-1）；如果�
 输出：[]</br>
 解释：给定的链表为空（空指针），因此返回null。</br>
 
-提示：</br>
-0 <= n <= 1000</br>
--10000 <= Node.val <= 10000</br>
-Node.random为空（null）或指向链表中的节点。</br>
+提示：
+- 0 <= n <= 1000
+- -10000 <= Node.val <= 10000
+- Node.random为空（null）或指向链表中的节点。
 
 [Link](https://leetcode-cn.com/problems/copy-list-with-random-pointer/)

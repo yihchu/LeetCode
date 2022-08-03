@@ -37,9 +37,9 @@ x[i] < y[i]</br>
 这个祖先，并不是只直接祖先，也就是说以上述方式沟造出来的树，1也是3和4的祖先。</br>
 那么就要求[1, 3]或者[3, 1]，[1, 4]或者[4, 1]也要存在于pairs当中才可。)</br>
 
-提示：</br>
-1 <= pairs.length <= 10^5</br>
-1 <= x[i] < y[i] <= 500</br>
-pairs中的元素互不相同。</br>
+提示：
+- 1 <= pairs.length <= 10^5
+- 1 <= x[i] < y[i] <= 500
+- pairs中的元素互不相同。
 
 [Link](https://leetcode-cn.com/problems/number-of-ways-to-reconstruct-a-tree/)

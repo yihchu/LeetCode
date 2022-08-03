@@ -43,10 +43,10 @@
 - 插入一个'B'，使桌面变为BBB。BBB -> empty</br>
   只需从手中出3个球就可以清空桌面。</br>
 
-提示：</br>
-1 <= board.length <= 16</br>
-1 <= hand.length <= 5</br>
-board和hand由字符'R'、'Y'、'B'、'G'和'W'组成</br>
-桌面上一开始的球中，不会有三个及三个以上颜色相同且连着的球</br>
+提示：
+- 1 <= board.length <= 16
+- 1 <= hand.length <= 5
+- board和hand由字符'R'、'Y'、'B'、'G'和'W'组成
+- 桌面上一开始的球中，不会有三个及三个以上颜色相同且连着的球
 
 [Link](https://leetcode-cn.com/problems/zuma-game/)

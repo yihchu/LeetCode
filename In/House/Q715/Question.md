@@ -23,8 +23,8 @@ rangeModule.queryRange(10, 14); 返回true（区间[10, 14)中的每个数都正
 rangeModule.queryRange(13, 15); 返回false（未跟踪区间[13, 15)中像14, 14.03, 14.17这样的数字）</br>
 rangeModule.queryRange(16, 17); 返回true（尽管执行了删除操作，区间[16, 17)中的数字16仍然会被跟踪）</br>
 
-提示：</br>
-1 <= left < right <= 10^9</br>
-在单个测试用例中，对addRange、queryRange和removeRange的调用总数不超过10^4次</br>
+提示：
+- 1 <= left < right <= 10^9
+- 在单个测试用例中，对addRange、queryRange和removeRange的调用总数不超过10^4次
 
 [Link](https://leetcode.cn/problems/range-module/)

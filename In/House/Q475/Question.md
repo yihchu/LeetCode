@@ -19,8 +19,8 @@
 输入：houses = [1, 5], heaters = [2]</br>
 输出：3</br>
 
-提示：</br>
-1 <= houses.length, heaters.length <= 3 * 10^4</br>
-1 <= houses[i], heaters[i] <= 10^9</br>
+提示：
+- 1 <= houses.length, heaters.length <= 3 * 10^4
+- 1 <= houses[i], heaters[i] <= 10^9
 
 [Link](https://leetcode-cn.com/problems/heaters/)

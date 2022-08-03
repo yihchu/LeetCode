@@ -16,11 +16,11 @@
 输入：points = [[1, 1]]</br>
 输出：0</br>
 
-提示：</br>
-n == points.length</br>
-1 <= n <= 500</br>
-points[i].length == 2</br>
--10^4 <= x[i], y[i] <= 10^4</br>
-所有点都互不相同</br>
+提示：
+- n == points.length
+- 1 <= n <= 500
+- points[i].length == 2
+- -10^4 <= x[i], y[i] <= 10^4
+- 所有点都互不相同
 
 [Link](https://leetcode-cn.com/problems/number-of-boomerangs/)

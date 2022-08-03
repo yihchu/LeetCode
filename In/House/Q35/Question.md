@@ -15,10 +15,10 @@
 输入: nums = [1, 3, 5, 6], target = 7</br>
 输出: 4</br>
 
-提示:</br>
-1 <= nums.length <= 10^4</br>
--104 <= nums[i] <= 10^4</br>
-nums为无重复元素的升序排列数组</br>
--10^4 <= target <= 10^4</br>
+提示:
+- 1 <= nums.length <= 10^4
+- -104 <= nums[i] <= 10^4
+- nums为无重复元素的升序排列数组
+- -10^4 <= target <= 10^4
 
 [Link](https://leetcode.cn/problems/search-insert-position/)

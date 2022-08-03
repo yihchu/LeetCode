@@ -20,13 +20,13 @@
 输入：k = 3, w = 0, profits = [1, 2, 3], capital = [0, 1, 2]</br>
 输出：6</br>
 
-提示：</br>
-1 <= k <= 10^5</br>
-0 <= w <= 10^9</br>
-n == profits.length</br>
-n == capital.length</br>
-1 <= n <= 10^5</br>
-0 <= profits[i] <= 10^4</br>
-0 <= capital[i] <= 10^9</br>
+提示：
+- 1 <= k <= 10^5
+- 0 <= w <= 10^9
+- n == profits.length
+- n == capital.length
+- 1 <= n <= 10^5
+- 0 <= profits[i] <= 10^4
+- 0 <= capital[i] <= 10^9
 
 [Link](https://leetcode-cn.com/problems/ipo/)

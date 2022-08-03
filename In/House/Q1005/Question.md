@@ -20,9 +20,9 @@
 输出：13</br>
 解释：选择下标(1, 4)，nums变为[2, 3, -1, 5, 4]。</br>
 
-提示：</br>
-1 <= nums.length <= 10^4</br>
--100 <= nums[i] <= 100</br>
-1 <= k <= 10^4</br>
+提示：
+- 1 <= nums.length <= 10^4
+- -100 <= nums[i] <= 100
+- 1 <= k <= 10^4
 
 [Link](https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations/)

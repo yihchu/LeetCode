@@ -13,8 +13,8 @@
 输入: [1, 2, 3, 4, null, 5, 6, null, null, 7]</br>
 输出: 7</br>
 
-提示:</br>
-二叉树的节点个数的范围是 [1, 10^4]</br>
--2^31 <= Node.val <= 2^31 - 1</br>
+提示:
+- 二叉树的节点个数的范围是 [1, 10^4]
+- -2^31 <= Node.val <= 2^31 - 1
 
 [Link](https://leetcode.cn/problems/find-bottom-left-tree-value/)

@@ -20,13 +20,13 @@
 输入：candiesCount = [5, 2, 6, 4, 1], queries = [[3, 1, 2], [4, 10, 3], [3, 10, 100], [4, 100, 30], [1, 3, 1]]</br>
 输出：[false, true, true, false, false]</br>
 
-提示：</br>
-1 <= candiesCount.length <= 10^5</br>
-1 <= candiesCount[i] <= 10^5</br>
-1 <= queries.length <= 10^5</br>
-queries[i].length == 3</br>
-0 <= favoriteType[i] < candiesCount.length</br>
-0 <= favoriteDay[i] <= 10^9</br>
-1 <= dailyCap[i] <= 10^9</br>
+提示：
+- 1 <= candiesCount.length <= 10^5
+- 1 <= candiesCount[i] <= 10^5
+- 1 <= queries.length <= 10^5
+- queries[i].length == 3
+- 0 <= favoriteType[i] < candiesCount.length
+- 0 <= favoriteDay[i] <= 10^9
+- 1 <= dailyCap[i] <= 10^9
 
 [Link](https://leetcode-cn.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/)

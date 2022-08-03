@@ -12,9 +12,9 @@
 输入：root = []</br>
 输出：[]</br>
 
-提示：</br>
-树中节点数范围是 [0, 10^4]</br>
-0 <= Node.val <= 10^4</br>
-题目数据保证输入的树是一棵二叉搜索树。</br>
+提示：
+- 树中节点数范围是 [0, 10^4]
+- 0 <= Node.val <= 10^4
+- 题目数据保证输入的树是一棵二叉搜索树。
 
 [Link](https://leetcode.cn/problems/serialize-and-deserialize-bst/)

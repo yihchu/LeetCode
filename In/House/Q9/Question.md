@@ -21,7 +21,7 @@
 输入：x = -101</br>
 输出：false</br>
 
-提示：</br>
--2^31 <= x <= 2^31 - 1</br>
+提示：
+- -2^31 <= x <= 2^31 - 1
 
 [Link](https://leetcode-cn.com/problems/palindrome-number/)

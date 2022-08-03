@@ -20,15 +20,15 @@
 
 示例3：</br>
 </br>![](./image/2.png)![](./image/3.png)</br></br>
-输入：points = [[1, 0], [2, 1]], angle = 13, location = [1, 1]</br>
+输入：points = [[1, 0], [2, 1]], angle = 13, location = [1, 1]</br
 输出：1</br>
 解释：如图所示，你只能看到两点之一。</br>
 
-提示：</br>
-1 <= points.length <= 10^5</br>
-points[i].length == 2</br>
-location.length == 2</br>
-0 <= angle < 360</br>
-0 <= pos[x], pos[y], x[i], y[i] <= 100</br>
+提示：
+- 1 <= points.length <= 10^5
+- points[i].length == 2
+- location.length == 2
+- 0 <= angle < 360
+- 0 <= pos[x], pos[y], x[i], y[i] <= 100
 
 [Link](https://leetcode-cn.com/problems/maximum-number-of-visible-points/)

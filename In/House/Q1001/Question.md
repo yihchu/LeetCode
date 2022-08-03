@@ -23,13 +23,13 @@
 输入：n = 5, lamps = [[0, 0], [0, 4]], queries = [[0, 4], [0, 1], [1, 4]]</br>
 输出：[1, 1, 0]</br>
 
-提示：</br>
-1 <= n <= 10^9</br>
-0 <= lamps.length <= 20000</br>
-0 <= queries.length <= 20000</br>
-lamps[i].length == 2</br>
-0 <= row[i], col[i] < n</br>
-queries[j].length == 2</br>
-0 <= row[j], col[j] < n</br>
+提示：
+- 1 <= n <= 10^9
+- 0 <= lamps.length <= 20000
+- 0 <= queries.length <= 20000
+- lamps[i].length == 2
+- 0 <= row[i], col[i] < n
+- queries[j].length == 2
+- 0 <= row[j], col[j] < n
 
 [Link](https://leetcode-cn.com/problems/grid-illumination/)

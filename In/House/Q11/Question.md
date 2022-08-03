@@ -21,9 +21,9 @@
 输入：height = [1, 2, 1]</br>
 输出：2</br>
 
-提示：</br>
-n == height.length</br>
-2 <= n <= 10^5</br>
-0 <= height[i] <= 10^4</br>
+提示：
+- n == height.length
+- 2 <= n <= 10^5
+- 0 <= height[i] <= 10^4
 
 [Link](https://leetcode-cn.com/problems/container-with-most-water/)

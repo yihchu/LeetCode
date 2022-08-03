@@ -14,7 +14,7 @@
 输入：label = 26</br>
 输出：[1, 2, 6, 10, 26]</br>
 
-提示：</br>
-1 <= label <= 10^6</br>
+提示：
+- 1 <= label <= 10^6
 
 [Link](https://leetcode-cn.com/problems/path-in-zigzag-labelled-binary-tree/)

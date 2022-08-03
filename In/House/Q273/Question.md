@@ -18,7 +18,7 @@
 输入：num = 1234567891</br>
 输出："One Billion Two Hundred Thirty Four Million Five Hundred Sixty Seven Thousand Eight Hundred Ninety One"</br>
 
-提示：</br>
-0 <= num <= 2^31 - 1</br>
+提示：
+- 0 <= num <= 2^31 - 1
 
 [Link](https://leetcode-cn.com/problems/integer-to-english-words/)

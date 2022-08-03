@@ -21,10 +21,10 @@
 输出：6</br>
 解释：Tony可以买下所有的雪糕，总价为1 + 6 + 3 + 1 + 2 + 5 = 18。</br>
 
-提示：</br>
-costs.length == n</br>
-1 <= n <= 10^5</br>
-1 <= costs[i] <= 10^5</br>
-1 <= coins <= 10^8</br>
+提示：
+- costs.length == n
+- 1 <= n <= 10^5
+- 1 <= costs[i] <= 10^5
+- 1 <= coins <= 10^8
 
 [Link](https://leetcode-cn.com/problems/maximum-ice-cream-bars/)

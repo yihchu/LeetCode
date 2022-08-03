@@ -14,9 +14,9 @@ nums[a] + nums[b] + nums[c] + nums[d] == target</br>
 输入：nums = [2, 2, 2, 2, 2], target = 8</br>
 输出：[[2, 2, 2, 2]]</br>
 
-提示：</br>
-1 <= nums.length <= 200</br>
--10^9 <= nums[i] <= 10^9</br>
--10^9 <= target <= 10^9</br>
+提示：
+- 1 <= nums.length <= 200
+- -10^9 <= nums[i] <= 10^9
+- -10^9 <= target <= 10^9
 
 [Link](https://leetcode-cn.com/problems/4sum/)

@@ -36,9 +36,9 @@
 输入：secret = "1", guess = "1"</br>
 输出："1A0B"</br>
 
-提示：</br>
-1 <= secret.length, guess.length <= 1000</br>
-secret.length == guess.length</br>
-secret和guess仅由数字组成</br>
+提示：
+- 1 <= secret.length, guess.length <= 1000
+- secret.length == guess.length
+- secret和guess仅由数字组成
 
 [Link](https://leetcode-cn.com/problems/bulls-and-cows/)

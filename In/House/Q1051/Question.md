@@ -29,8 +29,8 @@
 预期：[1, 2, 3, 4, 5]</br>
 所有下标的对应学生高度都匹配。</br>
 
-提示：</br>
-1 <= heights.length <= 100</br>
-1 <= heights[i] <= 100</br>
+提示：
+- 1 <= heights.length <= 100
+- 1 <= heights[i] <= 100
 
 [Link](https://leetcode.cn/problems/height-checker/)

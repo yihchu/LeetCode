@@ -27,9 +27,9 @@
 输出：false</br>
 解释：因为中间有相交区域，虽然形成了矩形，但不是精确覆盖。</br>
 
-提示：</br>
-1 <= rectangles.length <= 2 * 10^4</br>
-rectangles[i].length == 4</br>
--10^5 <= x[i], y[i], a[i], b[i] <= 10^5</br>
+提示：
+- 1 <= rectangles.length <= 2 * 10^4
+- rectangles[i].length == 4
+- -10^5 <= x[i], y[i], a[i], b[i] <= 10^5
 
 [Link](https://leetcode-cn.com/problems/perfect-rectangle/)

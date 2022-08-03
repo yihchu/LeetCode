@@ -37,6 +37,9 @@
        1   1      2    2</br>
       3 3</br>
     0 6 0 3</br>
-提示：</br>
-树中节点数目的范围在[0, 10^4]内</br>
--1000 <= Node.val <= 1000</br>
+
+提示：
+- 树中节点数目的范围在[0, 10^4]内
+- -1000 <= Node.val <= 1000
+
+[Link](https://leetcode.cn/problems/binary-tree-tilt/)

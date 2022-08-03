@@ -23,15 +23,15 @@ src = 0, dst = 2, k = 0</br>
 </br>![](./image/2.png)</br></br>
 从城市0到城市2在0站中转以内的最便宜价格是500，如图中蓝色所示。</br>
 
-提示：</br>
-1 <= n <= 100</br>
-0 <= flights.length <= (n * (n - 1) / 2)</br>
-flights[i].length == 3</br>
-0 <= from[i], to[i] < n</br>
-from[i] != to[i]</br>
-1 <= price[i] <= 10^4</br>
-航班没有重复，且不存在自环</br>
-0 <= src, dst, k < n</br>
-src != dst</br>
+提示：
+- 1 <= n <= 100
+- 0 <= flights.length <= (n * (n - 1) / 2)
+- flights[i].length == 3
+- 0 <= from[i], to[i] < n
+- from[i] != to[i]
+- 1 <= price[i] <= 10^4
+- 航班没有重复，且不存在自环
+- 0 <= src, dst, k < n
+- src != dst
 
 [Link](https://leetcode-cn.com/problems/cheapest-flights-within-k-stops/)

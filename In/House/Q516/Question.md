@@ -13,8 +13,8 @@
 输出：2</br>
 解释：一个可能的最长回文子序列为"bb"。</br>
 
-提示：</br>
-1 <= s.length <= 1000</br>
-s仅由小写英文字母组成</br>
+提示：
+- 1 <= s.length <= 1000
+- s仅由小写英文字母组成
 
 [Link](https://leetcode-cn.com/problems/longest-palindromic-subsequence)

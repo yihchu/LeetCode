@@ -33,7 +33,7 @@ arr中最大元素为2。</br>
 解释：数组已经满足所有条件，最大元素为5。</br>
 
 提示：
-1 <= arr.length <= 10^5
-1 <= arr[i] <= 10^9
+- 1 <= arr.length <= 10^5
+- 1 <= arr[i] <= 10^9
 
 [Link](https://leetcode-cn.com/problems/maximum-element-after-decreasing-and-rearranging/)

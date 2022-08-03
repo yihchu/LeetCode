@@ -40,8 +40,8 @@ ABBBBBBBAA -> ABBBBBBAA</br>
 然后轮到Alice操作，她无法删除任何片段。</br>
 所以Bob获胜，返回false。</br>
 
-提示：</br>
-1 <= colors.length <= 10^5</br>
-colors只包含字母'A'和'B'</br>
+提示：
+- 1 <= colors.length <= 10^5
+- colors只包含字母'A'和'B'
 
 [Link](https://leetcode-cn.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)

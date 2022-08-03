@@ -24,10 +24,10 @@
 输入：accounts = [[2, 8, 7], [7, 1, 3], [1, 9, 5]]</br>
 输出：17</br>
 
-提示：</br>
-m == accounts.length</br>
-n == accounts[i].length</br>
-1 <= m, n <= 50</br>
-1 <= accounts[i][j] <= 100</br>
+提示：
+- m == accounts.length
+- n == accounts[i].length
+- 1 <= m, n <= 50
+- 1 <= accounts[i][j] <= 100
 
 [Link](https://leetcode-cn.com/problems/richest-customer-wealth/)

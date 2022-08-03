@@ -12,6 +12,6 @@
 输出：[1, 2]</br>
 
 提示：
-1 <= n <= 5 * 10^4
+- 1 <= n <= 5 * 10^4
 
 [Link](https://leetcode-cn.com/problems/lexicographical-numbers/)

@@ -17,9 +17,9 @@
 输入：s = "Test1ng-Leet=code-Q!"</br>
 输出："Qedo1ct-eeLg=ntse-T!"</br>
 
-提示</br>
-1 <= s.length <= 100</br>
-s仅由ASCII值在范围[33, 122]的字符组成</br>
-s不含'\"'或'\\'</br>
+提示:
+- 1 <= s.length <= 100
+- s仅由ASCII值在范围[33, 122]的字符组成
+- s不含'\"'或'\\'
 
 [Link](https://leetcode-cn.com/problems/reverse-only-letters/)

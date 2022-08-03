@@ -23,8 +23,8 @@
 - [9, 4, 1, 7]最高分和最低分之间的差值是7 - 1 = 6</br>
   可能的最小差值是2</br>
 
-提示：</br>
-1 <= k <= nums.length <= 1000</br>
-0 <= nums[i] <= 10^5</br>
+提示：
+- 1 <= k <= nums.length <= 1000
+- 0 <= nums[i] <= 10^5
 
 [Link](https://leetcode-cn.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/)

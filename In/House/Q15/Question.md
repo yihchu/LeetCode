@@ -15,8 +15,8 @@
 输入：nums = [0]</br>
 输出：[]</br>
 
-提示：</br>
-0 <= nums.length <= 3000</br>
--10^5 <= nums[i] <= 10^5</br>
+提示：
+- 0 <= nums.length <= 3000
+- -10^5 <= nums[i] <= 10^5
 
 [Link](https://leetcode-cn.com/problems/3sum/)

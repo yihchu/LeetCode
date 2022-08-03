@@ -18,8 +18,8 @@
 输入：digits = [0]</br>
 输出：[1]</br>
 
-提示：</br>
-1 <= digits.length <= 100</br>
-0 <= digits[i] <= 9</br>
+提示：
+- 1 <= digits.length <= 100
+- 0 <= digits[i] <= 9
 
 [Link](https://leetcode-cn.com/problems/plus-one/)

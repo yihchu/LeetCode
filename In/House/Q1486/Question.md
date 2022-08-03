@@ -22,9 +22,9 @@
 输入：n = 10, start = 5</br>
 输出：2</br>
 
-提示：</br>
-1 <= n <= 1000</br>
-0 <= start <= 1000</br>
-n == nums.length</br>
+提示：
+- 1 <= n <= 1000
+- 0 <= start <= 1000
+- n == nums.length
 
 [Link](https://leetcode-cn.com/problems/xor-operation-in-an-array/)

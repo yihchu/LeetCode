@@ -20,10 +20,10 @@
 输入：nums = [1, 6, 1], k = 3</br>
 输出：5</br>
 
-提示：</br>
-n == nums.length</br>
-2 <= n <= 10^4</br>
-0 <= nums[i] <= 10^6</br>
-1 <= k <= n * (n - 1) / 2</br>
+提示：
+- n == nums.length
+- 2 <= n <= 10^4
+- 0 <= nums[i] <= 10^6
+- 1 <= k <= n * (n - 1) / 2
 
 [Link](https://leetcode.cn/problems/find-k-th-smallest-pair-distance/)

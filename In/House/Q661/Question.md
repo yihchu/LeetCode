@@ -25,10 +25,10 @@
 对于点(0, 1), (1, 0), (1, 2), (2, 1): floor((200 + 200 + 50 + 200 + 100 + 100) / 6) = floor(141.666667) = 141<br/>
 对于点(1, 1): floor((50 + 200 + 200 + 200 + 200 + 100 + 100 + 100 + 100) / 9) = floor(138.888889) = 138<br/>
 
-提示:<br/>
-m == img.length<br/>
-n == img[i].length<br/>
-1 <= m, n <= 200<br/>
-0 <= img[i][j] <= 255<br/>
+提示:
+- m == img.length
+- n == img[i].length
+- 1 <= m, n <= 200
+- 0 <= img[i][j] <= 255
 
 [Link](https://leetcode-cn.com/problems/image-smoother/)

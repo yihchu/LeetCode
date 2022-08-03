@@ -19,12 +19,12 @@
 输入：grid = [[1, 1, 1], [1, 1, 1], [1, 1, 1]], row = 1, col = 1, color = 2</br>
 输出：[[2, 2, 2], [2, 1, 2], [2, 2, 2]]</br>
 
-提示：</br>
-m == grid.length</br>
-n == grid[i].length</br>
-1 <= m, n <= 50</br>
-1 <= grid[i][j], color <= 1000</br>
-0 <= row < m</br>
-0 <= col < n</br>
+提示：
+- m == grid.length
+- n == grid[i].length
+- 1 <= m, n <= 50
+- 1 <= grid[i][j], color <= 1000
+- 0 <= row < m
+- 0 <= col < n
 
 [Link](https://leetcode-cn.com/problems/coloring-a-border/)

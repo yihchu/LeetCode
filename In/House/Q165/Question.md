@@ -32,10 +32,10 @@
 输入：version1 = "7.5.2.4", version2 = "7.5.3"</br>
 输出：-1</br>
 
-提示：</br>
-1 <= version1.length, version2.length <= 500</br>
-version1和version2仅包含数字和'.'</br>
-version1和version2都是有效版本号</br>
-version1和version2的所有修订号都可以存储在32位整数中</br>
+提示：
+- 1 <= version1.length, version2.length <= 500
+- version1和version2仅包含数字和'.'
+- version1和version2都是有效版本号
+- version1和version2的所有修订号都可以存储在32位整数中
 
 [Link](https://leetcode-cn.com/problems/compare-version-numbers/)

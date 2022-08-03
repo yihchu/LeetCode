@@ -17,12 +17,12 @@
 输入：n = 6, edges = [[3, 0], [3, 1], [3, 2], [3, 4], [5, 4]]</br>
 输出：[3, 4]</br>
 
-提示：</br>
-1 <= n <= 2 * 10^4</br>
-edges.length == n - 1</br>
-0 <= a[i], b[i] < n</br>
-a[i] != b[i]</br>
-所有(a[i], b[i])互不相同</br>
-给定的输入保证是一棵树，并且不会有重复的边</br>
+提示：
+- 1 <= n <= 2 * 10^4
+- edges.length == n - 1
+- 0 <= a[i], b[i] < n
+- a[i] != b[i]
+- 所有(a[i], b[i])互不相同
+- 给定的输入保证是一棵树，并且不会有重复的边
 
 [Link](https://leetcode-cn.com/problems/minimum-height-trees/)

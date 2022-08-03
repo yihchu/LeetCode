@@ -27,9 +27,9 @@ arr[i] > arr[i+1] > ... > arr[arr.length - 1]</br>
 输入：arr = [24, 69, 100, 99, 79, 78, 67, 36, 26, 19]</br>
 输出：2</br>
 
-提示：</br>
-3 <= arr.length <= 10^4</br>
-0 <= arr[i] <= 10^6</br>
-题目数据保证arr是一个山脉数组</br>
+提示：
+- 3 <= arr.length <= 10^4
+- 0 <= arr[i] <= 10^6
+- 题目数据保证arr是一个山脉数组
 
 [Link](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/)

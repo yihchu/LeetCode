@@ -27,9 +27,9 @@
 - [[3], 2, 1, [5], 4]</br>
 - [3, [2], 1, 5, [4]]</br>
 
-提示：</br>
-1 <= nums.length <= 200</br>
-1 <= nums[i] <= 100</br>
-1 <= k <= 99</br>
+提示：
+- 1 <= nums.length <= 200
+- 1 <= nums[i] <= 100
+- 1 <= k <= 99
 
 [Link](https://leetcode-cn.com/problems/count-number-of-pairs-with-absolute-difference-k/)

@@ -41,9 +41,9 @@
 输出：false</br>
 解释：除了第一行的第一个数字从5改为8以外，空格内其他数字均与示例1相同。但由于位于左上角的3x3宫内有两个8存在, 因此这个数独是无效的。</br>
 
-提示：</br>
-board.length == 9</br>
-board[i].length == 9</br>
-board[i][j]是一位数字或者'.'</br>
+提示：
+- board.length == 9
+- board[i].length == 9
+- board[i][j]是一位数字或者'.'
 
 [Link](https://leetcode-cn.com/problems/valid-sudoku/)

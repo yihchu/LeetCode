@@ -10,7 +10,7 @@
 输入: num = -7</br>
 输出: "-10"</br>
 
-提示：</br>
--10^7 <= num <= 10^7</br>
+提示：
+- -10^7 <= num <= 10^7
 
 [Link](https://leetcode-cn.com/problems/base-7/)

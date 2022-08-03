@@ -11,8 +11,8 @@
 输入: root = [1, 2, 3]</br>
 输出: [1, 3]</br>
 
-提示：</br>
-二叉树的节点个数的范围是 [0, 10^4]</br>
--2^31 <= Node.val <= 2^31 - 1</br>
+提示：
+- 二叉树的节点个数的范围是 [0, 10^4]
+- -2^31 <= Node.val <= 2^31 - 1
 
 [Link](https://leetcode.cn/problems/find-largest-value-in-each-tree-row/)

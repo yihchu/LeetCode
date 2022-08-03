@@ -11,9 +11,9 @@
 
 示例2:</br>
 输入：left = 47, right = 85</br>
-输出：[48, 55, 66, 77]
+输出：[48, 55, 66, 77]</br>
 
 提示：
-1 <= left <= right <= 10^4
+- 1 <= left <= right <= 10^4
 
 [Link](https://leetcode-cn.com/problems/self-dividing-numbers/)

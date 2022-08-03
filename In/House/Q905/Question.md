@@ -12,8 +12,8 @@
 输入：nums = [0]</br>
 输出：[0]</br>
 
-提示：</br>
-1 <= nums.length <= 5000</br>
-0 <= nums[i] <= 5000</br>
+提示：
+- 1 <= nums.length <= 5000
+- 0 <= nums[i] <= 5000
 
 [Link](https://leetcode-cn.com/problems/sort-array-by-parity/)

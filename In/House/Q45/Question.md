@@ -15,8 +15,8 @@
 输入: nums = [2, 3, 0, 1, 4]</br>
 输出: 2</br>
 
-提示:</br>
-1 <= nums.length <= 10^4</br>
-0 <= nums[i] <= 1000</br>
+提示:
+- 1 <= nums.length <= 10^4
+- 0 <= nums[i] <= 1000
 
 [Link](https://leetcode.cn/problems/jump-game-ii/)

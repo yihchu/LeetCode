@@ -15,9 +15,8 @@
 输入：arr = [3, 8, -10, 23, 19, -4, -14, 27]</br>
 输出：[[-14, -10], [19, 23], [23, 27]]</br>
 
-
-提示：</br>
-2 <= arr.length <= 10^5</br>
--10^6 <= arr[i] <= 10^6</br>
+提示：
+- 2 <= arr.length <= 10^5
+- -10^6 <= arr[i] <= 10^6
 
 [Link](https://leetcode.cn/problems/minimum-absolute-difference/)

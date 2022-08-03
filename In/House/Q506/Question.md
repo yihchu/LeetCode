@@ -18,10 +18,10 @@
 输出：["Gold Medal", "5", "Bronze Medal", "Silver Medal", "4"]</br>
 解释：名次为 [1st, 5th, 3rd, 2nd, 4th]。</br>
 
-提示：</br>
-n == score.length</br>
-1 <= n <= 10^4</br>
-0 <= score[i] <= 10^6</br>
-score中的所有值互不相同</br>
+提示：
+- n == score.length
+- 1 <= n <= 10^4
+- 0 <= score[i] <= 10^6
+- score中的所有值互不相同
 
 [Link](https://leetcode-cn.com/problems/relative-ranks/)

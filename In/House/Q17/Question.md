@@ -16,8 +16,8 @@
 输入：digits = "2"</br>
 输出：["a", "b", "c"]</br>
 
-提示：</br>
-0 <= digits.length <= 4</br>
-digits[i]是范围['2', '9']的一个数字。</br>
+提示：
+- 0 <= digits.length <= 4
+- digits[i]是范围['2', '9']的一个数字。
 
 [Link](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)

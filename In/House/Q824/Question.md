@@ -19,10 +19,10 @@
 输入：sentence = "The quick brown fox jumped over the lazy dog"</br>
 输出："heTmaa uickqmaaa rownbmaaaa oxfmaaaaa umpedjmaaaaaa overmaaaaaaa hetmaaaaaaaa azylmaaaaaaaaa ogdmaaaaaaaaaa"</br>
 
-提示：</br>
-1 <= sentence.length <= 150</br>
-sentence由英文字母和空格组成</br>
-sentence不含前导或尾随空格</br>
-sentence中的所有单词由单个空格分隔</br>
+提示：
+- 1 <= sentence.length <= 150
+- sentence由英文字母和空格组成
+- sentence不含前导或尾随空格
+- sentence中的所有单词由单个空格分隔
 
 [Link](https://leetcode-cn.com/problems/goat-latin/)

@@ -18,10 +18,10 @@
 输出：false</br>
 解释：当前三个字符"app"匹配时，第二个字符串相对短一些，然后根据词典编纂规则"apple" > "app"，因为'l' > '∅'，其中'∅'是空白字符，定义为比任何其他字符都小（更多信息）。</br>
 
-提示：</br>
-1 <= words.length <= 100</br>
-1 <= words[i].length <= 20</br>
-order.length == 26</br>
-在words[i]和order中的所有字符都是英文小写字母。</br>
+提示：
+- 1 <= words.length <= 100
+- 1 <= words[i].length <= 20
+- order.length == 26
+- 在words[i]和order中的所有字符都是英文小写字母。
 
 [Link](https://leetcode.cn/problems/verifying-an-alien-dictionary/)

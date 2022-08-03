@@ -29,9 +29,9 @@ string convert(string s, int numRows);</br>
 输入：s = "A", numRows = 1</br>
 输出："A"</br>
 
-提示：</br>
-1 <= s.length <= 1000</br>
-s 由英文字母（小写和大写）、',' 和 '.' 组成</br>
-1 <= numRows <= 1000</br>
+提示：
+- 1 <= s.length <= 1000
+- s 由英文字母（小写和大写）、',' 和 '.' 组成
+- 1 <= numRows <= 1000
 
 [Link](https://leetcode-cn.com/problems/zigzag-conversion/)

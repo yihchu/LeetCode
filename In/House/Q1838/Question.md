@@ -22,9 +22,9 @@
 输入：nums = [3, 9, 6], k = 2</br>
 输出：1</br>
 
-提示：</br>
-1 <= nums.length <= 10^5</br>
-1 <= nums[i] <= 10^5</br>
-1 <= k <= 10^5</br>
+提示：
+- 1 <= nums.length <= 10^5
+- 1 <= nums[i] <= 10^5
+- 1 <= k <= 10^5
 
 [Link](https://leetcode-cn.com/problems/frequency-of-the-most-frequent-element/)

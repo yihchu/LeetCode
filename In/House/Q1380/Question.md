@@ -19,11 +19,11 @@
 输入：matrix = [[7, 8], [1, 2]]</br>
 输出：[7]</br>
 
-提示：</br>
-m == mat.length</br>
-n == mat[i].length</br>
-1 <= n, m <= 50</br>
-1 <= matrix[i][j] <= 10^5</br>
-矩阵中的所有元素都是不同的</br>
+提示：
+- m == mat.length
+- n == mat[i].length
+- 1 <= n, m <= 50
+- 1 <= matrix[i][j] <= 10^5
+- 矩阵中的所有元素都是不同的
 
 [Link](https://leetcode-cn.com/problems/lucky-numbers-in-a-matrix/)

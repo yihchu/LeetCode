@@ -25,10 +25,10 @@
 或者我们可以将第二个'F'换成'T'，得到answerKey = "TTFTTTTT"。</br>
 两种情况下，都有五个连续的'T'。</br>
 
-提示：</br>
-n == answerKey.length</br>
-1 <= n <= 5 * 10^4</br>
-answerKey[i]要么是'T'，要么是'F'</br>
-1 <= k <= n</br>
+提示：
+- n == answerKey.length
+- 1 <= n <= 5 * 10^4
+- answerKey[i]要么是'T'，要么是'F'
+- 1 <= k <= n
 
 [Link](https://leetcode-cn.com/problems/maximize-the-confusion-of-an-exam/)

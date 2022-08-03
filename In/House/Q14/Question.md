@@ -12,9 +12,9 @@
 输出：""</br>
 解释：输入不存在公共前缀。</br>
 
-提示：</br>
-1 <= strs.length <= 200</br>
-0 <= strs[i].length <= 200</br>
-strs[i]仅由小写英文字母组成</br>
+提示：
+- 1 <= strs.length <= 200
+- 0 <= strs[i].length <= 200
+- strs[i]仅由小写英文字母组成
 
 [Link](https://leetcode-cn.com/problems/longest-common-prefix/)

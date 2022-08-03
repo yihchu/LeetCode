@@ -10,9 +10,9 @@
 输入：s = "fviefuro"</br>
 输出："45"</br>
 
-提示：</br>
-1 <= s.length <= 10^5</br>
-s[i]为["e", "g", "f", "i", "h", "o", "n", "s", "r", "u", "t", "w", "v", "x", "z"]这些字符之一</br>
-s保证是一个符合题目要求的字符串</br>
+提示：
+- 1 <= s.length <= 10^5
+- s[i]为["e", "g", "f", "i", "h", "o", "n", "s", "r", "u", "t", "w", "v", "x", "z"]这些字符之一
+- s保证是一个符合题目要求的字符串
 
 [Link](https://leetcode-cn.com/problems/reconstruct-original-digits-from-english/)

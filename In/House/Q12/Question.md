@@ -41,7 +41,7 @@ C可以放在D(500)和M(1000)的左边，来表示400和900。</br>
 输出: "MCMXCIV"</br>
 解释: M = 1000, CM = 900, XC = 90, IV = 4.</br>
 
-提示：</br>
-1 <= num <= 3999</br>
+提示：
+- 1 <= num <= 3999
 
 [Link](https://leetcode-cn.com/problems/integer-to-roman/)

@@ -31,8 +31,8 @@ depth("(" + A + ")") = 1 + depth(A)，其中A是一个有效括号字符串</br>
 输出：0</br>
 
 提示：
-1 <= s.length <= 100</br>
-s由数字0-9和字符'+'、'-'、'*'、'/'、'('、')'组成</br>
-题目数据保证括号表达式s是有效的括号表达式</br>
+- 1 <= s.length <= 100</br>
+- s由数字0-9和字符'+'、'-'、'*'、'/'、'('、')'组成</br>
+- 题目数据保证括号表达式s是有效的括号表达式</br>
 
 [Link](https://leetcode-cn.com/problems/maximum-nesting-depth-of-the-parentheses/)

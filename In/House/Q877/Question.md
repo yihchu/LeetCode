@@ -15,10 +15,10 @@
 如果李拿走后5颗，那么剩下的是[3, 4]，亚历克斯拿走后4颗赢得9分。</br>
 这表明，取前5颗石子对亚历克斯来说是一个胜利的举动，所以我们返回true。</br>
 
-提示：</br>
-2 <= piles.length <= 500</br>
-piles.length是偶数。</br>
-1 <= piles[i] <= 500</br>
-sum(piles)是奇数。</br>
+提示：
+- 2 <= piles.length <= 500
+- piles.length是偶数。
+- 1 <= piles[i] <= 500
+- sum(piles)是奇数。
 
 [Link](https://leetcode-cn.com/problems/stone-game/)

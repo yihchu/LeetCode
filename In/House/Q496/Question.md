@@ -19,11 +19,11 @@ nums1中数字x的下一个更大元素是指x在nums2中对应位置的右边�
 对于num1中的数字2，第二个数组中的下一个较大数字是3。</br>
 对于num1中的数字4，第二个数组中没有下一个更大的数字，因此输出-1。</br>
 
-提示：</br>
-1 <= nums1.length <= nums2.length <= 1000</br>
-0 <= nums1[i], nums2[i] <= 10^4</br>
-nums1和nums2中所有整数互不相同</br>
-nums1中的所有整数同样出现在nums2中</br>
+提示：
+- 1 <= nums1.length <= nums2.length <= 1000
+- 0 <= nums1[i], nums2[i] <= 10^4
+- nums1和nums2中所有整数互不相同
+- nums1中的所有整数同样出现在nums2中
 
 进阶：你可以设计一个时间复杂度为O(nums1.length + nums2.length)的解决方案吗？</br>
 

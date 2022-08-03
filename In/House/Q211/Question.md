@@ -22,10 +22,10 @@ wordDictionary.search("bad"); // return True<br>
 wordDictionary.search(".ad"); // return True<br>
 wordDictionary.search("b.."); // return True<br>
 
-提示：<br>
-1 <= word.length <= 500<br>
-addWord中的word由小写英文字母组成<br>
-search中的word由'.'或小写英文字母组成<br>
-最多调用50000次addWord和search<br>
+提示：
+- 1 <= word.length <= 500
+- addWord中的word由小写英文字母组成
+- search中的word由'.'或小写英文字母组成
+- 最多调用50000次addWord和search
 
 [Link](https://leetcode-cn.com/problems/design-add-and-search-words-data-structure/)

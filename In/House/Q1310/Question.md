@@ -23,11 +23,11 @@
 输入：arr = [4, 8, 2, 10], queries = [[2, 3], [1, 3], [0, 0], [0, 3]]</br>
 输出：[8, 0, 4, 4]</br>
 
-提示：</br>
-1 <= arr.length <= 3 * 10^4</br>
-1 <= arr[i] <= 10^9</br>
-1 <= queries.length <= 3 * 10^4</br>
-queries[i].length == 2</br>
-0 <= queries[i][0] <= queries[i][1] < arr.length</br>
+提示：
+- 1 <= arr.length <= 3 * 10^4
+- 1 <= arr[i] <= 10^9
+- 1 <= queries.length <= 3 * 10^4
+- queries[i].length == 2
+- 0 <= queries[i][0] <= queries[i][1] < arr.length
 
 [Link](https://leetcode-cn.com/problems/xor-queries-of-a-subarray/)

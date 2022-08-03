@@ -25,8 +25,8 @@
 输入：steps = 4, arrLen = 2</br>
 输出：8</br>
 
-提示：</br>
-1 <= steps <= 500</br>
-1 <= arrLen<= 10^6</br>
+提示：
+- 1 <= steps <= 500
+- 1 <= arrLen<= 10^6
 
 [Link](https://leetcode-cn.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/)

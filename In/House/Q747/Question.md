@@ -18,9 +18,9 @@
 输出：0</br>
 解释：因为不存在其他数字，所以认为现有数字1至少是其他数字的两倍。</br>
 
-提示：</br>
-1 <= nums.length <= 50</br>
-0 <= nums[i] <= 100</br>
-nums中的最大元素是唯一的</br>
+提示：
+- 1 <= nums.length <= 50
+- 0 <= nums[i] <= 100
+- nums中的最大元素是唯一的
 
 [Link](https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/)

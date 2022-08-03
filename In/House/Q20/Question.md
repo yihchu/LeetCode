@@ -25,8 +25,8 @@
 输入：s = "{[]}"</br>
 输出：true</br>
 
-提示：</br>
-1 <= s.length <= 10^4</br>
-s仅由括号'()[]{}'组成</br>
+提示：
+- 1 <= s.length <= 10^4
+- s仅由括号'()[]{}'组成
 
 [Link](https://leetcode-cn.com/problems/valid-parentheses/)

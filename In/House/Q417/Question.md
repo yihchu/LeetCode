@@ -14,10 +14,10 @@
 输入: heights = [[2, 1], [1, 2]]</br>
 输出: [[0, 0], [0, 1], [1, 0], [1, 1]]</br>
 
-提示：</br>
-m == heights.length</br>
-n == heights[r].length</br>
-1 <= m, n <= 200</br>
-0 <= heights[r][c] <= 10^5</br>
+提示：
+- m == heights.length
+- n == heights[r].length
+- 1 <= m, n <= 200
+- 0 <= heights[r][c] <= 10^5
 
 [Link](https://leetcode-cn.com/problems/pacific-atlantic-water-flow/)

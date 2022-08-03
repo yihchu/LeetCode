@@ -19,8 +19,8 @@
 输出：4</br>
 解释：4艘船分别载(3), (3), (4), (5)</br>
 
-提示：</br>
-1 <= people.length <= 50000</br>
-1 <= people[i] <= limit <= 30000</br>
+提示：
+- 1 <= people.length <= 50000
+- 1 <= people[i] <= limit <= 30000
 
 [Link](https://leetcode-cn.com/problems/boats-to-save-people/)

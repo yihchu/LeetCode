@@ -12,15 +12,15 @@
 输入：dictionary = ["a", "b", "c"], sentence = "aadsfasf absbs bbab cadsfafs"</br>
 输出："a a b c"</br>
 
-提示：</br>
-1 <= dictionary.length <= 1000</br>
-1 <= dictionary[i].length <= 100</br>
-dictionary[i]仅由小写字母组成。</br>
-1 <= sentence.length <= 10^6</br>
-sentence仅由小写字母和空格组成。</br>
-sentence中单词的总量在范围[1, 1000]内。</br>
-sentence中每个单词的长度在范围[1, 1000]内。</br>
-sentence中单词之间由一个空格隔开。</br>
-sentence没有前导或尾随空格。</br>
+提示：
+- 1 <= dictionary.length <= 1000
+- 1 <= dictionary[i].length <= 100
+- dictionary[i]仅由小写字母组成。
+- 1 <= sentence.length <= 10^6
+- sentence仅由小写字母和空格组成。
+- sentence中单词的总量在范围[1, 1000]内。
+- sentence中每个单词的长度在范围[1, 1000]内。
+- sentence中单词之间由一个空格隔开。
+- sentence没有前导或尾随空格。
 
 [Link](https://leetcode.cn/problems/replace-words/)

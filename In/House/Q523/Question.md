@@ -20,10 +20,10 @@
 输入：nums = [23, 2, 6, 4, 7], k = 13</br>
 输出：false</br>
 
-提示：</br>
-1 <= nums.length <= 10^5</br>
-0 <= nums[i] <= 10^9</br>
-0 <= sum(nums[i]) <= 2^31 - 1</br>
-1 <= k <= 2^31 - 1</br>
+提示：
+- 1 <= nums.length <= 10^5
+- 0 <= nums[i] <= 10^9
+- 0 <= sum(nums[i]) <= 2^31 - 1
+- 1 <= k <= 2^31 - 1
 
 [Link](https://leetcode-cn.com/problems/continuous-subarray-sum/)

@@ -28,8 +28,8 @@
 输入: board = ["XOX", "O O", "XOX"]</br>
 输出: true</br>
 
-说明:</br>
-游戏板board是长度为3的字符串数组，其中每个字符串board[i]的长度为3。</br>
-board[i][j]是集合{" ", "X", "O"}中的一个字符。</br>
+说明:
+- 游戏板board是长度为3的字符串数组，其中每个字符串board[i]的长度为3。
+- board[i][j]是集合{" ", "X", "O"}中的一个字符。
 
 [Link](https://leetcode-cn.com/problems/valid-tic-tac-toe-state/)

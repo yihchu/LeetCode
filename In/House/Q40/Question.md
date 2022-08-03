@@ -14,9 +14,9 @@ candidates中的每个数字在每个组合中只能使用一次。</br>
 输出:</br>
 [[1, 2, 2], [5]]</br>
 
-提示:</br>
-1 <= candidates.length <= 100</br>
-1 <= candidates[i] <= 50</br>
-1 <= target <= 30</br>
+提示:
+- 1 <= candidates.length <= 100
+- 1 <= candidates[i] <= 50
+- 1 <= target <= 30
 
 [Link](https://leetcode-cn.com/problems/combination-sum-ii/)

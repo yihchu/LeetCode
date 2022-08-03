@@ -13,9 +13,9 @@
 输入：root = [5, 4, 8, 11, null, 13, 4, 7, 2, null, null, 5, 1], targetSum = 22</br>
 输出：3</br>
 
-提示:</br>
-二叉树的节点个数的范围是[0, 1000]</br>
--10^9 <= Node.val <= 10^9</br>
--1000 <= targetSum <= 1000</br>
+提示:
+- 二叉树的节点个数的范围是[0, 1000]
+- -10^9 <= Node.val <= 10^9
+- -1000 <= targetSum <= 1000
 
 [Link](https://leetcode-cn.com/problems/path-sum-iii/)

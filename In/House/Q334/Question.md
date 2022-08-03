@@ -18,10 +18,10 @@
 输出：true</br>
 解释：三元组(3, 4, 5)满足题意，因为nums[3] == 0 < nums[4] == 4 < nums[5] == 6</br>
 
-提示：</br>
-1 <= nums.length <= 5 * 10^5</br>
--2^31 <= nums[i] <= 2^31 - 1</br>
-</br>
+提示：
+- 1 <= nums.length <= 5 * 10^5
+- -2^31 <= nums[i] <= 2^31 - 1
+
 进阶：你能实现时间复杂度为O(n)，空间复杂度为O(1)的解决方案吗？</br>
 
 [Link](https://leetcode-cn.com/problems/increasing-triplet-subsequence/)

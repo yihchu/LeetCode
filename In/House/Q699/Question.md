@@ -41,9 +41,9 @@ _aa___a</br>
 输出: [100, 100]</br>
 解释: 相邻的方块不会过早地卡住，只有它们的底部边缘才能粘在表面上。</br>
 
-注意:</br>
-1 <= positions.length <= 1000.</br>
-1 <= positions[i][0] <= 10^8.</br>
-1 <= positions[i][1] <= 10^6.</br>
+注意:
+- 1 <= positions.length <= 1000.
+- 1 <= positions[i][0] <= 10^8.
+- 1 <= positions[i][1] <= 10^6.
 
 [Link](https://leetcode.cn/problems/falling-squares/)

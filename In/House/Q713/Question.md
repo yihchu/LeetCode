@@ -12,9 +12,9 @@
 输入：nums = [1, 2, 3], k = 0</br>
 输出：0</br>
 
-提示:</br>
-1 <= nums.length <= 3 * 10^4</br>
-1 <= nums[i] <= 1000</br>
-0 <= k <= 10^6</br>
+提示:
+- 1 <= nums.length <= 3 * 10^4
+- 1 <= nums[i] <= 1000
+- 0 <= k <= 10^6
 
 [Link](https://leetcode-cn.com/problems/subarray-product-less-than-k/)

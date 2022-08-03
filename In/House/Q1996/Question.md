@@ -19,9 +19,9 @@
 输出：1</br>
 解释：第三个角色是弱角色，因为第二个角色的攻击和防御严格大于该角色。</br>
 
-提示：</br>
-2 <= properties.length <= 10^5</br>
-properties[i].length == 2</br>
-1 <= attack[i], defense[i] <= 10^5</br>
+提示：
+- 2 <= properties.length <= 10^5
+- properties[i].length == 2
+- 1 <= attack[i], defense[i] <= 10^5
 
 [Link](https://leetcode-cn.com/problems/the-number-of-weak-characters-in-the-game/)

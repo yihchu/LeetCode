@@ -19,8 +19,8 @@ f(i, j) = size + min(f(i - 1, j), f(i - 1, j^x) - count[x])</br>
 输出：3</br>
 解释：将数组[1, 2, 4, 1, 2, 5, 1, 2, 6]修改为[1, 2, 3, 1, 2, 3, 1, 2, 3]</br>
 
-提示：</br>
-1 <= k <= nums.length <= 2000</br>
-0 <= nums[i] < 2^10</br>
+提示：
+- 1 <= k <= nums.length <= 2000
+- 0 <= nums[i] < 2^10
 
 [Link](https://leetcode-cn.com/problems/make-the-xor-of-all-segments-equal-to-zero/)

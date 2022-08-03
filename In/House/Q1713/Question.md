@@ -14,9 +14,9 @@
 输入：target = [6, 4, 8, 1, 3, 2], arr = [4, 7, 6, 2, 3, 8, 6, 1]</br>
 输出：3</br>
 
-提示：</br>
-1 <= target.length, arr.length <= 10^5</br>
-1 <= target[i], arr[i] <= 10^9</br>
-target不包含任何重复元素。</br>
+提示：
+- 1 <= target.length, arr.length <= 10^5
+- 1 <= target[i], arr[i] <= 10^9
+- target不包含任何重复元素。
 
 [Link](https://leetcode-cn.com/problems/minimum-operations-to-make-a-subsequence/)

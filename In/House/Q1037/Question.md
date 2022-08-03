@@ -11,9 +11,9 @@
 输入：points = [[1, 1], [2, 2], [3, 3]]</br>
 输出：false</br>
 
-提示：</br>
-points.length == 3</br>
-points[i].length == 2</br>
-0 <= x[i], y[i] <= 100</br>
+提示：
+- points.length == 3
+- points[i].length == 2
+- 0 <= x[i], y[i] <= 100
 
 [Link](https://leetcode.cn/problems/valid-boomerang/)

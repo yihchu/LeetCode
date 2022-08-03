@@ -23,7 +23,7 @@
 输入：n = 5</br>
 输出：68</br>
 
-提示：</br>
-1 <= n <= 2 * 10^4</br>
+提示：
+- 1 <= n <= 2 * 10^4
 
 [Link](https://leetcode-cn.com/problems/count-vowels-permutation/)

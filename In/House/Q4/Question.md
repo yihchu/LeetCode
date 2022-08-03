@@ -28,13 +28,13 @@
 输入：nums1 = [2], nums2 = []</br>
 输出：2.00000</br>
 
-提示：</br>
-nums1.length == m</br>
-nums2.length == n</br>
-0 <= m <= 1000</br>
-0 <= n <= 1000</br>
-1 <= m + n <= 2000</br>
--10^6 <= nums1[i], nums2[i] <= 10^6</br>
+提示：
+- nums1.length == m
+- nums2.length == n
+- 0 <= m <= 1000
+- 0 <= n <= 1000
+- 1 <= m + n <= 2000
+- -10^6 <= nums1[i], nums2[i] <= 10^6
 
 [Link](https://connect.linecorp.com/home)
 

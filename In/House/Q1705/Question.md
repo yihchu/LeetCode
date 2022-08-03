@@ -21,11 +21,11 @@
 - 第四天和第五天不吃苹果。</br>
 - 第六天和第七天，你吃的都是第六天长出来的苹果。</br>
 
-提示：</br>
-apples.length == n</br>
-days.length == n</br>
-1 <= n <= 2 * 10^4</br>
-0 <= apples[i], days[i] <= 2 * 10^4</br>
-只有在apples[i] = 0时，days[i] = 0才成立</br>
+提示：
+- apples.length == n
+- days.length == n
+- 1 <= n <= 2 * 10^4
+- 0 <= apples[i], days[i] <= 2 * 10^4
+- 只有在apples[i] = 0时，days[i] = 0才成立
 
 [Link](https://leetcode-cn.com/problems/maximum-number-of-eaten-apples/)

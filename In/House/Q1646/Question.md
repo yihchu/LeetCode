@@ -31,7 +31,7 @@ nums[(3 * 2) + 1 = 7] = nums[3] + nums[4] = 2 + 1 = 3</br>
 输出：2</br>
 解释：根据规则，nums[0]、nums[1]、nums[2]和nums[3]之中的最大值是2</br>
 
-提示：</br>
-0 <= n <= 100</br>
+提示：
+0 <= n <= 100
 
 [Link](https://leetcode-cn.com/problems/get-maximum-in-generated-array/)

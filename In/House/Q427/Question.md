@@ -58,5 +58,7 @@ topRight具有不同的值，因此我们将其再分为4个子网格，这样�
 输出：[[0, 1], [1, 1], [1, 0], [1, 0], [1, 1]]</br>
 
 提示：
-1. n == grid.length == grid[i].length</br>
-2. n == 2^x其中0 <= x <= 6</br>
+1. n == grid.length == grid[i].length
+2. n == 2^x其中0 <= x <= 6
+
+[Link](https://leetcode.cn/problems/construct-quad-tree/)

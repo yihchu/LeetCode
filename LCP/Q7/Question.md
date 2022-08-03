@@ -16,10 +16,10 @@
 输出：0</br>
 解释：信息不能从小A处经过2轮传递到编号2</br>
 
-限制：</br>
-2 <= n <= 10</br>
-1 <= k <= 5</br>
-1 <= relation.length <= 90, 且 relation[i].length == 2</br>
-0 <= relation[i][0], relation[i][1] < n 且 relation[i][0] != relation[i][1]</br>
+限制：
+- 2 <= n <= 10
+- 1 <= k <= 5
+- 1 <= relation.length <= 90, 且 relation[i].length == 2
+- 0 <= relation[i][0], relation[i][1] < n 且 relation[i][0] != relation[i][1]
 
 [Link](https://leetcode-cn.com/problems/chuan-di-xin-xi/)

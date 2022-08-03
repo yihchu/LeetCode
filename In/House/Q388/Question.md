@@ -43,6 +43,8 @@
 解释：根目录下有3个文件。</br>
 因为根目录中任何东西的绝对路径只是名称本身，所以答案是"longfile.txt"，路径长度为12</br>
 
-提示：</br>
-1 <= input.length <= 10^4</br>
-input可能包含小写或大写的英文字母，一个换行符'\n'，一个制表符'\t'，一个点'.'，一个空格' '，和数字。</br>
+提示：
+- 1 <= input.length <= 10^4
+- input可能包含小写或大写的英文字母，一个换行符'\n'，一个制表符'\t'，一个点'.'，一个空格' '，和数字。
+
+[Link](https://leetcode.cn/problems/longest-absolute-file-path/)

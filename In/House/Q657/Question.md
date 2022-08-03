@@ -28,10 +28,10 @@
 解释：可以按与示例1相同的路径来砍掉所有的树。</br>
 (0, 0)位置的树，可以直接砍去，不用算步数。</br>
 
-提示：</br>
-m == forest.length</br>
-n == forest[i].length</br>
-1 <= m, n <= 50</br>
-0 <= forest[i][j] <= 10^9</br>
+提示：
+- m == forest.length
+- n == forest[i].length
+- 1 <= m, n <= 50
+- 0 <= forest[i][j] <= 10^9
 
 [Link](https://leetcode.cn/problems/cut-off-trees-for-golf-event/)

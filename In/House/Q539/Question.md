@@ -10,8 +10,8 @@
 输入：timePoints = ["00:00", "23:59", "00:00"]</br>
 输出：0</br>
 
-提示：</br>
-2 <= timePoints <= 2 * 10*4</br>
-timePoints[i]格式为"HH:MM"</br>
+提示：
+- 2 <= timePoints <= 2 * 10*4
+- timePoints[i]格式为"HH:MM"
 
 [Link](https://leetcode-cn.com/problems/minimum-time-difference/)

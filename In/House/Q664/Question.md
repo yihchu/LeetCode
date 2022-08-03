@@ -15,8 +15,8 @@
 输出：2</br>
 解释：首先打印"aaa"然后在第二个位置打印"b"覆盖掉原来的字符'a'。</br>
 
-提示：</br>
-1 <= s.length <= 100</br>
-s由小写英文字母组成</br>
+提示：
+- 1 <= s.length <= 100
+- s由小写英文字母组成
 
 [Link](https://leetcode-cn.com/problems/strange-printer/)

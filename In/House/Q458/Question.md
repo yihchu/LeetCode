@@ -22,8 +22,8 @@
 输入：buckets = 4, minutesToDie = 15, minutesToTest = 30</br>
 输出：2</br>
 
-提示：</br>
-1 <= buckets <= 1000</br>
-1 <= minutesToDie <= minutesToTest <= 100</br>
+提示：
+- 1 <= buckets <= 1000
+- 1 <= minutesToDie <= minutesToTest <= 100
 
 [Link](https://leetcode-cn.com/problems/poor-pigs/)

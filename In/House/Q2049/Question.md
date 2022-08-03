@@ -26,11 +26,11 @@
 - 节点2的分数为：1 * 1 = 1
   最高分数为2，有两个节点分数为2（分别为节点0和1）。</br>
 
-提示：</br>
-n == parents.length</br>
-2 <= n <= 10^5</br>
-parents[0] == -1</br>
-对于i != 0，有0 <= parents[i] <= n - 1</br>
-parents表示一棵二叉树。</br>
+提示：
+- n == parents.length
+- 2 <= n <= 10^5
+- parents[0] == -1
+- 对于i != 0，有0 <= parents[i] <= n - 1
+- parents表示一棵二叉树。
 
 [Link](https://leetcode-cn.com/problems/count-nodes-with-the-highest-score/)
