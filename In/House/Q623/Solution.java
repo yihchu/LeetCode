@@ -100,9 +100,9 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution slt = new Solution();
-//        print(slt.addOneRow(toTree(new Integer[] {4, 2, 6, 3, 1, 5}), 1, 2));
-//        print(slt.addOneRow(toTree(new Integer[] {4, 2, null, 3, 1}), 1, 3));
-//        print(slt.addOneRow(toTree(new Integer[] {4, 2, 6, 3, 1, 5}), 1, 3));
+        print(slt.addOneRow(toTree(new Integer[] {4, 2, 6, 3, 1, 5}), 1, 2));
+        print(slt.addOneRow(toTree(new Integer[] {4, 2, null, 3, 1}), 1, 3));
+        print(slt.addOneRow(toTree(new Integer[] {4, 2, 6, 3, 1, 5}), 1, 3));
         print(slt.addOneRow(toTree(new Integer[] {4, 2, 6, 3, 1, 5}), 1, 1));
     }
 
