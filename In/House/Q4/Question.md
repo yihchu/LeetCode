@@ -36,5 +36,5 @@
 - 1 <= m + n <= 2000
 - -10^6 <= nums1[i], nums2[i] <= 10^6
 
-[Link](https://connect.linecorp.com/home)
+[Link](https://leetcode.cn/problems/median-of-two-sorted-arrays/)
 
