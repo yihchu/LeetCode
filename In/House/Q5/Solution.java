@@ -37,6 +37,7 @@ public class Solution {
         System.out.println(slt.longestPalindrome("a")); // a
         System.out.println(slt.longestPalindrome("ac")); // a
         System.out.println(slt.longestPalindrome("abb")); // bb
+        System.out.println(slt.longestPalindrome("bb")); // bb
     }
 
 }
